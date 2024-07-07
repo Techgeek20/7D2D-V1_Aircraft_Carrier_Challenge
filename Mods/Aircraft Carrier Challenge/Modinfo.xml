@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<xml>
-	
-	<Name value="AircraftCarrierChallenge"/>
-	<DisplaName value="Aircraft Carrier Challenge"/>
-	<Version value="2.1"/>
-	<Description value="Aircraft Carrier Challenge for Release Ver. 1.0"/>
-	<Author value="Zilox,HellsJanitor,Frantic Dan,Midnight Designer,SphereII,Pitchsilent"/>
-	<Website value=""/>
-
-</xml>
+<?xml version="1.0" encoding="utf-8" ?>
+      <xml>
+	    <Name value="AircraftCarrierChallenge" />
+	    <DisplayName value="Aircraft Carrier Challenge" />
+		<Version value="2.1.0.0"/>
+		<Description value="Aircraft Carrier Challenge"/>
+		<Author value="Zilox,HellsJanitor,Frantic Dan,Midnight Designer,SphereII,Pitchsilent"/>
+		<Website value="" />
+     </xml>

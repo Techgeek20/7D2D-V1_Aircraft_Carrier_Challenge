@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xml>
+﻿<configs>
+       
+  <!-- Remove all surface biome decorations -->
+  <remove xpath="/worldgeneration/biomes/biome//decorations/decoration" />
 
-	<configs>
-
-		<remove xpath="/worldgeneration/biomes/biome//decorations/decoration" />
-
-	</configs>
-
-</xml>
+</configs>
