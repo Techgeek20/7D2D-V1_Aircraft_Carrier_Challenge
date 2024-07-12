@@ -13,4 +13,9 @@
 		<item name="resourceRockSmall" count="10,250" />
 	</append>
 
+
+	<append xpath="//trader_item_group[@name='traderAlways']">
+		<item name="Army Depot Clear (x2 Multiplier)" count="1"/>
+	</append>
+
 </configs>

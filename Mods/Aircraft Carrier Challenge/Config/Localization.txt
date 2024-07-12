@@ -1,16 +1,46 @@
 Key,English
+
 goGameWorld,[FF4F00]Select 'Aircraft Carrier Challenge (biome)'[-]
 goLootRespawnDays,Loot Respawn-[FF4F00]Select ANYTHING except 'Disabled'[-]
+
+resourcePaper,"Classified Document" 
+resourcePaperDesc,"EAM\n FROM: USLANTFLT\n TO: USS SAN PAULO\n MESSAGE AS FOLLOWS:\n Movement to G.S. ATL-001 to acquire TP for bunghole (and other ""supplies"")"
+
 resourceCoalDesc,"A great fuel source and a core ingredient for gunpowder.\n\nCan be made from wood in a campfire"
 resourceAcidDesc,A resource used in crafting recipes.\n\nCan be crafted in beaker at a campfire or at the chemistry station.
+
 resourceBatteryAcid,Bottle of Acid
 resourceBatteryAcidDesc,A resource used in crafting recipes.\n\nCan be extracted from a car battery at the chemistry station.
+
 resourceAnimalFat,"Fat"
 resourceAnimalFatDesc,"Fat can be eaten raw or used in cooking or other crafting recipes."
+
 drugAntibioticsDT,Antibiotics
 drugAntibioticsDTDesc,Antibiotics can cure infections.\n\nCan be crafted in a beaker at a campfire or at the chemistry station.
+
 foodShepardsPie,Shepherd's Pie
 foodShepardsPieDesc,"Shepherd's Pie sure is tasty and super filling.\n\nI just wish The Fun Pimps spelt it properly, so I didn't need to add this description..."
+
+perkGreaseMonkeyRank1Desc,Wheely good
+perkGreaseMonkeyRank1LongDesc,Congratulations - you are now as smart as a primitive human!\n\nCraft wheels 33% cheaper.\n\nRepair kits are 10 percent more effective on vehicles.
+
+perkGreaseMonkeyRank2Desc,Oil be back
+perkGreaseMonkeyRank2LongDesc,"Not quite a fully-fledged grease monkey, but at least it's a start.\n\nRepair kits are 20 percent more effective on vehicles."
+
+perkGreaseMonkeyRank3Desc,Life's a gas
+perkGreaseMonkeyRank3LongDesc,Now you're starting to know your way around a toolbox!\n\nRepair kits are 30 percent more effective on vehicles.
+
+perkGreaseMonkeyRank4Desc,Not very basic
+perkGreaseMonkeyRank4LongDesc,"Your mechanical prowess is that of a professional pit crew!\n\nRepair kits are 40 percent more effective on vehicles."
+
+perkGreaseMonkeyRank5Desc,At last!!
+perkGreaseMonkeyRank5LongDesc,"You're a full-on aeronautical MacGyver.\nCraft UH-60 parts 33% cheaper.\n\nRepair kits are 50 percent more effective on vehicles."
+
+vehiclesT1,Tier 1: Wheels
+vehiclesT2,Tier 2: Oil
+vehiclesT3,Tier 3: Gas Cans
+vehiclesT4,Tier 4: Acid
+vehiclesT5,Tier 5: Flight
 
 DishongLootContainerUtilityWorkerLoot,Duffle Bag
 DishongLootContainerBusinessManLoot,Duffle Bag
@@ -45,24 +75,6 @@ DishongLootContainerRadZombieMaleLoot,Duffle Bag
 DishongLootContainerRadFatZombieLoot,Duffle Bag
 DishongLootContainerRadNurseLoot,Duffle Bag
 DishongLootContainerRadLabWorkerLoot,Duffle Bag
-
-
-perkGreaseMonkeyRank1Desc,Wheely good
-perkGreaseMonkeyRank1LongDesc,Congratulations - you are now as smart as a primitive human!\n\nCraft wheels 33% cheaper.\n\nRepair kits are 10 percent more effective on vehicles.
-perkGreaseMonkeyRank2Desc,Oil be back
-perkGreaseMonkeyRank2LongDesc,"Not quite a fully-fledged grease monkey, but at least it's a start.\n\nRepair kits are 20 percent more effective on vehicles."
-perkGreaseMonkeyRank3Desc,Life's a gas
-perkGreaseMonkeyRank3LongDesc,Now you're starting to know your way around a toolbox!\n\nRepair kits are 30 percent more effective on vehicles.
-perkGreaseMonkeyRank4Desc,Not very basic
-perkGreaseMonkeyRank4LongDesc,"Your mechanical prowess is that of a professional pit crew!\n\nRepair kits are 40 percent more effective on vehicles."
-perkGreaseMonkeyRank5Desc,At last!!
-perkGreaseMonkeyRank5LongDesc,"You're a full-on aeronautical MacGyver.\nCraft UH-60 parts 33% cheaper.\n\nRepair kits are 50 percent more effective on vehicles."
-vehiclesT1,Tier 1: Wheels
-vehiclesT2,Tier 2: Oil
-vehiclesT3,Tier 3: Gas Cans
-vehiclesT4,Tier 4: Acid
-vehiclesT5,Tier 5: Flight
-
 
 harvestingToolsSkillMagazineDT,Tools Digest
 repairToolsSkillMagazineDT,Handy Land
@@ -214,90 +226,98 @@ zombieMutated,HamandLiz
 zombieMutatedFeral,HamandLiz Feral
 zombieMutatedRadiated,HamandLiz Radiated
 
-loadingTipAircraft1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are NO usuable farmplots in the ship ..."
+
 loadingTipAircraft1_title,Seeds asshole
-loadingTipAircraft2,"Almost every zombie will drop a loot bag once dead, and specific zombies will have a chance to drop specific loot."
+loadingTipAircraft1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are NO usuable farmplots in the ship ..."
+
 loadingTipAircraft2_title,Zombie Loot
-loadingTipAircraft3,"Skill magazines can be found in their usual places, and certain zombies have a chance to give certain magazines in their loot bag."
+loadingTipAircraft2,"Almost every zombie will drop a loot bag once dead, and specific zombies will have a chance to drop specific loot."
+
 loadingTipAircraft3_title,Skill Magazines
-loadingTipAircraft4,"Loot respawn is integral to completing this challenge. Loot will automatically restock after a certain period of time, determined by the 'Loot Respawn' number you set before starting the game."
+loadingTipAircraft3,"Skill magazines can be found in their usual places, and certain zombies have a chance to give certain magazines in their loot bag."
+
 loadingTipAircraft4_title,Looting
-loadingTipAircraft5,"Zombies can now be set to respawn after a time you decide. Check the 'Aircraft' tab on the main menu, and set the number of days you want between zombies respawning on the ship."
+loadingTipAircraft4,"Loot respawn is integral to completing this challenge. Loot will automatically restock after a certain period of time, determined by the 'Loot Respawn' number you set before starting the game."
+
 loadingTipAircraft5_title,Zombie respawns
-loadingTipAircraft6,"Resources are scarce in the ship, but you will be able to find or craft everything you need to complete the challenge. Some resources, like old cash, can be used in recipes - so make sure you check the recipes for EVERYTHING. Also, some of the rarer resources, like acid, can now be crafted. It can also be looted from zombies - along with antibiotics and beakers."
+loadingTipAircraft5,"Zombies can now be set to respawn after a time you decide. Check the 'Aircraft' tab on the main menu, and set the number of days you want between zombies respawning on the ship."
+
 loadingTipAircraft6_title,Resources
-loadingTipAircraft7,"Crafting workstations, and tools like the crucible, and vehicles themselves, take fewer magazines to read before they unlock."
+loadingTipAircraft6,"Resources are scarce in the ship, but you will be able to find or craft everything you need to complete the challenge. Some resources, like old cash, can be used in recipes - so make sure you check the recipes for EVERYTHING. Also, some of the rarer resources, like acid, can now be crafted. It can also be looted from zombies - along with antibiotics and beakers."
+
 loadingTipAircraft7_title,Crafting
-loadingTipAircraft8,"Trying to leave the ship other than by UH-60 is a very bad idea ..."
+loadingTipAircraft7,"Crafting workstations, and tools like the crucible, and vehicles themselves, take fewer magazines to read before they unlock."
+
 loadingTipAircraft8_title,Cheating
-loadingTipAircraft9,"Certain in-game functions, like zombie health bars and XP pop-ups, can be enabled or disabled from the pause menu. Pause the game, click 'video' then the 'Customization' tab."
+loadingTipAircraft8,"Trying to leave the ship other than by UH-60 is a very bad idea ..."
+
 loadingTipAircraft9_title,Customization
-loadingTipAircraft10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original base mod and concept."
+loadingTipAircraft9,"Certain in-game functions, like zombie health bars and XP pop-ups, can be enabled or disabled from the pause menu. Pause the game, click 'video' then the 'Customization' tab."
+
 loadingTipAircraft10_title,Special Thanks
-loadingTipAircraft11,"Horde nights, better suck it up, buttercup."
+loadingTipAircraft10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original base mod and concept."
+
 loadingTipAircraft11_title,Horde Night
-loadingTipAircraft12,"There are many changes from vanilla for resource gathering. Clay soil, for example, can be found by harvesting potted plants, farm plots, and destroyed stone"
+loadingTipAircraft11,"Horde nights, better suck it up, buttercup."
+
 loadingTipAircraft12_title,Aircraft Resources
-loadingTipAircraft13,"You can lock slots in your inventory by hovering over a slot and pressing 'X'. The slot will have a green border, indicating it is locked."
+loadingTipAircraft12,"There are many changes from vanilla for resource gathering. Clay soil, for example, can be found by harvesting potted plants, farm plots, and destroyed stone"
+
 loadingTipAircraft13_title,Locked Slots
-loadingTipAircraft14,"Keep it repaired. Look after your wrench, and your wrench will look after you."
+loadingTipAircraft13,"You can lock slots in your inventory by hovering over a slot and pressing 'X'. The slot will have a green border, indicating it is locked."
+
 loadingTipAircraft14_title,Wrench
-
-resourcePaper,"Classified Document" 
-resourcePaperDesc,"EAM\n FROM: USLANTFLT\n TO: USS SAN PAULO\n MESSAGE AS FOLLOWS:\n Movement to G.S. ATL-001 to acquire TP for bunghole (and other ""supplies"")"
-
-tutorialTipQuest01,"Welcome Aboard the Aircraft Carrier Challenge.\n\nFight your way thru the carrier, looting and crafting everything you need to craft a UH-60 to make your escape from the carrier. \n\nRULES:\n1. You must enter the Aircraft Carrier immediately ( The tent and U-boats count as being on the carrier) and cannot leave thereafter.\n2. The ground around the carrier is [ff7f27]SPICY[-] and may [ff7f27]NOT[-] be used to support any structures, or to grow any crops, unless you can do this [ff7f27]WITHOUT[-] touching it. \n3. You may build off the side of the carrier to reach things, but must support themselves and cannot touch the ground.\n4. You may not mine or dig under the carrier.\n5. All default game settings, unless you are a seasoned gamer.\n6. It is recommended to have loot and sleeper respawns set to [ff7f27]7 DAYS[-].\n7. You must survive until you are able to build a UH-60 and fly off the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]"
-
-tutorialTipQuest01_title,Started The Aircraft Carrier Challenge
-
-challenge_StartingCarrier,"Welcome aboard!"
-challenge_StartingCarrier_offer,"Up for a Challenge?"
-challenge_StartingCarrier_description,"So you think you can handle the[cd5c5c] Aircraft Carrier Challenge? The worlds gone to hell in a handbasket, and you think you can just leisurely walk in for some fun?\n\nYeh, right."
-challenge_StartingCarrier_subtitle,"Prove your worth."
-
+loadingTipAircraft14,"Keep it repaired. Look after your wrench, and your wrench will look after you."
 
 dishongTowerBundle,Aircraft Carrier Challenge Starter Items,,
 dishongTowerBundleDesc,Starter items for the Aircraft carrier challenge.,,
 
-quest_CarrierChallenge,"Head to a trader"
-quest_CarrierChallenge_offer,"Find your way to a trader."
-quest_CarrierChallenge_description,"To find the trader, go through orange roller door behind the tanks. Through cargo storage, then upstairs to briefing rooms."
-quest_CarrierChallenge_subtitle,"Find your trader."
 
-quest_CarrierChallenge01,"Fetch my supplies"
-quest_CarrierChallenge01_offer,"Gather Jen's supplies."
-quest_CarrierChallenge01_description,"Gather Jen's supplies."
-quest_CarrierChallenge01_subtitle,"Gather Jen's supplies."
+Welcome,Started The Aircraft Carrier Challenge
 
-quest_CarrierChallenge02,"Gather some UH-60 Parts - 1"
+tutorialTipQuest01,"Welcome Aboard the Aircraft Carrier Challenge.\n\nFight your way thru the carrier, looting and crafting everything you need to craft a UH-60 to make your escape from the carrier. \n\nRULES:\n1. You must enter the Aircraft Carrier immediately ( The tent and U-boats count as being on the carrier) and cannot leave thereafter.\n2. The ground around the carrier is [ff7f27]SPICY[-] and may [ff7f27]NOT[-] be used to support any structures, or to grow any crops, unless you can do this [ff7f27]WITHOUT[-] touching it. \n3. You may build off the side of the carrier to reach things, but must support themselves and cannot touch the ground.\n4. You may not mine or dig under the carrier.\n5. All default game settings, unless you are a seasoned gamer.\n6. It is recommended to have loot and sleeper respawns set to [ff7f27]7 DAYS[-].\n7. You must survive until you are able to build a UH-60 and fly off the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]"
+
+challenge_StartingCarrier,"Welcome aboard!"
+challenge_StartingCarrier_subtitle,"Prove your worth."
+challenge_StartingCarrier_offer,"Up for a Challenge?"
+challenge_StartingCarrier_description,"So you think you can handle the [cd5c5c] Aircraft Carrier Challenge? [ffffff] The worlds gone to hell in a handbasket, and you think you can just leisurely walk in for some fun?\n\nYeh, right."
+
+
+CarrierChallenge_Start,"Time to report in"
+CarrierChallenge_Start_subtitle,"Report to your C.O."
+CarrierChallenge_Start_description,"Now that your done jack-jawing and lollygaggin', get you arse in gear and check in with you C.O.!"
+CarrierChallenge_Start_offer,"Your C.O.'s waiting....."
+
+quest_CarrierChallenge01,"Jen's low on coffee..."
+quest_CarrierChallenge01_subtitle,"Gather Jen's coffee supplies."
+quest_CarrierChallenge01_offer,"Get Jen her coffee stash"
+quest_CarrierChallenge01_description,"Is it just me or did Jen look like she's about to doze off?  Can't have that now, she's on duty and needs coffee to keep alert."
+
+quest_CarrierChallenge02,"Gather UH-60 Supplies - Part 1"
+quest_CarrierChallenge02_subtitle,"Gather resources for the UH-60 accessories."
 quest_CarrierChallenge02_offer,"Gather resources for the UH-60 accessories."
 quest_CarrierChallenge02_description,"Gather resources for the UH-60 accessories."
-quest_CarrierChallenge02_subtitle,"Gather resources for the UH-60 accessories."
 
-quest_CarrierChallenge03,"Gather more UH-60 Parts - 2"
+quest_CarrierChallenge03,"Gather UH-60 Supplies - Part 2"
+quest_CarrierChallenge03_subtitle,"Gather resources for the UH-60 chassis."
 quest_CarrierChallenge03_offer,"Gather resources for the UH-60 chassis."
 quest_CarrierChallenge03_description,"Gather resources for the UH-60 chassis."
-quest_CarrierChallenge03_subtitle,"Gather resources for the UH-60 chassis."
 
 quest_CarrierChallenge04,"Restore power to the Bridge!"
+quest_CarrierChallenge04_subtitle,"Bridge has lost power."
 quest_CarrierChallenge04_offer,"Restore power to the Bridge."
-quest_CarrierChallenge04_description,"Restore power to the Bridge."
-quest_CarrierChallenge04_subtitle,"Restore power to the Bridge."
+quest_CarrierChallenge04_description,"Loss of main power to the bridge. Time to engage the backup generators."
 
 quest_CarrierChallenge05,"Assemble UH-60 Parts"
-quest_CarrierChallenge05_offer,"Gather all the parts to craft a UH-60, and craft the UH-60."
+quest_CarrierChallenge05_subtitle,"Time to assemble your escape aircraft."
+quest_CarrierChallenge05_offer,"Ready to take flight?"
 quest_CarrierChallenge05_description,"Gather all the parts to craft a UH-60, and craft the UH-60."
-quest_CarrierChallenge05_subtitle,"Go help Trader Joel."
 
-quest_CarrierChallenge06,"Go help Trader Joel"
-quest_CarrierChallenge06_offer,"Fly! Fly, my pretty!! Trader Joel needs help!!"
-quest_CarrierChallenge06_description,"Escape the Carrier!"
-quest_CarrierChallenge06_subtitle,"Escape the Carrier!"
 
-Challenge_Completion,"You made it!!"
-Challenge_Completion_offer,"Challenge complete!"
-Challenge_Completion_description,"Congratulations on escaping the Carrier!"
-Challenge_Completion_subtitle,"Congratulations!"
 
-Quest_Completion_tip_title,Completed The Aircraft Carrier Challenge
-Quest_Completion_tip,"Congratulations! \n\nYou have successfully completed the Aircraft Carrier challenge!"
+
+
+Infested Army Depot x2,"Infested Army Depot (x2)"
+quest_Infested_ArmyDepot_x2_subtitle,"Time to clear and infestation at the Army Depot"
+quest_Infested_ArmyDepot_x2_offer,"Looks like additional zeds have taken hold of the Army Depot"
+quest_Infested_ArmyDepot_x2_desc,"Some how zombie reforcements have take over the Army Depot.  Let's clear them out!  (Note: x2 multipier in effect)"
