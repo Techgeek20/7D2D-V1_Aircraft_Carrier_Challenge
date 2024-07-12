@@ -5,16 +5,16 @@
   <property name="ExcludePOICulling" value="False" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="AllowTopSoilDecorations" value="False" />
-  <property name="DifficultyTier" value="5" />
+  <property name="DifficultyTier" value="1" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="6, 4, 5" />
   <property name="RotationToFaceNorth" value="2" />
-  <property name="Tags" value="trader, gateway, nocheckpoint" />
-  <property name="QuestTags" value="trader, traderJen" />
+  <property name="Tags" value="trader" />
+  <property name="QuestTags" value="trader" />
   <property name="Zoning" value="any" />
-  <property name="EditorGroups" value="settlements" />
-  <property name="ThemeTags" value="trader, traderJen" />
+  <property name="EditorGroups" value="any" />
+  <property name="ThemeTags" value="trader" />
   <property class="IndexedBlockOffsets">
     <property class="challenge_polymers">
       <property name="0" value="4, 1, 0" />

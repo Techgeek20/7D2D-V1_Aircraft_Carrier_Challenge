@@ -11,10 +11,9 @@
   <property name="PrefabSize" value="7, 2, 3" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="any" />
-  <property name="Tags" value="trader, gateway, nocheckpoint" />
-  <property name="QuestTags" value="trader" />
-  <property name="EditorGroups" value="settlements, any" />
-  <property name="ThemeTags" value="trader, traderHugh" />
+  <property name="EditorGroups" value="any" />
+  <property name="Tags" value="trader" />
+  <property name="QuestTags" value="bandit" />
   <property class="IndexedBlockOffsets">
     <property class="Trader">
       <property name="0" value="3, 0, 1" />
