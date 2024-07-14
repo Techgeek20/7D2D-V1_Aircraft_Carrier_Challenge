@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<xml>
 			<set xpath="/windows/window[@name='toolTipPopups']/@pos">0,160</set>
+		    <set xpath="/windows/window[@name='windowTargetBar']/@visibility">always</set>
 			<remove xpath="/windows/window[@name='HUDLeftStatBars']"/>
 			<remove xpath="/windows/window[@name='windowToolbelt']"/>
           <append xpath="/windows">
@@ -123,6 +124,6 @@
 			<gamepad_icon depth="1" name="RB_Icon" size="35,35" pos="608,-20" pivot="Left" sprite="Button_RB" />
 			<!--*#$-IGS END.-$#-->
 		</window>
-		</append>
+		</append>						
 	</xml>
 	

@@ -228,7 +228,7 @@
 				<property name="DropScale" value="1.8"/>
 				<property name="Material" value="Mmetal"/>
 				<property name="Stacknumber" value="20"/>
-				<property name="EconomicValue" value="41"/>
+				<property name="EconomicValue" value="50"/>
 				<property name="TraderStageTemplate" value="baseTier2"/>
 				<property name="Weight" value="0"/>
 				<property name="Explosion.BlockTags" value="timecharge"/>
@@ -244,6 +244,8 @@
 				<property name="SoundUnholster" value="charge_unholster"/>
 				<property name="SoundStick" value="charge_stick"/>
 				<property name="SoundTick" value="charge_beep,.8"/>
+				<property name="Explosion.BlockDamage" value="1000000"/> <!-- workaround, not affected by perks at all -->
+				<property name="Explosion.EntityDamage" value="100"/> <!-- workaround, not affected by perks at all -->
 				
 				<property class="Action0">
 					<property name="Class" value="ThrowAway"/>

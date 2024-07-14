@@ -39,7 +39,7 @@
       <property name="1" value="31, 2, 176" />
     </property>
     <property class="challenge_steel">
-      <property name="0" value="28, 17, 136" />
+      <property name="0" value="32, 2, 68" />
     </property>
     <property class="challenge_pallet">
       <property name="0" value="31, 5, 100" />
@@ -66,15 +66,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1291160" />
-    <property name="TotalTriangles" value="647681" />
+    <property name="TotalVertices" value="1286443" />
+    <property name="TotalTriangles" value="651307" />
     <property class="BlockEntities">
-      <property name="Vertices" value="768416" />
-      <property name="Triangles" value="281786" />
+      <property name="Vertices" value="761730" />
+      <property name="Triangles" value="280807" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="495002" />
-      <property name="Triangles" value="320503" />
+      <property name="Vertices" value="496971" />
+      <property name="Triangles" value="325108" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
