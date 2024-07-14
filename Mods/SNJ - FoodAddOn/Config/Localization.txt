@@ -1,0 +1,23 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+MilitaryShortOrderCookName,progression,perk Str,,,"Military Short Order Cook",,,,,,,,,,,,,,
+MilitaryShortOrderCookDesc,progression,perk Str,,,"MRE Cook Book",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank1Desc,progression,perk Str,,,"Field Cook",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank1LongDesc,progression,perk Str,,,"Create basic food that most people would know how to make effortlessly. Unlocks basic recipes such as Buttered Toast, Sauteed Mushrooms, Hard Tack, Beef Jerky, and Toasted Seeds. Cook these 10% faster.",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank2Desc,progression,perk Str,,,"Cook Second Class",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank2LongDesc,progression,perk Str,,,"You are a chef ... for rats. Learning the basics and creating extracts. Unlocks basic recipes such as Pemmican, Boiled Sweet Bread, Bone Marrow, as well as basic extracts and ingredients made from other items. Cook these 20% faster.",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank3Desc,progression,perk Str,,,"Cook Third Class",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank3LongDesc,progression,perk Str,,,"Create simple desserts, base ingredients, and a few simple foods that can barely be choked down. Unlocks recipes such as Sweet Nut Milk, Ice Cream, Sorbets, Turkish Delight, Raw Milk Processing. Cook these 30% faster.",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank4Desc,progression,perk Str,,,"Chief Cook ",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank4LongDesc,progression,perk Str,,,"Create more advanced recipes and complex ingredients, and a few foods that a starving person would find palatable. Unlocks recipes such as Milk Curds, Butters, Bread preparation, and Cheese. Cook these 40% faster.",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank5Desc,progression,perk Str,,,"Master Cook",,,,,,,,,,,,,,
+MilitaryShortOrderCookRank5LongDesc,progression,perk Str,,,"You finally learn how to make signature dishes that do not taste like garbage. Unlocks recipes such as Egg Souffle, Blueberry Muffins, Potatoes Dauphinoise, Croque Monsieur, and Boeuf Bourguignon. Cook these 50% faster.",,,,,,,,,,,,,,
+DryPasta,items,Food,,,This item is needed to make MRE Pasta Marinara.\n Don't Eat it raw
+PowderedEggs,items,Food,,,This item is needed to make MRE Breakfast.\n Don't Eat it raw
+MRECase,items,Food,,,A box of MRE Meals.\n(Comes in packs of 20)
+MREBeefStew,items,Food,,,MRE MEAL BeefStew. Can shit tastes better.
+MRELambStew,items,Food,,,MRE MEAL LambStew. We couldn't find bambi deal with it.
+MREChickenCurry,items,Food,,,MRE MEAL Chicken Curry. Shit isn't spicy could use some hot sauce.
+MREPastaMarinara,items,Food,,,MRE MEAL Pasta Marinara not like mama makes but it is food.
+MREBreakfast,items,Food,,,MRE MEAL BReakfast tastes like crap but hey there is coffee.
+MREChiliMac,items,Food,,,MRE MEAL Chili Mac just eat it. It's food.
+FruitbytheFoot,items,Food,,,Fruit by the foot. just a snack.
