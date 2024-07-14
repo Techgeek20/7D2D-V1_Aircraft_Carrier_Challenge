@@ -113,7 +113,8 @@
 
 			<button pos="171,-21" name="Skills"     sprite="ui_game_symbol_skills"    tooltip_key="xuiSkills"     style="press, hover, paging.window.icon" />
 			<button pos="426,-21" name="Quests"     sprite="ui_game_symbol_quest"     tooltip_key="xuiQuests"     style="press, hover, paging.window.icon" />
-			<!-- <button pos="476,-21" name="Challenges" sprite="ui_game_symbol_challenge" tooltip_key="xuiChallenges" style="press, hover, paging.window.icon" /> -->			<button pos="526,-21" name="Players"    sprite="ui_game_symbol_players"   tooltip_key="xuiPlayers"    style="press, hover, paging.window.icon" />
+		    <!-- <button pos="476,-21" name="Challenges" sprite="ui_game_symbol_challenge" tooltip_key="xuiChallenges" style="press, hover, paging.window.icon" /> -->        
+			<button pos="526,-21" name="Players"    sprite="ui_game_symbol_players"   tooltip_key="xuiPlayers"    style="press, hover, paging.window.icon" />
 			<button pos="576,-21" name="Creative"   sprite="ui_game_symbol_lightbulb" tooltip_key="xuiCreative"   style="press, hover, paging.window.icon" visible="{is_creative}" />
 			<!--*#$-IGS END.-$#-->
 

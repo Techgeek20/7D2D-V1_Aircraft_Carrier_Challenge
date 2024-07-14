@@ -18,7 +18,7 @@
   <property name="ExcludePOICulling" value="True" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="Tags" value="trader" />
-  <property name="ThemeTags" value="trader" />
+  <property name="ThemeTags" value="trader, wildernesspoi" />
   <property name="ThemeRepeatDistance" value="1000" />
   <property name="PrefabSize" value="60, 34, 60" />
   <property name="WallVolumeSize" value="4, 2, 5#1, 1, 5#1, 1, 1#2, 1, 1#2, 2, 5#1, 2, 2" />

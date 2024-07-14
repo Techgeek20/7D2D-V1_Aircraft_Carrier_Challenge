@@ -10,12 +10,12 @@
 	<remove xpath="//lootgroup[@name='4x4Parts']//item[@name='vehicle4x4TruckAccessories']"/> -->
 
 	<!--removes treasure maps from loot -->
-	<remove xpath="//lootgroup[@name='groupTreasureMaps']"/>
+	<!-- <remove xpath="//lootgroup[@name='groupTreasureMaps']"/> -->
     <remove xpath="//lootgroup[@name='groupFootlocker02']//item[@group='groupTreasureMaps']"/>
 	<remove xpath="//lootgroup[@name='groupMilitaryFootlocker01']//item[@group='groupTreasureMaps']"/>
-	<remove xpath="//lootgroup[@name='groupZpackReg03']//item[@group='groupTreasureMaps']"/>
+	<!-- <remove xpath="//lootgroup[@name='groupZpackReg03']//item[@group='groupTreasureMaps']"/>
 	<remove xpath="//lootgroup[@name='groupZpackStrong03']//item[@group='groupTreasureMaps']"/>
-	<remove xpath="//lootgroup[@name='groupZpackBoss03']//item[@group='groupTreasureMaps']"/>
+	<remove xpath="//lootgroup[@name='groupZpackBoss03']//item[@group='groupTreasureMaps']"/> -->
 	<remove xpath="//lootgroup[@name='groupReinforcedChestT3_05']//item[@group='groupTreasureMaps']"/>
 	<remove xpath="//lootgroup[@name='groupHardenedChestT4_07']//item[@group='groupTreasureMaps']"/>
 	<remove xpath="//lootgroup[@name='groupHardenedChestT5_05']//item[@group='groupTreasureMaps']"/> 	
