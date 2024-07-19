@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefabs>
+  <decoration type="model" name="Trader_Front_Carrier" position="-95,35,-130" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="naz_super_aircraft_trader_rear_1" position="71,35,-130" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="trder_joel_1" position="561,35,671" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="UUSS_Arleigh_Burke_Destroyer_02" position="97,35,427" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="ARMY_DEPOT_2" position="20,25,-93" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="HughGotIT2" position="223,40,-80" rotation="1" y_is_groundlevel="true" />
+  <decoration type="model" name="The_Bridge" position="153,47,-69" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="TRADER_JEN_OG" position="-19,41,-77" rotation="3" y_is_groundlevel="true" />
+</prefabs>
