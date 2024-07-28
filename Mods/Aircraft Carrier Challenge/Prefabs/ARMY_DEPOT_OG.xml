@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="0" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="PrefabSize" value="14, 27, 27" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="YOffset" value="-20" />
+  <property name="Zoning" value="none" />
+  <property class="Stats">
+    <property name="TotalVertices" value="419796" />
+    <property name="TotalTriangles" value="159263" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="335148" />
+      <property name="Triangles" value="104547" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="81898" />
+      <property name="Triangles" value="53344" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="374" />
+      <property name="Triangles" value="184" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="2376" />
+      <property name="Triangles" value="1188" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="TraderOnOff">
+      <property name="0" value="0, 0, 0" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="0, 1, 0" />
+    </property>
+    <property class="challenge_sinks">
+      <property name="0" value="0, 0, 23" />
+      <property name="1" value="4, 0, 21" />
+      <property name="2" value="4, 0, 22" />
+      <property name="3" value="4, 0, 23" />
+      <property name="4" value="4, 0, 24" />
+      <property name="5" value="10, 0, 21" />
+      <property name="6" value="2, 1, 21" />
+      <property name="7" value="2, 1, 22" />
+      <property name="8" value="4, 1, 21" />
+      <property name="9" value="4, 1, 22" />
+      <property name="10" value="4, 1, 23" />
+      <property name="11" value="4, 1, 24" />
+      <property name="12" value="10, 1, 21" />
+      <property name="13" value="10, 1, 22" />
+      <property name="14" value="2, 2, 24" />
+      <property name="15" value="3, 2, 24" />
+      <property name="16" value="4, 2, 23" />
+      <property name="17" value="4, 2, 24" />
+      <property name="18" value="3, 5, 26" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="2, 0, 23" />
+      <property name="1" value="10, 0, 23" />
+    </property>
+    <property class="challenge_mech_parts">
+      <property name="0" value="7, 10, 26" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="3, 2, 23" />
+      <property name="1" value="9, 2, 23" />
+      <property name="2" value="4, 3, 26" />
+      <property name="3" value="9, 3, 26" />
+      <property name="4" value="13, 10, 26" />
+    </property>
+    <property class="challenge_polymers">
+      <property name="0" value="0, 0, 22" />
+      <property name="1" value="7, 10, 24" />
+      <property name="2" value="3, 22, 22" />
+      <property name="3" value="3, 22, 24" />
+      <property name="4" value="7, 22, 21" />
+    </property>
+    <property class="challenge_cars">
+      <property name="0" value="3, 0, 13" />
+      <property name="1" value="7, 0, 13" />
+    </property>
+    <property class="challenge_pallet">
+      <property name="0" value="3, 10, 21" />
+      <property name="1" value="4, 10, 21" />
+      <property name="2" value="4, 11, 21" />
+    </property>
+    <property class="challenge_steel">
+      <property name="0" value="6, 0, 23" />
+    </property>
+  </property>
+</prefab>

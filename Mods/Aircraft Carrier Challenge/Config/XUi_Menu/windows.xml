@@ -8,11 +8,9 @@
 		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BlockDamageAI']" />
 		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BlockDamageAIBM']" />
 		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='EnemySpawnMode']" />
-		<!-- <remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='AirDropFrequency']" /> -->
 		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='MaxChunkAge']" />
 		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BuildCreate']" />
 		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='AirDropMarker']" />
-		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='PlayerKillingMode']" />
 		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimSize']" />
 		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimDeadZone']" />
 		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimExpiryTime']" />

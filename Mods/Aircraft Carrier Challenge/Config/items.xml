@@ -412,7 +412,7 @@
 		<item name="Mission_Start_Carrier">
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIcon" value="questMaster"/>
-			<property name="Description" value="Make your way thru killing 10 zombies!"/>
+			<property name="DescriptionKey" value="Make your way thru killing 10 zombies!"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="HoldType" value="21"/>
 			<property name="Group" value="All,Quest,Challenges"/>
@@ -432,7 +432,7 @@
 		<item name="Mission_1_Retrieve information">
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIcon" value="questMaster"/>
-			<property name="Description" value="Retrieve supplies to keep Jen awake"/>
+			<property name="DescriptionKey" value="Gather information from the satchel"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="HoldType" value="21"/>
 			<property name="Group" value="All,Quest,Challenges"/>

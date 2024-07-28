@@ -317,21 +317,8 @@
 				<property name="phase" value="4" />
 				<property name="nav_object" value="return_to_trader" />
 			</objective>
-<!-- 
-			<objective type="ReturnToNPC">
-				<property name="phase" value="4" />
-				<property name="nav_object" value="return_to_trader" />
-				<property name="use_closest" value="true" />
-			</objective>
-
-			<objective type="InteractWithNPC">
-				<property name="phase" value="4" />
-				<property name="nav_object" value="return_to_trader" />
-			</objective>
--->
 
 			<reward type="Exp" value="5060"/>
-			<!-- <reward type="Item" id="vehicleUH60accessories" /> -->
 			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
 			<reward type="Quest" id="Completion"/>
 

@@ -10,9 +10,8 @@
   <property name="PrefabSize" value="29, 45, 29" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="any" />
-  <property name="QuestTags" value="clear, restore_power, infested" />
   <property name="EditorGroups" value="any" />
-  <property name="Tags" value="industrial" />
+  <property name="Tags" value="wilderness" />
   <property name="TraderArea" value="False" />
   <property name="SleeperVolumeSize" value="18, 3, 10#15, 4, 15#15, 3, 15#19, 3, 17#18, 4, 15#19, 3, 12#15, 8, 8#15, 16, 19#20, 4, 15#9, 4, 9#20, 3, 23#23, 3, 19#15, 6, 20#15, 3, 10#15, 3, 15" />
   <property name="SleeperVolumeStart" value="6, 3, 10#2, 7, 10#12, 8, 15#3, 11, 9#8, 15, 6#4, 16, 16#13, 21, 14#9, 27, 5#13, 4, 6#16, 21, 5#5, 0, 5#5, 20, 13#12, 39, 12#4, 11, 6#9, 17, 14" />
@@ -22,8 +21,118 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # " />
+  <property name="ThemeTags" value="wildernesspoi" />
   <property class="IndexedBlockOffsets">
-    <property class="challenge_officechairs">
+    <property class="challenge_sinks">
+      <property name="0" value="14, 16, 14" />
+      <property name="1" value="14, 18, 14" />
+      <property name="2" value="17, 16, 14" />
+      <property name="3" value="17, 17, 14" />
+      <property name="4" value="17, 18, 14" />
+      <property name="5" value="18, 1, 14" />
+      <property name="6" value="18, 9, 14" />
+      <property name="7" value="18, 16, 14" />
+      <property name="8" value="18, 17, 14" />
+      <property name="9" value="18, 18, 14" />
+      <property name="10" value="19, 18, 14" />
+      <property name="11" value="20, 1, 14" />
+      <property name="12" value="21, 16, 14" />
+      <property name="13" value="23, 4, 14" />
+      <property name="14" value="14, 8, 15" />
+      <property name="15" value="14, 9, 15" />
+      <property name="16" value="14, 10, 15" />
+      <property name="17" value="14, 16, 15" />
+      <property name="18" value="14, 18, 15" />
+      <property name="19" value="15, 8, 15" />
+      <property name="20" value="15, 10, 15" />
+      <property name="21" value="16, 18, 15" />
+      <property name="22" value="17, 16, 15" />
+      <property name="23" value="17, 17, 15" />
+      <property name="24" value="17, 18, 15" />
+      <property name="25" value="18, 16, 15" />
+      <property name="26" value="18, 17, 15" />
+      <property name="27" value="18, 18, 15" />
+      <property name="28" value="18, 21, 15" />
+      <property name="29" value="19, 18, 15" />
+      <property name="30" value="21, 16, 15" />
+      <property name="31" value="23, 4, 15" />
+      <property name="32" value="14, 8, 16" />
+      <property name="33" value="14, 9, 16" />
+      <property name="34" value="14, 10, 16" />
+      <property name="35" value="15, 8, 16" />
+      <property name="36" value="15, 10, 16" />
+      <property name="37" value="16, 18, 16" />
+      <property name="38" value="17, 16, 16" />
+      <property name="39" value="17, 17, 16" />
+      <property name="40" value="17, 18, 16" />
+      <property name="41" value="18, 16, 16" />
+      <property name="42" value="18, 17, 16" />
+      <property name="43" value="18, 18, 16" />
+      <property name="44" value="19, 18, 16" />
+      <property name="45" value="20, 9, 16" />
+      <property name="46" value="21, 16, 16" />
+      <property name="47" value="23, 4, 16" />
+      <property name="48" value="17, 16, 17" />
+      <property name="49" value="17, 17, 17" />
+      <property name="50" value="17, 18, 17" />
+      <property name="51" value="18, 16, 17" />
+      <property name="52" value="18, 17, 17" />
+      <property name="53" value="18, 18, 17" />
+      <property name="54" value="19, 18, 17" />
+      <property name="55" value="21, 16, 17" />
+      <property name="56" value="16, 18, 18" />
+      <property name="57" value="17, 16, 18" />
+      <property name="58" value="17, 17, 18" />
+      <property name="59" value="17, 18, 18" />
+      <property name="60" value="18, 16, 18" />
+      <property name="61" value="18, 17, 18" />
+      <property name="62" value="18, 18, 18" />
+      <property name="63" value="19, 18, 18" />
+      <property name="64" value="21, 16, 18" />
+      <property name="65" value="14, 1, 19" />
+      <property name="66" value="14, 4, 19" />
+      <property name="67" value="14, 8, 19" />
+      <property name="68" value="14, 9, 19" />
+      <property name="69" value="14, 10, 19" />
+      <property name="70" value="15, 8, 19" />
+      <property name="71" value="15, 9, 19" />
+      <property name="72" value="15, 10, 19" />
+      <property name="73" value="16, 4, 19" />
+      <property name="74" value="16, 8, 19" />
+      <property name="75" value="16, 10, 19" />
+      <property name="76" value="17, 16, 19" />
+      <property name="77" value="17, 18, 19" />
+      <property name="78" value="18, 4, 19" />
+      <property name="79" value="18, 16, 19" />
+      <property name="80" value="18, 18, 19" />
+      <property name="81" value="20, 4, 19" />
+      <property name="82" value="21, 16, 19" />
+      <property name="83" value="21, 16, 20" />
+      <property name="84" value="15, 9, 21" />
+      <property name="85" value="21, 8, 21" />
+      <property name="86" value="21, 9, 21" />
+      <property name="87" value="21, 13, 21" />
+      <property name="88" value="21, 16, 21" />
+      <property name="89" value="17, 8, 22" />
+      <property name="90" value="17, 9, 22" />
+      <property name="91" value="17, 13, 22" />
+      <property name="92" value="21, 8, 22" />
+      <property name="93" value="21, 16, 22" />
+      <property name="94" value="14, 17, 23" />
+      <property name="95" value="16, 21, 23" />
+      <property name="96" value="17, 8, 23" />
+      <property name="97" value="21, 8, 23" />
+      <property name="98" value="21, 16, 23" />
+      <property name="99" value="14, 21, 24" />
+      <property name="100" value="16, 17, 24" />
+      <property name="101" value="17, 8, 24" />
+      <property name="102" value="18, 8, 24" />
+      <property name="103" value="19, 8, 24" />
+      <property name="104" value="20, 8, 24" />
+      <property name="105" value="21, 8, 24" />
+      <property name="106" value="21, 16, 24" />
+    </property>
+    <property class="challenge_mech_parts">
       <property name="0" value="16, 16, 14" />
       <property name="1" value="19, 16, 16" />
       <property name="2" value="16, 16, 18" />
@@ -70,6 +179,21 @@
       <property name="31" value="17, 21, 26" />
       <property name="32" value="19, 21, 26" />
     </property>
+    <property class="challenge_polymers">
+      <property name="0" value="18, 8, 14" />
+      <property name="1" value="19, 16, 14" />
+      <property name="2" value="17, 13, 15" />
+      <property name="3" value="22, 4, 17" />
+      <property name="4" value="22, 0, 18" />
+      <property name="5" value="23, 8, 18" />
+      <property name="6" value="20, 0, 19" />
+      <property name="7" value="23, 4, 19" />
+      <property name="8" value="21, 12, 20" />
+      <property name="9" value="14, 20, 21" />
+      <property name="10" value="24, 0, 24" />
+      <property name="11" value="19, 20, 25" />
+      <property name="12" value="17, 17, 26" />
+    </property>
     <property class="TraderOnOff">
       <property name="0" value="20, 21, 14" />
       <property name="1" value="14, 31, 15" />
@@ -94,15 +218,6 @@
     <property class="QuestRestorePower">
       <property name="0" value="14, 25, 19" />
     </property>
-    <property class="challenge_sinks">
-      <property name="0" value="23, 4, 14" />
-      <property name="1" value="23, 4, 15" />
-      <property name="2" value="23, 4, 16" />
-      <property name="3" value="14, 4, 19" />
-      <property name="4" value="16, 4, 19" />
-      <property name="5" value="18, 4, 19" />
-      <property name="6" value="20, 4, 19" />
-    </property>
     <property class="challenge_gore">
       <property name="0" value="14, 40, 14" />
     </property>
@@ -111,17 +226,27 @@
       <property name="1" value="18, 25, 22" />
       <property name="2" value="20, 25, 22" />
     </property>
+    <property class="challenge_leather">
+      <property name="0" value="19, 20, 17" />
+      <property name="1" value="19, 20, 18" />
+      <property name="2" value="19, 20, 19" />
+      <property name="3" value="19, 20, 20" />
+      <property name="4" value="16, 20, 21" />
+      <property name="5" value="17, 20, 21" />
+      <property name="6" value="18, 20, 21" />
+      <property name="7" value="19, 20, 21" />
+    </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1051176" />
-    <property name="TotalTriangles" value="357387" />
+    <property name="TotalVertices" value="1050473" />
+    <property name="TotalTriangles" value="357124" />
     <property class="BlockEntities">
-      <property name="Vertices" value="941883" />
-      <property name="Triangles" value="285087" />
+      <property name="Vertices" value="941286" />
+      <property name="Triangles" value="284876" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="107589" />
-      <property name="Triangles" value="71448" />
+      <property name="Vertices" value="107483" />
+      <property name="Triangles" value="71396" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />

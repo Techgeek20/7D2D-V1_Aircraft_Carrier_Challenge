@@ -23,6 +23,78 @@
   <property name="TriggerVolumeStart" value="16, 4, 12#6, 4, 15#12, 34, 8#3, 23, 3#20, 20, 10#13, 20, 8#14, 20, 21#14, 8, 8#14, 30, 10" />
   <property name="TriggerVolumeTriggers" value="16#17#21#19#20#20#20#17#22" />
   <property class="IndexedBlockOffsets">
+    <property class="challenge_sinks">
+      <property name="0" value="15, 5, 13" />
+      <property name="1" value="17, 16, 13" />
+      <property name="2" value="17, 18, 13" />
+      <property name="3" value="18, 16, 13" />
+      <property name="4" value="18, 18, 13" />
+      <property name="5" value="19, 4, 13" />
+      <property name="6" value="20, 4, 13" />
+      <property name="7" value="21, 4, 13" />
+      <property name="8" value="21, 16, 13" />
+      <property name="9" value="22, 4, 13" />
+      <property name="10" value="23, 4, 13" />
+      <property name="11" value="17, 16, 14" />
+      <property name="12" value="17, 18, 14" />
+      <property name="13" value="18, 16, 14" />
+      <property name="14" value="18, 18, 14" />
+      <property name="15" value="21, 16, 14" />
+      <property name="16" value="17, 16, 15" />
+      <property name="17" value="17, 18, 15" />
+      <property name="18" value="18, 16, 15" />
+      <property name="19" value="18, 17, 15" />
+      <property name="20" value="18, 18, 15" />
+      <property name="21" value="21, 16, 15" />
+      <property name="22" value="14, 8, 16" />
+      <property name="23" value="14, 10, 16" />
+      <property name="24" value="15, 4, 16" />
+      <property name="25" value="15, 8, 16" />
+      <property name="26" value="15, 10, 16" />
+      <property name="27" value="16, 0, 16" />
+      <property name="28" value="16, 1, 16" />
+      <property name="29" value="16, 8, 16" />
+      <property name="30" value="16, 10, 16" />
+      <property name="31" value="17, 0, 16" />
+      <property name="32" value="17, 1, 16" />
+      <property name="33" value="17, 4, 16" />
+      <property name="34" value="17, 16, 16" />
+      <property name="35" value="17, 18, 16" />
+      <property name="36" value="18, 0, 16" />
+      <property name="37" value="18, 1, 16" />
+      <property name="38" value="18, 16, 16" />
+      <property name="39" value="18, 17, 16" />
+      <property name="40" value="18, 18, 16" />
+      <property name="41" value="19, 4, 16" />
+      <property name="42" value="21, 4, 16" />
+      <property name="43" value="21, 16, 16" />
+      <property name="44" value="23, 4, 16" />
+      <property name="45" value="17, 16, 17" />
+      <property name="46" value="17, 18, 17" />
+      <property name="47" value="18, 16, 17" />
+      <property name="48" value="18, 18, 17" />
+      <property name="49" value="21, 16, 17" />
+      <property name="50" value="21, 8, 18" />
+      <property name="51" value="21, 16, 18" />
+      <property name="52" value="21, 8, 19" />
+      <property name="53" value="21, 12, 19" />
+      <property name="54" value="21, 16, 19" />
+      <property name="55" value="17, 8, 20" />
+      <property name="56" value="21, 8, 20" />
+      <property name="57" value="21, 12, 20" />
+      <property name="58" value="21, 16, 20" />
+      <property name="59" value="17, 8, 21" />
+      <property name="60" value="18, 8, 21" />
+      <property name="61" value="18, 12, 21" />
+      <property name="62" value="18, 25, 21" />
+      <property name="63" value="19, 8, 21" />
+      <property name="64" value="20, 8, 21" />
+      <property name="65" value="21, 8, 21" />
+      <property name="66" value="21, 16, 21" />
+      <property name="67" value="17, 20, 23" />
+      <property name="68" value="18, 20, 23" />
+      <property name="69" value="19, 20, 23" />
+    </property>
     <property class="challenge_mech_parts">
       <property name="0" value="16, 16, 13" />
       <property name="1" value="19, 16, 13" />
@@ -100,19 +172,6 @@
       <property name="0" value="6, 8, 8" />
       <property name="1" value="6, 8, 9" />
     </property>
-    <property class="challenge_sinks">
-      <property name="0" value="15, 5, 13" />
-      <property name="1" value="19, 4, 13" />
-      <property name="2" value="20, 4, 13" />
-      <property name="3" value="21, 4, 13" />
-      <property name="4" value="22, 4, 13" />
-      <property name="5" value="23, 4, 13" />
-      <property name="6" value="15, 4, 16" />
-      <property name="7" value="17, 4, 16" />
-      <property name="8" value="19, 4, 16" />
-      <property name="9" value="21, 4, 16" />
-      <property name="10" value="23, 4, 16" />
-    </property>
     <property class="QuestRestorePower">
       <property name="0" value="22, 0, 15" />
     </property>
@@ -129,11 +188,11 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1046610" />
-    <property name="TotalTriangles" value="340261" />
+    <property name="TotalVertices" value="1045622" />
+    <property name="TotalTriangles" value="340026" />
     <property class="BlockEntities">
-      <property name="Vertices" value="954396" />
-      <property name="Triangles" value="280825" />
+      <property name="Vertices" value="953408" />
+      <property name="Triangles" value="280590" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="87162" />

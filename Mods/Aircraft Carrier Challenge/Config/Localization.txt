@@ -269,6 +269,15 @@ loadingTipAircraft13,"You can lock slots in your inventory by hovering over a sl
 loadingTipAircraft14_title,Wrench
 loadingTipAircraft14,"Keep it repaired. Look after your wrench, and your wrench will look after you."
 
+loadingTipAircraft15,"Fear not, little Robin Hood. Wield a bow without arrows but plentyful crossbow bolts? You may convert your arrows to bolts and your bolts to arrows for free. William Tell those apples, my friend."
+loadingTipAircraft15_title,Archer
+
+loadingTipAircraft16,"If you are lost on where to travel to next, there may have been a kind soul who left directions in the quest instructions. Let's be real though, men neither ask for directions nor read instructions!"
+loadingTipAircraft16_title,Lost Are We?
+
+loadingTipAircraft17,"For a military vessel, there are considerable nooks, crannies, hidey holes and hidden stashes all over the place. Some say there are hidden shortcuts within the walls too! Navy brass would be rolling in their grave if they weren't ambling around in hordes of the reanimated dead..."
+loadingTipAircraft17_title,Search Everywhere - Check Everything
+
 dishongTowerBundle,Aircraft Carrier Challenge Starter Items,,
 dishongTowerBundleDesc,Starter items for the Aircraft carrier challenge.,,
 
