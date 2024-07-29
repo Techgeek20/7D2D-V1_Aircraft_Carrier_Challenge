@@ -44,8 +44,8 @@
   <item name="drinkJarBoiledWater">
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="waterDysentery"/>
-	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
 	<property name="Stacknumber" value="10"/> <!-- STK drink -->
 	<property name="Weight" value="10"/>
@@ -77,8 +77,8 @@
 <item name="drinkJarPureMineralWater">
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="waterGoldenrodRedTea"/>
-	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
 	<property name="Stacknumber" value="10"/> <!-- STK drink -->
 	<property name="Weight" value="10"/>
@@ -119,8 +119,8 @@
   <item name="drinkJarGoldenRodTea">
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="waterGoldenrod"/>
-	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
 	<property name="Weight" value="10"/>
 	<property name="Stacknumber" value="10"/> <!-- STK drink -->
@@ -155,8 +155,8 @@
 <item name="drinkJarRedTea">
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="waterRedTea"/>
-	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
 	<property name="Weight" value="10"/>
 	<property name="Stacknumber" value="10"/> <!-- STK drink -->
@@ -192,8 +192,8 @@
   <item name="drinkJarCoffee">
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="waterCoffee"/>
-	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mglass"/>
 	<property name="Weight" value="10"/>
 	<property name="Stacknumber" value="10"/> <!-- STK drink -->
@@ -303,8 +303,8 @@
       <property name="DisplayType" value="foodWater"/>
       <property name="CustomIcon" value="freddybythefoot"/>
       <property name="HoldType" value="31"/>
-<property name="Meshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
-<property name="DropMeshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
+<property name="Meshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
+<property name="DropMeshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
       <property name="Material" value="Morganic"/>
       <property name="Stacknumber" value="50"/>
       <!-- STK food -->
@@ -331,8 +331,8 @@
       <property name="CustomIcon" value="mre"/>
 	  <property name="DescriptionKey" value="MREChiliMac"/>
       <property name="HoldType" value="31"/>
-<property name="Meshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
-<property name="DropMeshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
+<property name="Meshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
+<property name="DropMeshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
       <property name="Material" value="Morganic"/>
       <property name="Stacknumber" value="20"/>
       <!-- STK food -->
@@ -362,8 +362,8 @@
       <property name="CustomIcon" value="mre"/>
 	  <property name="DescriptionKey" value="MREBeefStew"/>
       <property name="HoldType" value="31"/>
-<property name="Meshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
-<property name="DropMeshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
+<property name="Meshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
+<property name="DropMeshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
       <property name="Material" value="Morganic"/>
       <property name="Stacknumber" value="20"/>
       <!-- STK food -->
@@ -397,8 +397,8 @@
       <property name="CustomIcon" value="mre"/>
 	  <property name="DescriptionKey" value="MREChickenCurry"/>
       <property name="HoldType" value="31"/>
-<property name="Meshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
-<property name="DropMeshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
+<property name="Meshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
+<property name="DropMeshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
       <property name="Material" value="Morganic"/>
       <property name="Stacknumber" value="20"/>
       <!-- STK food -->
@@ -431,8 +431,8 @@
       <property name="CustomIcon" value="mre"/>
 	  <property name="DescriptionKey" value="MRELambStew"/>
       <property name="HoldType" value="31"/>
-<property name="Meshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
-<property name="DropMeshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
+<property name="Meshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
+<property name="DropMeshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
       <property name="Material" value="Morganic"/>
       <property name="Stacknumber" value="20"/>
       <!-- STK food -->
@@ -465,8 +465,8 @@
       <property name="CustomIcon" value="mre"/>
 	  <property name="DescriptionKey" value="MREPastaMarinara"/>
       <property name="HoldType" value="31"/>
-<property name="Meshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
-<property name="DropMeshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
+<property name="Meshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
+<property name="DropMeshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
       <property name="Material" value="Morganic"/>
       <property name="Stacknumber" value="20"/>
       <!-- STK food -->
@@ -500,8 +500,8 @@
       <property name="CustomIcon" value="mre"/>
 	  <property name="DescriptionKey" value="MREBreakfast"/>
       <property name="HoldType" value="31"/>
-<property name="Meshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
-<property name="DropMeshfile" value="#@modfolder:Resources/MRES.unity3d?MRE"/>
+<property name="Meshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
+<property name="DropMeshfile" value="#@modfolder:Assets/MRES.unity3d?MRE"/>
       <property name="Material" value="Morganic"/>
       <property name="Stacknumber" value="20"/>
       <!-- STK food -->
@@ -536,8 +536,8 @@
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
 	<property name="Holdtype" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="5"/>
 	<property name="SellableToTrader" value="false"/>
@@ -557,8 +557,8 @@
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
 	<property name="Holdtype" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="5"/>
 	<property name="SellableToTrader" value="false"/>
@@ -577,8 +577,8 @@
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
 	<property name="Holdtype" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="5"/>
 	<property name="SellableToTrader" value="false"/>
@@ -597,8 +597,8 @@
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
 	<property name="Holdtype" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="5"/>
 	<property name="SellableToTrader" value="false"/>
@@ -617,8 +617,8 @@
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
 	<property name="Holdtype" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="5"/>
 	<property name="SellableToTrader" value="false"/>
@@ -637,8 +637,8 @@
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
 	<property name="Holdtype" value="45"/>
-	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="5"/>
 	<property name="SellableToTrader" value="false"/>
@@ -658,8 +658,8 @@
 			<property name="HoldType" value="3"/>
 			<property name="CustomIcon" value="CanOfCola"/>
 			<property name="DisplayType" value="waterMegaCrush"/>
-			<property name="Meshfile" value="#@modfolder:Resources/HOHFoods.unity3d?CanCocaCola"/>
-        	<property name="DropMeshfile" value="#@modfolder:Resources/HOHFoods.unity3d?CanCocaCola"/>
+			<property name="Meshfile" value="#@modfolder:Assets/HOHFoods.unity3d?CanCocaCola"/>
+        	<property name="DropMeshfile" value="#@modfolder:Assets/HOHFoods.unity3d?CanCocaCola"/>
 			<property name="Material" value="Mglass"/>
 			<property name="Weight" value="10"/>
 			<property name="Stacknumber" value="10"/>
@@ -697,8 +697,8 @@
 			<property name="HoldType" value="3"/>
 			<property name="CustomIcon" value="drpeppericon"/>
 			<property name="DisplayType" value="waterMegaCrush"/>
-			<property name="Meshfile" value="#@modfolder:Resources/HOHFoods.unity3d?CanDrPepper"/>
-        	<property name="DropMeshfile" value="#@modfolder:Resources/HOHFoods.unity3d?CanDrPepper"/>
+			<property name="Meshfile" value="#@modfolder:Assets/HOHFoods.unity3d?CanDrPepper"/>
+        	<property name="DropMeshfile" value="#@modfolder:Assets/HOHFoods.unity3d?CanDrPepper"/>
 			<property name="Material" value="Mglass"/>
 			<property name="Weight" value="10"/>
 			<property name="Stacknumber" value="10"/>
@@ -736,8 +736,8 @@
 			<property name="HoldType" value="3"/>
 			<property name="CustomIcon" value="foodMobbyDew"/>
 			<property name="DisplayType" value="waterMegaCrush"/>
-			<property name="Meshfile" value="#@modfolder:Resources/HOHFoods.unity3d?CanMtnDew"/>
-        	<property name="DropMeshfile" value="#@modfolder:Resources/HOHFoods.unity3d?CanMtnDew"/>
+			<property name="Meshfile" value="#@modfolder:Assets/HOHFoods.unity3d?CanMtnDew"/>
+        	<property name="DropMeshfile" value="#@modfolder:Assets/HOHFoods.unity3d?CanMtnDew"/>
 
 			<property name="Material" value="Mglass"/>
 			<property name="Weight" value="10"/>

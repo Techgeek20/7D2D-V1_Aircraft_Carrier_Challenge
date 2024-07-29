@@ -2,9 +2,9 @@
 <prefabs>
   <decoration type="model" name="AircraftCarrier21" position="262,35,61" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="ARMY_DEPOT_2" position="312,25,283" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="TheBridge80" position="336,47,135" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="HughGotIT2" position="317,24,373" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="Trader_Jen_2" position="302,26,109" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="trader_joel" position="-584,50,-804" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="UUSS_Arleigh_Burke_Destroyer_02" position="-36,35,-289" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="TheBridge80" position="336,47,135" rotation="1" y_is_groundlevel="true" />
 </prefabs>

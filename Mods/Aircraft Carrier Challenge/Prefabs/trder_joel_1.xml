@@ -14,11 +14,11 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="any" />
   <property name="DifficultyTier" value="5" />
-  <property name="QuestTags" value="trader,nexttrader,traderJoel" />
+  <property name="QuestTags" value="trader, nexttrader, traderJoel" />
   <property name="ExcludePOICulling" value="True" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="Tags" value="trader" />
-  <property name="ThemeTags" value="trader,wildernesspoi" />
+  <property name="ThemeTags" value="trader, wildernesspoi" />
   <property name="ThemeRepeatDistance" value="1000" />
   <property name="PrefabSize" value="60, 34, 60" />
   <property name="WallVolumeSize" value="4, 2, 5#1, 1, 5#1, 1, 1#2, 1, 1#2, 2, 5#1, 2, 2" />
@@ -90,9 +90,17 @@
     <property class="challenge_cars">
       <property name="0" value="21, 1, 48" />
     </property>
+    <property class="challenge_sinks">
+      <property name="0" value="19, 2, 35" />
+      <property name="1" value="19, 3, 35" />
+      <property name="2" value="24, 2, 36" />
+    </property>
     <property class="challenge_steel">
       <property name="0" value="17, 6, 26" />
       <property name="1" value="17, 6, 27" />
+    </property>
+    <property class="challenge_elec_parts">
+      <property name="0" value="14, 1, 27" />
     </property>
     <property class="challenge_leather">
       <property name="0" value="23, 6, 31" />
@@ -103,10 +111,6 @@
     </property>
     <property class="Rally">
       <property name="0" value="42, 1, 41" />
-    </property>
-    <property class="challenge_sinks">
-      <property name="0" value="19, 3, 35" />
-      <property name="1" value="24, 2, 36" />
     </property>
     <property class="challenge_mech_parts">
       <property name="0" value="18, 6, 37" />

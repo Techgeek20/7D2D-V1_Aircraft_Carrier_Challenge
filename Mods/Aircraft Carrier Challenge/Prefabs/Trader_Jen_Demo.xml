@@ -8,13 +8,13 @@
   <property name="DifficultyTier" value="0" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderArea" value="False" />
-  <property name="PrefabSize" value="6, 4, 5" />
+  <property name="PrefabSize" value="6, 7, 5" />
   <property name="RotationToFaceNorth" value="2" />
-  <property name="Tags" value="trader" />
-  <property name="QuestTags" value="trader" />
-  <property name="Zoning" value="any" />
+  <property name="Zoning" value="none" />
   <property name="EditorGroups" value="any" />
+  <property name="Tags" value="trader" />
   <property name="ThemeTags" value="trader, traderJen" />
+  <property name="QuestTags" value="trader" />
   <property class="IndexedBlockOffsets">
     <property class="challenge_polymers">
       <property name="0" value="4, 1, 0" />
@@ -27,15 +27,15 @@
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="40956" />
-    <property name="TotalTriangles" value="13866" />
+    <property name="TotalVertices" value="42394" />
+    <property name="TotalTriangles" value="14472" />
     <property class="BlockEntities">
-      <property name="Vertices" value="40292" />
-      <property name="Triangles" value="13522" />
+      <property name="Vertices" value="41394" />
+      <property name="Triangles" value="13960" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="664" />
-      <property name="Triangles" value="344" />
+      <property name="Vertices" value="1000" />
+      <property name="Triangles" value="512" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
