@@ -1,7 +1,12 @@
 Key,English
 
-goGameWorld,[FF4F00]Select 'Aircraft Carrier Challenge (biome)'[-]
-goLootRespawnDays,Loot Respawn-[FF4F00]Select ANYTHING except 'Disabled'[-]
+goGameWorld,[FF4F00]Select 'Aircraft  (biome)'[-]
+goLootRespawnDays,Loot Respawn-[FF4F00]Select 7 Days '[-]
+
+
+Mission_Start_Carrier,	Scrap after use!
+Mission_1_Retrieve information,Scrap after Quest completion!
+Mission_3_Retrieve more supplies,Gather more supplies Pt.2  UH-60
 
 resourcePaper,"Classified Document" 
 resourcePaperDesc,"EAM\n FROM: USLANTFLT\n TO: USS SAN PAULO\n MESSAGE AS FOLLOWS:\n Movement to G.S. ATL-001 to acquire TP for bunghole (and other ""supplies"")"
@@ -166,7 +171,7 @@ zombieSoldier,Techie
 zombieSoldierFeral,Feral Techie
 zombieSoldierRadiated,Radiated Techie
 
-zombieJoe,Astryael
+zombieJoe,Cran5000
 zombieJoeFeral,Feral Astryael
 zombieJoeRadiated,Radiated Astryael
 
@@ -296,10 +301,10 @@ quest_CarrierChallenge_subtitle,"Report to your C.O."
 quest_CarrierChallenge_description,"Now that your done jack-jawing and lollygaggin', get you arse in gear and check in with your C.O.!"
 quest_CarrierChallenge_offer,"Your C.O.'s waiting....."
 
-quest_CarrierChallenge01,"Jen's low on coffee..."
-quest_CarrierChallenge01_subtitle,"Gather Jen's coffee supplies."
-quest_CarrierChallenge01_offer,"Get Jen her coffee stash"
-quest_CarrierChallenge01_description,"Is it just me or did Jen look like she's about to doze off?  Can't have that now, she's on duty and needs coffee to keep alert."
+quest_CarrierChallenge01,"Dawn's low on coffee..."
+quest_CarrierChallenge01_subtitle,"Gather Dawn's coffee supplies."
+quest_CarrierChallenge01_offer,"Get Dawnn her coffee stash"
+quest_CarrierChallenge01_description,"Is it just me or did Dawnn look like she's about to doze off?  Can't have that now, she's on duty and needs coffee to keep alert."
 
 quest_CarrierChallenge02,"Gather UH-60 Supplies Pt. 1 - Accessories"
 quest_CarrierChallenge02_subtitle,"Gather resources for the UH-60 accessories."

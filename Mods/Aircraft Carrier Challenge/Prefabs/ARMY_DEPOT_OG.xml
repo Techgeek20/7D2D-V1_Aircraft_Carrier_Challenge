@@ -9,8 +9,12 @@
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="14, 27, 27" />
-  <property name="RotationToFaceNorth" value="2" />  
+  <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="none" />
+  <property name="EditorGroups" value="any" />
+  <property name="Tags" value="trader" />
+  <property name="ThemeTags" value="trader, traderJen" />
+  <property name="QuestTags" value="trader, fetch" />
   <property class="Stats">
     <property name="TotalVertices" value="419796" />
     <property name="TotalTriangles" value="159263" />

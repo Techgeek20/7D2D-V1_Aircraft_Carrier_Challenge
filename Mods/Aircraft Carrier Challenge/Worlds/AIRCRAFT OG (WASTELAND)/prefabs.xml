@@ -7,4 +7,5 @@
   <decoration type="model" name="naz_super_aircraft_trader_rear_1" position="71,35,-130" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="Trader_Front_Carrier" position="-95,35,-130" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="Trader_Jen_Demo" position="-19,41,-69" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="ARMY_DEPOT_OG" position="20,25,-86" rotation="2" y_is_groundlevel="true" />
 </prefabs>
