@@ -10,7 +10,7 @@
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="6, 7, 5" />
   <property name="RotationToFaceNorth" value="2" />
-  <property name="Zoning" value="none" />
+  <property name="Zoning" value="any" />
   <property name="EditorGroups" value="any" />
   <property name="Tags" value="trader" />
   <property name="ThemeTags" value="trader, traderJen" />
