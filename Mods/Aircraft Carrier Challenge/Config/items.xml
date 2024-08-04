@@ -409,122 +409,47 @@
 	</insertafter>
 
 	<append xpath="/items">
+	
 		<item name="Mission_Start_Carrier">
+			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="questMaster"/>
-			<property name="DescriptionKey" value="Make your way thru killing 10 zombies!"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="HoldType" value="21"/>
-			<property name="Group" value="All,Quest,Challenges"/>
-			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
-			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="Mpaper"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="Weight" value="2"/>
-			<property name="FuelValue" value="0"/>
+			<property name="CustomIconTint" value="003366"/>
 			<property class="Action0">
-				<property name="Class" value="Quest"/>
-				<property name="QuestGiven" value="quest_whiteRiverCitizen1"/>
-				<property name="Delay" value="0"/>
-			</property>
+			<property name="QuestGiven" value="quest_whiteRiverCitizen1"/>
+		</property>
 		</item>
-
 		<item name="Mission_1_Retrieve information">
+			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="questMaster"/>
-			<property name="DescriptionKey" value="Gather information from the satchel"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="HoldType" value="21"/>
-			<property name="Group" value="All,Quest,Challenges"/>
-			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
-			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="Mpaper"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="Weight" value="2"/>
-			<property name="FuelValue" value="0"/>
+			<property name="CustomIconTint" value="003366"/>
 			<property class="Action0">
-				<property name="Class" value="Quest"/>
 				<property name="QuestGiven" value="quest_CarrierChallenge01"/>
-				<property name="Delay" value="0"/>
-			</property>
-		</item>
-		<item name="Mission_2_Gather some items">
-			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="questMaster"/>
-			<property name="DescriptionKey" value="Collect UH-60 parts"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="HoldType" value="21"/>
-			<property name="Group" value="All,Quest,Challenges"/>
-			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
-			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="Mpaper"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="Weight" value="2"/>
-			<property name="FuelValue" value="0"/>
-			<property class="Action0">
-				<property name="Class" value="Quest"/>
-				<property name="QuestGiven" value="quest_CarrierChallenge02"/>
-				<property name="Delay" value="0"/>
 			</property>
 		</item>
 		<item name="Mission_3_Retrieve more supplies">
+			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="questMaster"/>
-			<property name="DescriptionKey" value="quest_CarrierChallenge03_paperDesc"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="HoldType" value="21"/>
-			<property name="Group" value="All,Quest,Challenges"/>
-			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
-			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="Mpaper"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="Weight" value="2"/>
-			<property name="FuelValue" value="0"/>
+			<property name="CustomIconTint" value="003366"/>
 			<property class="Action0">
-				<property name="Class" value="Quest"/>
 				<property name="QuestGiven" value="quest_CarrierChallenge03"/>
-				<property name="Delay" value="0"/>
 			</property>
 		</item>
 		<item name="Mission_4_Help Support Ship">
+			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="questMaster"/>
-			<property name="DescriptionKey" value="quest_CarrierChallenge04_paperDesc"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="HoldType" value="21"/>
-			<property name="Group" value="All,Quest,Challenges"/>
-			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
-			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="Mpaper"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="Weight" value="2"/>
-			<property name="FuelValue" value="0"/>
+			<property name="CustomIconTint" value="003366"/>
 			<property class="Action0">
-				<property name="Class" value="Quest"/>
 				<property name="QuestGiven" value="quest_CarrierChallenge04"/>
-				<property name="Delay" value="0"/>
 			</property>
 		</item>
 		<item name="Mission_6_Assist Trader Joel">
+			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="questMaster"/>
-			<property name="DescriptionKey" value="quest_CarrierChallenge06_paperDesc"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="HoldType" value="21"/>
-			<property name="Group" value="All,Quest,Challenges"/>
-			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
-			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-			<property name="Material" value="Mpaper"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="Weight" value="2"/>
-			<property name="FuelValue" value="0"/>
+			<property name="CustomIconTint" value="003366"/>
 			<property class="Action0">
-				<property name="Class" value="Quest"/>
 				<property name="QuestGiven" value="quest_CarrierChallenge06"/>
-				<property name="Delay" value="0"/>
 			</property>
 		</item>
-
 	</append>
 
 </configs>

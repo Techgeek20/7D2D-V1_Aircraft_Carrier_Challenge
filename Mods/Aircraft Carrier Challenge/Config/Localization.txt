@@ -3,9 +3,10 @@ Key,English
 goGameWorld,[FF4F00]Select 'Aircraft  (biome)'[-]
 goLootRespawnDays,Loot Respawn-[FF4F00]Select 7 Days '[-]
 
+adminQuestTicketDesc,"Read, accept, and complete to recieve next quest.\n\nUsed for quest progression."
 
-Mission_Start_Carrier,	Scrap after use!
-Mission_1_Retrieve information,Scrap after Quest completion!
+Mission_Start_Carrier,	Read to start challenge!
+Mission_1_Retrieve information,We need coffee!
 Mission_3_Retrieve more supplies,Gather more supplies Pt.2  UH-60
 
 resourcePaper,"Classified Document" 
