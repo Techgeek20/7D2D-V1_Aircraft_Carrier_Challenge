@@ -16,26 +16,20 @@
   <property name="Tags" value="wilderness" />
   <property name="ThemeTags" value="wildernesspoi" />
   <property name="QuestTags" value="clear, restore_power, infested" />
-  <property name="SleeperVolumeSize" value="26, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 6, 15#15, 3, 15#15, 3, 15#15, 3, 15#15, 5, 20#15, 3, 15#15, 5, 15#18, 3, 15#15, 3, 15#15, 3, 15#15, 3, 15" />
-  <property name="SleeperVolumeStart" value="9, 30, 64#7, 3, 127#26, 3, 128#22, 7, 105#7, 7, 103#23, 3, 157#21, 16, 103#10, 16, 105#3, 11, 102#10, 14, 104#21, 14, 103#21, 11, 102#27, 7, 118#23, 8, 92#22, 7, 59#12, 3, 60#7, 15, 32#16, 21, 56#23, 3, 60#23, 3, 77#8, 8, 90#6, 21, 79#19, 23, 90#22, 29, 65#16, 48, 69#15, 7, 15#28, 13, 116#17, 23, 115" />
-  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
-  <property name="SleeperVolumeGroup" value="GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,zombieInmateRadiated,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6" />
-  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
-  <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # # # # # # # " />
+  <property name="SleeperVolumeSize" value="26, 3, 15#15, 3, 15#15, 3, 15#25, 3, 10#4, 3, 17#15, 3, 15#22, 3, 12#9, 12, 12#7, 7, 12#14, 3, 13#15, 3, 15#15, 6, 15#13, 3, 12#21, 21, 5#10, 3, 12#15, 11, 7#15, 3, 15#19, 5, 7#4, 7, 18#6, 3, 7#10, 3, 11#4, 3, 5#18, 3, 11" />
+  <property name="SleeperVolumeStart" value="9, 30, 64#7, 3, 127#26, 3, 128#11, 18, 62#9, 21, 79#23, 3, 157#12, 23, 105#28, 6, 115#26, 3, 61#10, 3, 59#7, 15, 32#16, 21, 56#15, 3, 114#13, 23, 94#13, 14, 69#16, 45, 74#15, 7, 15#13, 21, 118#33, 3, 55#9, 14, 120#23, 14, 69#15, 14, 61#13, 18, 72" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="2GroupSpecialInfected,8,9,GroupGenericZombie,5,6,GroupGenericZombie,5,6,2GroupHospital,5,6,zombieDemolition,5,6,GroupGenericZombie,5,6,GroupGenericZombie,7,8,GroupGenericZombie,5,6,zombieInmateRadiated,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,3ZomJanitorOnly,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6,GroupSpecialInfected,5,6,2GroupGhostTown,5,6,3ZomJanitorOnly,5,6,GroupGenericZombie,5,6,GroupGenericZombie,5,6" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # # " />
   <property class="IndexedBlockOffsets">
     <property class="POILight">
       <property name="0" value="34, 11, 176" />
     </property>
     <property class="TraderOnOff">
-      <property name="0" value="30, 11, 145" />
-      <property name="1" value="35, 11, 145" />
-      <property name="2" value="26, 11, 146" />
-      <property name="3" value="35, 13, 146" />
-      <property name="4" value="35, 14, 146" />
-      <property name="5" value="36, 13, 146" />
-      <property name="6" value="25, 11, 147" />
+      <property name="0" value="34, 6, 178" />
     </property>
     <property class="challenge_sinks">
       <property name="0" value="36, 3, 176" />
@@ -44,53 +38,57 @@
       <property name="0" value="28, 3, 176" />
       <property name="1" value="31, 3, 176" />
     </property>
+    <property class="challenge_polymers">
+      <property name="0" value="25, 11, 144" />
+    </property>
     <property class="challenge_steel">
-      <property name="0" value="32, 3, 68" />
+      <property name="0" value="26, 7, 114" />
+      <property name="1" value="27, 7, 114" />
+      <property name="2" value="30, 18, 116" />
+      <property name="3" value="30, 18, 117" />
     </property>
     <property class="challenge_pallet">
       <property name="0" value="28, 14, 58" />
       <property name="1" value="28, 15, 58" />
     </property>
     <property class="challenge_gore">
-      <property name="0" value="31, 3, 63" />
-      <property name="1" value="29, 3, 64" />
+      <property name="0" value="17, 7, 114" />
+      <property name="1" value="17, 9, 114" />
+      <property name="2" value="18, 8, 115" />
     </property>
     <property class="QuestRestorePower">
-      <property name="0" value="23, 39, 93" />
+      <property name="0" value="16, 5, 168" />
     </property>
     <property class="FetchContainer">
       <property name="0" value="32, 7, 118" />
       <property name="1" value="32, 9, 118" />
-    </property>
-    <property class="challenge_polymers">
-      <property name="0" value="31, 18, 127" />
     </property>
     <property class="Rally">
       <property name="0" value="23, 11, 153" />
     </property>
   </property>
   <property class="Stats">
-    <property name="TotalVertices" value="1444225" />
-    <property name="TotalTriangles" value="784258" />
+    <property name="TotalVertices" value="3506692" />
+    <property name="TotalTriangles" value="1503849" />
     <property class="BlockEntities">
-      <property name="Vertices" value="757562" />
-      <property name="Triangles" value="297541" />
+      <property name="Vertices" value="2691960" />
+      <property name="Triangles" value="933900" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="653473" />
-      <property name="Triangles" value="433067" />
+      <property name="Vertices" value="780514" />
+      <property name="Triangles" value="515707" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes2">
-      <property name="Vertices" value="856" />
-      <property name="Triangles" value="426" />
+      <property name="Vertices" value="1572" />
+      <property name="Triangles" value="862" />
     </property>
     <property class="ChunkMeshes3">
-      <property name="Vertices" value="480" />
-      <property name="Triangles" value="240" />
+      <property name="Vertices" value="792" />
+      <property name="Triangles" value="396" />
     </property>
     <property class="ChunkMeshes4">
       <property name="Vertices" value="0" />

@@ -268,7 +268,7 @@
 			<item name="bookTechJunkie6BatonCharge"/>
 			<item name="bookTechJunkie7Hydraulics"/>			
 		</lootgroup>
-	
+		
 		<lootgroup name="groupZombieWightLoot" count="all">
 			<item name="drinkJarGrandpasForgettingElixir" prob=".1" force_prob="true" />
 			<item name="questRewardT1SkillMagazineBundle" prob=".1" force_prob="true" />			
@@ -494,6 +494,7 @@
 	
 	<!-- zombie specific loot containers -->
 	<insertafter xpath="//lootcontainers//lootcontainer[@name='twitch_home_run_rewardsT5']">
+		
 		<lootcontainer name="ZombieMutatedLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
 			<item group="groupMutatedLoot"/>
 		</lootcontainer>

@@ -85,7 +85,7 @@
 			<reward type="SkillPoints" value="4" />
 			<reward type="Quest" id="quest_CarrierChallenge" />
 			<reward type="Quest" id="quest_eliminatezombies10" />
-
+			<reward type="Quest" id="quest_workstationSkillMagazine" />
 		</quest>
 
 		<quest id="quest_CarrierChallenge"> <!-- Go find Jen -->
@@ -506,8 +506,594 @@
 			<reward type="Quest" id="quest_eliminatezombies10">
 				<property name="chainquest" value="false"/>
 			</reward>
+		</quest>
+
+		<!-- BEGIN chained magazine,zombies kill repeatable quest line -->
+			
+			 <quest id="quest_workstationSkillMagazine">
+
+				<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="name_key" value="Magazines" />
+				<property name="subtitle_key" value="Workstation Magazine" />
+				<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="CustomIcon" value="bookForgeAhead"/>
+				<property name="repeatable" value="true"/>
+				<property name="category_key" value="Quest"/>
+				<property name="difficulty" value="easy"/>
+				<property name="shareable" value="false"/>
+
+				<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+				<objective type="Fetch" id="resourceMetalPipe" value="10" phase="1"/>
+				<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+				<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+				<objective type="EntityKill" id="zombieUtilityWorker" value="2" phase="2"/>
+                	 
+				<reward type="Exp" value="50"/>
+				<reward type="Item" id="workstationSkillMagazine" value="1"/>
+
+				<reward type="Quest" id="quest_foodSkillMagazine">
+					<property name="chainquest" value="false"/>
+				</reward>
+
+			</quest>
+
+			<quest id="quest_foodSkillMagazine">
+
+				<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="name_key" value="Magazines" />
+				<property name="subtitle_key" value="Food Magazine" />
+				<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="CustomIcon" value="bookHomeCookingWeekly"/>
+				<property name="repeatable" value="true"/>
+				<property name="category_key" value="Quest"/>
+				<property name="difficulty" value="easy"/>
+				<property name="shareable" value="false"/>
+
+				<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+				<objective type="Fetch" id="foodRottingFlesh" value="10" phase="1"/>
+				<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+				<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+				
+				<objective type="EntityKill" id="zombieArlene" value="2" phase="2"/>
+                 
+				<reward type="Exp" value="50"/>
+				<reward type="Item" id="foodSkillMagazineAC" value="1"/>
+
+				<reward type="Quest" id="quest_vehiclesSkillMagazine">
+					<property name="chainquest" value="false"/>
+				</reward>
+
+			</quest>
+
+			<quest id="quest_vehiclesSkillMagazine">
+
+				<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="name_key" value="Magazines 1" />
+				<property name="subtitle_key" value="Vehicle Magazine" />
+				<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="CustomIcon" value="bundleBooks"/>
+				<property name="repeatable" value="true"/>
+				<property name="category_key" value="Quest"/>
+				<property name="difficulty" value="easy"/>
+				<property name="shareable" value="false"/>
+
+
+				<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+				<objective type="Fetch" id="resourceHeadlight" value="1" phase="1"/>
+				<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+				<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+				<objective type="EntityKill" id="zombieBiker" value="2" phase="2"/>
+                 
+				
+				<reward type="Exp" value="50"/>
+				<reward type="Item" id="vehiclesSkillMagazineAC" value="1"/>
+
+				<reward type="Quest" id="quest_medicalSkillMagazine">
+					<property name="chainquest" value="false"/>
+				</reward>
+
+			</quest>
+
+			<quest id="quest_medicalSkillMagazine">
+
+				<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="name_key" value="Magazines 2" />
+				<property name="subtitle_key" value="Medical Magazine" />
+				<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="CustomIcon" value="bundleBooks"/>
+				<property name="repeatable" value="true"/>
+				<property name="category_key" value="Quest"/>
+				<property name="difficulty" value="easy"/>
+				<property name="shareable" value="false"/>
+
+				<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+				<objective type="Fetch" id="resourceCloth" value="10" phase="1"/>
+				<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+				<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+				<objective type="EntityKill" id="zombieNurse" value="2" phase="2"/>
+                 
+				<reward type="Exp" value="50"/>
+				<reward type="Item" id="medicalSkillMagazineAC" value="1"/>
+
+				<reward type="Quest" id="quest_armorSkillMagazine">
+					<property name="chainquest" value="false"/>
+				</reward>
+			</quest>
+
+		<quest id="quest_armorSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 3" />
+			<property name="subtitle_key" value="Armor Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bundleBooks"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="armorParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieSoldier" value="2" phase="2"/>	
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="armorSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_machineGunsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+		</quest>
+		
+		<quest id="quest_machineGunsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 4" />
+			<property name="subtitle_key" value="Machine Guns Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bundleBooks"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="gunMGT1AK47Parts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieBusinessMan" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="machineGunsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_riflesSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+		</quest>
+
+		<quest id="quest_riflesSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 5" />
+			<property name="subtitle_key" value="Rifle Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bundleBooks"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="gunRifleT1HuntingRifleParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombiePartyGirl" value="1" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="riflesSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_shotgunsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+		</quest>
+
+		<quest id="quest_shotgunsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 6" />
+			<property name="subtitle_key" value="Shotgun Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bundleBooks"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="gunShotgunT1DoubleBarrelParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieSteve" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="shotgunsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_trapsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+		</quest>
+
+		<quest id="quest_trapsSkillMagazine">
+			   
+		<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+		<property name="name_key" value="Magazines 7" />
+		<property name="subtitle_key" value="Trap Magazine" />
+		<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+		<property name="CustomIcon" value="bookForgeAhead"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="Quest"/>
+		<property name="difficulty" value="easy"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+		<objective type="Fetch" id="resourceMetalPipe" value="10" phase="1"/>
+		<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+		<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+		<objective type="EntityKill" id="zombieSteveCrawler" value="2" phase="2"/>
+
+		<reward type="Exp" value="50"/>
+		<reward type="Item" id="trapsSkillMagazineAC" value="1"/>
+
+		<reward type="Quest" id="quest_roboticsSkillMagazine">
+			<property name="chainquest" value="false"/>
+		</reward>
 
 		</quest>
+		
+		<quest id="quest_roboticsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to craft magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 8" />
+			<property name="subtitle_key" value="Robotic Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="gunBotRoboticsParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieTomClark" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="roboticsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_explosivesSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_explosivesSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 9" />
+			<property name="subtitle_key" value="Explosive Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="gunExplosivesT3RocketLauncherParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieJoe" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="explosivesSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_handgunsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_handgunsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 10" />
+			<property name="subtitle_key" value="Pistol Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="gunHandgunT1PistolParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieMoe" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="handgunsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_harvestingToolsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_harvestingToolsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 11" />
+			<property name="subtitle_key" value="Harvesting Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="meleeToolAllSteelParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieDarlene" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="harvestingToolsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_repairToolsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_repairToolsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 12" />
+			<property name="subtitle_key" value=" Tool Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceMetalPipe" value="10" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieMarlene" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="repairToolsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_knucklesSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_knucklesSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 13" />
+			<property name="subtitle_key" value="Knuckle Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="meleeWpnKnucklesT3SteelKnucklesParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieJanitor" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="knucklesSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_bladesSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_bladesSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 14" />
+			<property name="subtitle_key" value="Knife Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="meleeWpnBladeT3MacheteParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieSpider" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="bladesSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_clubsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_clubsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 15" />
+			<property name="subtitle_key" value="Club Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="meleeWpnClubT3SteelClubParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieLab" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="clubsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_sledgehammersSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_sledgehammersSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 16" />
+			<property name="subtitle_key" value="Sledgehammer Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="meleeWpnSledgeT3SteelSledgehammerParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieFatHawaiian" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="sledgehammersSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_spearsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_spearsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 17" />
+			<property name="subtitle_key" value="Spear Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="meleeWpnSpearT3SteelSpearParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieSkateboarder" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="spearsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_bowsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_bowsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 18" />
+			<property name="subtitle_key" value="Bow Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="gunBowT1WoodenBowParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieBoe" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="bowsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_electricianSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+		
+				<quest id="quest_electricianSkillMagazine">
+
+					<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+					<property name="name_key" value="Magazines 19" />
+					<property name="subtitle_key" value="Electrician Magazine" />
+					<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+					<property name="CustomIcon" value="bundleBooks"/>
+					<property name="repeatable" value="true"/>
+					<property name="category_key" value="Quest"/>
+					<property name="difficulty" value="easy"/>
+					<property name="shareable" value="false"/>
+
+					<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+					<objective type="Fetch" id="resourceElectricParts" value="10" phase="1"/>
+					<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+					<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+					<objective type="EntityKill" id="zombieYo" value="2" phase="2"/>
+
+					<reward type="Exp" value="50"/>
+					<reward type="Item" id="electricianSkillMagazineAC" value="1"/>
+
+					<reward type="Quest" id="quest_workstationSkillMagazine">
+						<property name="chainquest" value="false"/>
+					</reward>
+
+			</quest> 
 
 		<!-- End Removal of quests that don't fit in to this pack / quests that are placed outside the main POI for this pack -->
 
