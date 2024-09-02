@@ -1,6 +1,5 @@
 ﻿<configs>
   <set xpath="//entity_class[@name='playerMale']/property[starts-with(@name, 'ItemsOnEnterGame')]/@value">Backpack</set>
-
 	
 	<append xpath="//entity_class[starts-with(@name, 'zombieUtilityWorker')]">
 		<property name="DishongLootDropEntityClass" value="DishongLootContainerUtilityWorkerLoot"/>
@@ -374,8 +373,135 @@
 		<property name="LootListOnDeath" value="BikerLoot" />
 	</entity_class>
 
-  </append>
+	</append>
+	
+	<remove xpath="//entity_class[@name='animalDireWolf']"/>
 
+	<append xpath="/entity_classes">
+		<entity_class name="animalDireWolf" extends="animalTemplateHostile">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,animal,hostile,wolf,perkAT02,perkAT03,DKboss"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="true"/>
+			<property name="PhysicsBody" value="AWolf"/>
+			<property name="Mass" value="95"/>
+			<property name="Prefab" value="/Entities/Animals/DireWolf/animalDireWolfPrefab"/>
+			<property name="SizeScale" value="1.4"/>
+			<property name="DismemberMultiplierHead" value="0"/>
+
+			<property name="AIPathCostScale" value=".15, .2"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="true"/>
+			<property name="RagdollOnDeathChance" value=".5"/>
+
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="Territorial"/>
+			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,15,EntityAnimalStag,20,EntityZombie,20"/>
+			<property name="AITask-5" value="ApproachSpot"/>
+			<property name="AITask-6" value="Look"/>
+			<property name="AITask-7" value="Wander"/>
+			<property name="AITask-8" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,8,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityZombie,0,-8"/>
+			<property name="AITarget-4" value=""/>
+
+			<property name="SoundRandom" value="wolfroam"/>
+			<property name="SoundAlert" value="wolfalert"/>
+			<property name="SoundHurt" value="wolfpain"/>
+			<property name="SoundDeath" value="wolfdeath"/>
+			<property name="SoundAttack" value="wolfattack"/>
+			<property name="SoundSense" value="wolfsense"/>
+			<property name="SoundGiveUp" value="wolfgiveup"/>
+
+			<!-- Stealth -->
+			<property name="SmellAlertThreshold" value="5"/>
+
+			<!-- Gameplay  -->
+			<property name="HandItem" value="meleeHandAnimalWolf"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="200"/>
+				<triggered_effect trigger="onSelfFirstSpawn" target="self" action="AddBuff" buff="DKPUPS"/>		
+			</effect_group>
+			
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+			<!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_wolf,clear_sleeper" />
+		</entity_class>
+
+		<entity_class name="Devils_Pup" extends="animalTemplateHostile">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,animal,hostile,wolf,perkAT02,perkAT03,DKboss"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="true"/>
+			<property name="PhysicsBody" value="AWolf"/>
+			<property name="Mass" value="95"/>
+			<property name="Prefab" value="/Entities/Animals/DireWolf/animalDireWolfPrefab"/>
+			<property name="SizeScale" value=".5"/>
+			<property name="DismemberMultiplierHead" value="0"/>
+
+			<property name="AIPathCostScale" value=".15, .2"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="true"/>
+			<property name="RagdollOnDeathChance" value=".5"/>
+
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="Territorial"/>
+			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,15,EntityAnimalStag,20,EntityZombie,20"/>
+			<property name="AITask-5" value="ApproachSpot"/>
+			<property name="AITask-6" value="Look"/>
+			<property name="AITask-7" value="Wander"/>
+			<property name="AITask-8" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,8,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityZombie,0,-8"/>
+			<property name="AITarget-4" value=""/>
+
+			<property name="SoundRandom" value="wolfroam"/>
+			<property name="SoundAlert" value="wolfalert"/>
+			<property name="SoundHurt" value="wolfpain"/>
+			<property name="SoundDeath" value="wolfdeath"/>
+			<property name="SoundAttack" value="wolfattack"/>
+			<property name="SoundSense" value="wolfsense"/>
+			<property name="SoundGiveUp" value="wolfgiveup"/>
+
+			<!-- Stealth -->
+			<property name="SmellAlertThreshold" value="5"/>
+
+			<!-- Gameplay  -->
+			<property name="HandItem" value="meleeHandAnimalWolf"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="75"/>
+			</effect_group>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
+			<!-- animalWolf -->
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+
+			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_wolf,clear_sleeper" />
+		</entity_class>
+	</append>
+	
 </configs>
 
 

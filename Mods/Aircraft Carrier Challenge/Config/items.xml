@@ -81,7 +81,26 @@
 		
 	<!--Items for Magazine Chain quest-->
 		
-			<!-- *** Medical_Skill_Magazine -->
+			<!-- *** Scrapping_Skill_Magazine -->
+		<item name="salvageToolsSkillMagazineAC">
+			<property name="Tags" value="salvageToolsCSM,csm"/>
+			<property name="Extends" value="masterSkillMagazine"/>
+			<property name="CustomIcon" value="bookScrapping4Fun"/>
+			<property name="DescriptionKey" value="salvageToolsSkillMagazineDesc"/>
+			<property name="Unlocks" value="craftingSalvageTools"/>
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSalvageTools" level="1"/>
+				<!-- level="-1" sets a perk to max level -->
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSalvageTools" level="1">
+					<requirement name="HasBuff" buff="buffNerdOutfit"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$nerdOutfitSkillPointChance"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		
+		<!-- *** Medical_Skill_Magazine -->
 <item name="medicalSkillMagazineAC">
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="masterSkillMagazine"/>

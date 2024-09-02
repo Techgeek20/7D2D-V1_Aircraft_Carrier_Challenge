@@ -12,4 +12,15 @@
 		</effect_group>
 	</buff>	
 	</insertafter>
+	
+	<append xpath="/buffs">
+		<buff name="DKPUPS" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="DKPUPS"/>
+			</effect_group>
+		</buff>
+	</append>
+	
 </config>
