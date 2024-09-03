@@ -83,7 +83,7 @@
 	
 	<append xpath="//entity_class[starts-with(@name, 'zombieSoldierRadiated')]">
 		<property name="DishongLootDropEntityClass" value="DishongLootContainerRadSoldierLoot"/>
-		<property name="DishongLootDropProb" value="1"/>
+		<property name="DishongLootDropProb" value=".75"/>
 	</append>
 	
 	<append xpath="//entity_class[starts-with(@name, 'zombieDarlene')]">
@@ -195,7 +195,7 @@
 		<property name="DishongLootDropEntityClass" value="DishongLootContainerRadFatZombieLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
 	</append>
-	
+
 	<append xpath="//entity_class[starts-with(@name, 'zombieNurse')]">
 		<property name="DishongLootDropEntityClass" value="DishongLootContainerNurseLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
@@ -230,6 +230,12 @@
 		<property name="DishongLootDropEntityClass" value="DishongLootContainerBikerLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
 	</append>	
+
+	<append xpath="//entity_class[starts-with(@name, 'zombieDemolition')]">
+		<property name="DishongLootDropEntityClass" value="DishongLootContainerRadZombieMaleLoot"/>
+		<property name="DishongLootDropProb" value=".25"/>
+	</append>
+
   
   <append xpath="/entity_classes">
 	<entity_class name="DishongLootContainer">
@@ -500,6 +506,71 @@
 
 			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_wolf,clear_sleeper" />
 		</entity_class>
+
+		<entity_class name="SuperTechie" extends="zombieSoldierRadiated">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieSoldier,hostile,Techboss"/>
+			<property name="SizeScale" value="1.5"/>
+			<property name="LootDropProb" value=".03"/>
+				<effect_group name="Base Effects">
+					<passive_effect name="HealthMax" operation="base_set" value="2500"/>
+					<passive_effect name="PhysicalDamageResist" operation="base_set" value="75"/>
+					<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="20"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+					<triggered_effect trigger="onSelfFirstSpawn" target="self" action="AddBuff" buff="TechMin"/>
+				</effect_group>
+		</entity_class>
+
+		<entity_class name="TechieMinion" extends="zombieSoldierRadiated">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieSoldier,hostile,Techboss"/>
+			<property name="SizeScale" value=".5"/>
+			<property name="LootDropProb" value=".03"/>
+				<effect_group name="Base Effects">
+					<passive_effect name="HealthMax" operation="base_set" value="500"/>
+					<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
+					<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="10"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+					<triggered_effect trigger="onOtherKilledSelf" action="AddBuff" target="other" buff="QT"/>
+				</effect_group>
+		</entity_class>
+
+		<entity_class name="QuarterTechie" extends="zombieSoldierRadiated">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieSoldier,hostile,Techboss"/>
+			<property name="SizeScale" value=".25"/>
+			<property name="LootDropProb" value=".03"/>
+				<effect_group name="Base Effects">
+					<passive_effect name="HealthMax" operation="base_set" value="150"/>
+					<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
+					<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+					<triggered_effect trigger="onOtherKilledSelf" action="AddBuff" target="other" buff="BFH"/>
+				</effect_group>
+		</entity_class>
+
+
+		<entity_class name="BastardsFromHell" extends="zombieDemolition">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieSoldier,hostile,Techboss"/>
+			<property name="SizeScale" value="3"/>
+			<property name="Explosion.RadiusBlocks" value="0"/>
+			<property name="Explosion.RadiusEntities" value="10"/>
+			<property name="Explosion.BlockDamage" value="0"/>
+			<property name="Explosion.EntityDamage" value="500"/>
+			<property name="LootDropProb" value="0"/> <!-- Demo -->
+				<effect_group name="Base Effects">
+					<passive_effect name="HealthMax" operation="base_set" value="200"/>
+					<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
+					<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
+					<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2"/>
+					<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+				</effect_group>
+		</entity_class>
+
 	</append>
 	
 </configs>

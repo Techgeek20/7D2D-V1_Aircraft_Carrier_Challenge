@@ -22,5 +22,36 @@
 			</effect_group>
 		</buff>
 	</append>
+
+	<append xpath="/buffs">
+		<buff name="TechMin" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="SuperTechs"/>
+			</effect_group>
+		</buff>
+	</append>
+
+	<append xpath="/buffs">
+		<buff name="QT" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="QuarterTechs"/>
+			</effect_group>
+		</buff>
+	</append>
+
+	<append xpath="/buffs">
+		<buff name="BFH" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="SpawnBFHs"/>
+			</effect_group>
+		</buff>
+	</append>
+
 	
 </config>
