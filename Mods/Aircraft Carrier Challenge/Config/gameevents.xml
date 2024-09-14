@@ -108,4 +108,33 @@
 
 	</append>
 
+	<remove xpath="/gameevents/action_sequence[@id='game_first_spawn']"/>
+
+	<insertBefore xpath="/gameevents/action_sequence[@id='game_on_death_none']">
+
+		<action_sequence name="game_first_spawn">
+			<property name="allow_user_trigger" value="false" />
+			<property name="action_type" value="Game" />
+			
+			<action class="Delay">
+				<property name="time" value="5" />
+			</action>
+			
+			<!-- <action class="BeltTooltip">  -->
+				<!-- <property name="text" value="[00FF00]This is a test of the holiday code.[-]" /> -->
+				<!-- <property name="phase" value="2" /> -->
+				
+				<!-- <requirement class="EventActive"> -->
+					<!-- <property name="event_name" value="testtoday"/> -->
+				<!-- </requirement> -->
+			<!-- </action> -->
+
+			<action class="AddQuest">
+				<property name="Quest" value="quest_whiteRiverCitizen1" param1="quest"/>
+			</action>
+			
+		</action_sequence>
+
+	</insertBefore>
+
 </configs>

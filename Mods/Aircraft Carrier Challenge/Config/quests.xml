@@ -184,7 +184,7 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="Fetch" id="resourceElectricParts" value="100" phase="1"/>
+			<objective type="Fetch" id="resourceElectricParts" value="40" phase="1"/>
 			<objective type="Fetch" id="resourceHeadlight" value="10" phase="1"/>
 			<objective type="Fetch" id="resourceSpring" value="15" phase="1"/>
 			<objective type="Fetch" id="resourceLeather" value="50" phase="1"/>
@@ -210,11 +210,11 @@
 
 			<action type="TrackQuest"/>
 
-			<objective type="FetchKeep" id="resourceForgedSteel" value="700" phase="1"/>
-			<objective type="FetchKeep" id="resourceDuctTape" value="120" phase="1"/>
-			<objective type="FetchKeep" id="resourceSpring" value="80" phase="1"/>
-			<objective type="FetchKeep" id="resourceMetalPipe" value="250" phase="1"/>
-			<objective type="FetchKeep" id="resourceMechanicalParts" value="150" phase="1"/>
+			<objective type="FetchKeep" id="resourceForgedSteel" value="400" phase="1"/>
+			<objective type="FetchKeep" id="resourceDuctTape" value="40" phase="1"/>
+			<objective type="FetchKeep" id="resourceSpring" value="25" phase="1"/>
+			<objective type="FetchKeep" id="resourceMetalPipe" value="50" phase="1"/>
+			<objective type="FetchKeep" id="resourceMechanicalParts" value="50" phase="1"/>
 
 			<reward type="Exp" value="50"/>
 			<reward type="Item" id="gunT4Minigun" value="2-4"/>
