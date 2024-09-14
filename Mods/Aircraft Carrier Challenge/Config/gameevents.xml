@@ -108,9 +108,9 @@
 
 	</append>
 
-	<remove xpath="/gameevents/action_sequence[@id='game_first_spawn']"/>
+	<remove xpath="/gameevents/action_sequence[@name='game_first_spawn']"/>
 
-	<insertBefore xpath="/gameevents/action_sequence[@id='game_on_death_none']">
+	<insertBefore xpath="/gameevents/action_sequence[@name='game_on_death_none']">
 
 		<action_sequence name="game_first_spawn">
 			<property name="allow_user_trigger" value="false" />
@@ -130,7 +130,8 @@
 			<!-- </action> -->
 
 			<action class="AddQuest">
-				<property name="Quest" value="quest_whiteRiverCitizen1" param1="quest"/>
+				<property name="phase" value="1"/>
+				<property name="quest" value="quest_whiteRiverCitizen1" param1="quest"/>
 			</action>
 			
 		</action_sequence>

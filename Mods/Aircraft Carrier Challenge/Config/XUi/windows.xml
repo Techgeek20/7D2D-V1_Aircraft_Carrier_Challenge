@@ -125,7 +125,7 @@
 			<gamepad_icon depth="1" name="RB_Icon" size="35,35" pos="608,-20" pivot="Left" sprite="Button_RB" />
 			<!--*#$-IGS END.-$#-->
 		</window>
-			<window name="windowTip" width="650" height="600" pos="-300, 300" controller="TipWindow" anchor="CenterCenter" pivot="center" depth="15" cursor_area="true">
+			<window name="windowTip" width="603" height="600" pos="-300, 300" controller="TipWindow" anchor="CenterCenter" pivot="center" depth="15" cursor_area="true">
 				<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header" >
 					<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_pen"/>
 					<label style="header.name" text="{tiptitle}" width="550" />

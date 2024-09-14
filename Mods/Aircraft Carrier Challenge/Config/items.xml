@@ -833,7 +833,7 @@
 		<item name="Mission_Start_Carrier">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="FF8800"/>
+			<property name="CustomIconTint" value="FFF900"/>
 			<property class="Action0">
 			<property name="QuestGiven" value="quest_whiteRiverCitizen1"/>
 		</property>
@@ -841,7 +841,7 @@
 		<item name="Mission_1_Retrieve information">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="003366"/>
+			<property name="CustomIconTint" value="00FF00"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="quest_CarrierChallenge01"/>
 			</property>
@@ -849,7 +849,7 @@
 		<item name="Mission_3_Retrieve more supplies">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="003366"/>
+			<property name="CustomIconTint" value="FF00BF"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="quest_CarrierChallenge03"/>
 			</property>
@@ -857,7 +857,7 @@
 		<item name="Mission_4_Help Support Ship">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="003366"/>
+			<property name="CustomIconTint" value="FF3155"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="quest_CarrierChallenge04"/>
 			</property>
@@ -865,7 +865,7 @@
 		<item name="Mission_6_Assist Trader Joel">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="003366"/>
+			<property name="CustomIconTint" value="2DAEFD"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="quest_CarrierChallenge06"/>
 			</property>
