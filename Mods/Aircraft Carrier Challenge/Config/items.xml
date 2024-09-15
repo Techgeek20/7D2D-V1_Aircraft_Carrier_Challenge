@@ -1,4 +1,10 @@
 ﻿<configs>
+
+	<insertafter xpath="/items/item[@name]/property[1]">
+		 <property name="CreativeMode" value="none"/> 
+	</insertafter>
+	
+	<set xpath="/items/item//property[@name='CreativeMode']/@value">None</set>
 	
 	<insertAfter xpath="/items/item[@name='ammoBundleMaster']">
 	<item name="Backpack">
@@ -33,7 +39,9 @@
 	</insertbefore>
 	
 	<insertafter xpath="//item[@name='resourceAcid']">
+
 	<item name="resourceBatteryAcid">
+		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="resourceAcid"/>
 		<property name="HoldType" value="45"/>
 		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
@@ -83,6 +91,7 @@
 		
 			<!-- *** Scrapping_Skill_Magazine -->
 		<item name="salvageToolsSkillMagazineAC">
+			<property name="CreativeMode" value="None"/>
 			<property name="Tags" value="salvageToolsCSM,csm"/>
 			<property name="Extends" value="masterSkillMagazine"/>
 			<property name="CustomIcon" value="bookScrapping4Fun"/>

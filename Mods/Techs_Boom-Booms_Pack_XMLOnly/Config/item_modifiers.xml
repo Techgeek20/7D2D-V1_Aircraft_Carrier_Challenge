@@ -11,6 +11,7 @@
 			<property name="UnlockedBy" value="HCwM-Salvo_LaunchSchematic"/>
 			<property name="TraderStageTemplate" value="modsTier2"/>
 			<property name="CustomIcon" value="modGunTriggerGroupBurst"/>
+			<property name="CreativeMode" value="Dev"/>
 
 			<effect_group tiered="false">
 				<passive_effect name="BurstRoundCount" operation="base_set" value="5"/>

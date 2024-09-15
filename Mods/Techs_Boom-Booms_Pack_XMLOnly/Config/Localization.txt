@@ -7,4 +7,7 @@ ammoPlanetCracker,Planet Cracker
 ammoPlanetCrackerDesc,"[3333FF]Incomming Transmission: 'New rocket ammo type discovered. Test firing......' [FF0000] ERROR: Transmission Unexpected Termination.  [FFFFFF]*Holy Mother of All Rockets!!!*"
 
 weapScuttleCharge,Scuttle Charge
-weapScuttleChargeDesc,"Zeds are taking over the ship!!  We shan't let them have it in one piece!!! Note: fuel barrels give it extra *spice* :)"
+weapScuttleChargeDesc,"Make a HOLE!!! Make a HOLE!!! Note: fuel barrels give it extra *spice* :)"
+
+ammoCanoWhoop-Ass,Can 'o Whoop-Ass
+ammoCanoWhoop-AssDesc,"*Kracks knucles* 1 JUMBO sized Can 'o Whoop-Ass comin' right up!"

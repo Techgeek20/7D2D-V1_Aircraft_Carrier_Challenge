@@ -7,6 +7,7 @@
 			<property name="DescriptionKey" value="vehicleUH60chassisDesc"/>
 			<property name="EconomicValue" value="22000"/>
 			<property name="TraderStageTemplate" value="vehicleTier4"/>
+			<property name="CreativeMode" value="None"/>
 		</item>
 		<item name="vehicleUH60accessories">
 			<property name="Extends" value="vehicleWheels"/>
@@ -15,8 +16,10 @@
 			<property name="DescriptionKey" value="vehicleUH60accessoriesDesc"/>
 			<property name="EconomicValue" value="22000"/>
 			<property name="TraderStageTemplate" value="vehicleTier4"/>
+			<property name="CreativeMode" value="None"/>
 		</item>
 		<item name="vehicleUH60placeable">
+			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="vehicleGyrocopterPlaceable"/>
 			<property name="Tags" value="vehicle,vengine,vfuel,vlight,canHaveCosmetic"/>
 			<property name="CustomIcon" value="UH60"/>
