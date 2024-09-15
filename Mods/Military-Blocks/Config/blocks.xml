@@ -6,7 +6,7 @@
 				<property name="Class" value="CarExplodeLoot"/>
 				<!-- cars explode when destroyed by a tool without harvest settings -->
 				<!-- <property name="CustomIcon" value=""/> -->
-				<property name="CreativeMode" value="Dev"/>
+				<property name="CreativeMode" value="None"/>
 				<property name="ItemTypeIcon" value="explosion"/>
 				<property name="LootList" value="cars"/>
 				<property name="Shape" value="ModelEntity"/>
@@ -57,7 +57,7 @@
 				<property name="Class" value="CarExplodeLoot"/>
 				<!-- cars explode when destroyed by a tool without harvest settings -->
 				<!-- <property name="CustomIcon" value=""/> -->
-				<property name="CreativeMode" value="Dev"/>
+				<property name="CreativeMode" value="None"/>
 				<property name="ItemTypeIcon" value="explosion"/>
 				<property name="LootList" value="cars"/>
 				<property name="Shape" value="ModelEntity"/>
@@ -137,7 +137,7 @@
 				<property name="Class" value="Loot"/>
 				<property name="LootList" value="cars"/>
 				<property name="Material" value="Mmetal"/>
-				<property name="CreativeMode" value="Dev"/>
+				<property name="CreativeMode" value="None"/>
 				<property name="Shape" value="ModelEntity"/>
 				<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?ApacheBlock.prefab"/>
 				<property name="MultiBlockDim" value="18,5,8"/>
@@ -202,14 +202,14 @@
 			<property name="ModelOffset" value="0,0,0"/>
             <drop event="Destroy" name="resourceCloth" count="1,3"/>
 			<property name="IsTerrainDecoration" value="true"/>
-		</block>
+		</block> 
 
 		<block name="Raptor">
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="cars"/>
 			<property name="Material" value="Mmetal"/>
-            <property name="CreativeMode" value="Player"/>
+            <property name="CreativeMode" value="none"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlock.prefab"/>
 			<property name="MultiBlockDim" value="18,5,8"/>
@@ -223,7 +223,7 @@
 		<block name="RaptorS2">
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
 			<property name="Material" value="Mmetal"/>
-            <property name="CreativeMode" value="Player"/>
+            <property name="CreativeMode" value="none"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlockStage2.prefab"/>
 			<property name="MultiBlockDim" value="18,5,8"/>
@@ -242,7 +242,7 @@
 		<block name="RaptorS3">
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
 			<property name="Material" value="Mmetal"/>
-            <property name="CreativeMode" value="Player"/>
+            <property name="CreativeMode" value="none"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlockStage3.prefab"/>
 			<property name="MultiBlockDim" value="18,5,8"/>
@@ -255,7 +255,7 @@
 		<block name="RaptorS4">
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
 			<property name="Material" value="Mmetal"/>
-            <property name="CreativeMode" value="Player"/>
+            <property name="CreativeMode" value="none"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlockStage4.prefab"/>
 			<property name="MultiBlockDim" value="18,5,8"/>
@@ -268,7 +268,7 @@
 		<block name="RaptorS5">
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
 			<property name="Material" value="Mmetal"/>
-            <property name="CreativeMode" value="Player"/>
+            <property name="CreativeMode" value="none"/>
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlockStage5.prefab"/>
 			<property name="MultiBlockDim" value="18,5,8"/>
@@ -278,7 +278,7 @@
 		</block> -->
 
 		<block name="atvpuma">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="cars"/>
@@ -404,7 +404,7 @@
 		</block> -->
 
 		<block name="BTR80">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="cars"/>
@@ -457,7 +457,7 @@
 		</block>
 
 		<block name="MilitaryTrailer">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="cars"/>
@@ -510,7 +510,7 @@
 		</block>
 
 		<block name="U-Boat">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="cars"/>
@@ -626,7 +626,7 @@
 		</block> -->
 
 		<block name="AIM-9 Sidewinder">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="ACmunitions"/>
@@ -641,7 +641,7 @@
 		</block>	
 
 		<block name="AIM-7 Sparrow">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="ACmunitions"/>
@@ -656,7 +656,7 @@
 		</block>	
 
 		<block name="AGM-114 Hellfire">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="ACmunitions"/>
@@ -671,7 +671,7 @@
 		</block>	
 
 		<block name="AGM-65Maverick">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="ACmunitions"/>
@@ -686,7 +686,7 @@
 		</block>	
 
 		<block name="HJ-10">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="ACmunitions"/>
@@ -701,7 +701,7 @@
 		</block>	
 
 		<block name="JDAM">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="ACmunitions"/>
@@ -716,7 +716,7 @@
 		</block>	
 
 		<block name="JDAMs2">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="ACmunitions"/>
@@ -731,7 +731,7 @@
 		</block>	
 
 		<block name="PL-11 (2)">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
             <property name="Class" value="Loot"/>
 	        <property name="LootList" value="ACmunitions"/>

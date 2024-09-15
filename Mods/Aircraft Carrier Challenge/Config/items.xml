@@ -1,10 +1,8 @@
 ﻿<configs>
-
-	<insertafter xpath="/items/item[@name]/property[1]">
-		 <property name="CreativeMode" value="none"/> 
+	<!-- <insertafter xpath="/items/item[@name]/property[1]">
+		<property name="CreativeMode" value="none"/>
 	</insertafter>
-	
-	<set xpath="/items/item//property[@name='CreativeMode']/@value">None</set>
+	<set xpath="/items/item//property[@name='CreativeMode']/@value">None</set> -->
 	
 	<insertAfter xpath="/items/item[@name='ammoBundleMaster']">
 	<item name="Backpack">
@@ -39,7 +37,6 @@
 	</insertbefore>
 	
 	<insertafter xpath="//item[@name='resourceAcid']">
-
 	<item name="resourceBatteryAcid">
 		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="resourceAcid"/>
@@ -111,7 +108,7 @@
 		
 		<!-- *** Medical_Skill_Magazine -->
 <item name="medicalSkillMagazineAC">
-	<property name="CreativeMode" value="Dev"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="Extends" value="masterSkillMagazine"/>
 	<property name="Tags" value="medicalCSM,csm"/>
 	<property name="CustomIcon" value="bookMedicalJournal"/>
@@ -130,7 +127,7 @@
 
 	<!-- *** Food_Skill_Magazine -->
 <item name="foodSkillMagazineAC">
-	<property name="CreativeMode" value="Dev"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="Extends" value="masterSkillMagazine"/>
 	<property name="Tags" value="foodCSM,csm"/>
 	<property name="CustomIcon" value="bookHomeCookingWeekly"/>
@@ -149,7 +146,7 @@
 
 		<!-- *** Vehicle_Skill_Magazine -->
 		<item name="vehiclesSkillMagazineAC">
-			<property name="CreativeMode" value="Dev"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="Extends" value="masterSkillMagazine"/>
 			<property name="Tags" value="vehiclesCSM,csm"/>
 			<property name="CustomIcon" value="bookVehicleAdventures"/>
@@ -842,7 +839,7 @@
 		<item name="Mission_Start_Carrier">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="FFF900"/>
+			<property name="CustomIconTint" value="fff900"/>
 			<property class="Action0">
 			<property name="QuestGiven" value="quest_whiteRiverCitizen1"/>
 		</property>
@@ -850,7 +847,7 @@
 		<item name="Mission_1_Retrieve information">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="00FF00"/>
+			<property name="CustomIconTint" value="00ff00"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="quest_CarrierChallenge01"/>
 			</property>
@@ -858,7 +855,7 @@
 		<item name="Mission_3_Retrieve more supplies">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="FF00BF"/>
+			<property name="CustomIconTint" value="ff00bf"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="quest_CarrierChallenge03"/>
 			</property>
@@ -866,7 +863,7 @@
 		<item name="Mission_4_Help Support Ship">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="FF3155"/>
+			<property name="CustomIconTint" value="ff3155"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="quest_CarrierChallenge04"/>
 			</property>
@@ -874,11 +871,11 @@
 		<item name="Mission_6_Assist Trader Joel">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="2DAEFD"/>
+			<property name="CustomIconTint" value="2daefd"/>
 			<property class="Action0">
 				<property name="QuestGiven" value="quest_CarrierChallenge06"/>
 			</property>
 		</item>
 	</append>
-
+	
 </configs>

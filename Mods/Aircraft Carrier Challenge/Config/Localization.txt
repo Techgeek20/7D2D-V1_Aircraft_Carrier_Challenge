@@ -312,11 +312,6 @@ quest_CarrierChallenge02_subtitle,"Gather resources for the UH-60 accessories."
 quest_CarrierChallenge02_offer,"Gather resources for the UH-60 accessories."
 quest_CarrierChallenge02_description,"Gather resources for the UH-60 accessories."
 
-quest_CarrierChallenge2.5,"Bridge Fetch & Clear"
-quest_CarrierChallenge2.5_subtitle,"Bridge has been taken over by the zeds."
-quest_CarrierChallenge2.5_offer,"Bridge fetch & clear"
-quest_CarrierChallenge2.5_description,"The bridge has been taken over by the zeds, and a stash needs to be located."
-
 quest_CarrierChallenge03,"Gather UH-60 Supplies Pt. 2 - Chassis"
 quest_CarrierChallenge03_subtitle,"Gather resources for the UH-60 chassis."
 quest_CarrierChallenge03_offer,"Gather resources for the UH-60 chassis."

@@ -5,9 +5,7 @@
 <set xpath="//triggered_effect[@cvar='foodHealthAmount']/@value">-10</set>
 <set xpath="//triggered_effect[@cvar='.foodStaminaBonusAdd']/@value">0</set>
 -->
-
-<append xpath="/items/item[starts-with(@name,'foodCan')]">
-	<property name="CreativeMode" value="None"/>
+<append xpath="/items/item[starts-with(@name,'foodCan')]">	
 	<effect_group tiered="false" name="shits">	
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="12"/>
 		<display_value name="dDysenteryRisk" value=".12"/>
@@ -20,7 +18,6 @@
 
 
 <append xpath="/items/item[starts-with(@name,'foodCanDogfood')]">	
-		<property name="CreativeMode" value="None"/>
 	<effect_group tiered="false" name="shits">	
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="13"/>
 		<display_value name="dDysenteryRisk" value=".13"/>
@@ -31,7 +28,6 @@
 	</effect_group>
 </append>
 <append xpath="/items/item[starts-with(@name,'foodCanCatfood')]">	
-		<property name="CreativeMode" value="None"/>
 	<effect_group tiered="false" name="shits">	
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="13"/>
 		<display_value name="dDysenteryRisk" value=".13"/>
@@ -80,7 +76,7 @@
 </item>
 
 <item name="drinkJarPureMineralWater">
-		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="waterGoldenrodRedTea"/>
 	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
@@ -123,7 +119,7 @@
 </item>
   
   <item name="drinkJarGoldenRodTea">
-  		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>  
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="waterGoldenrod"/>
 	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
@@ -160,7 +156,7 @@
 </item>
 
 <item name="drinkJarRedTea">
-		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="waterRedTea"/>
 	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
@@ -198,7 +194,7 @@
 </item>
   
   <item name="drinkJarCoffee">
-  		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="3"/>
 	<property name="DisplayType" value="waterCoffee"/>
 	<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
@@ -235,7 +231,7 @@
 </item>
 
 <item name="drinkJarBlackStrapCoffee">
-		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="Extends" value="drinkJarCoffee"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="UnlockedBy" value="perkArtOfMiningBlackStrap"/>
@@ -280,7 +276,7 @@
 
 
 <item name="BulkMRESchematic">
-		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
 	<property name="CustomIcon" value="mreCase"/>
 	<property name="Unlocks" value="MREBeefStewCase,MREBreakfastCase,MREChickenCurryCase,MREPastaMarinaraCase,MREChiliMacCase"/>
@@ -308,7 +304,7 @@
 
 
 <item name="FruitbytheFoot">
-		<property name="CreativeMode" value="None"/>
+	  <property name="CreativeMode" value="None"/>
       <property name="Tags" value="food"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="foodWater"/>
@@ -336,7 +332,7 @@
 		</effect_group>
 	</item>
 <item name="MREChiliMac">
-		<property name="CreativeMode" value="None"/>
+	  <property name="CreativeMode" value="None"/>
       <property name="Tags" value="food"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="foodWater"/>
@@ -368,7 +364,7 @@
       </effect_group>
  </item>
  <item name="MREBeefStew">
- 		<property name="CreativeMode" value="None"/>
+	  <property name="CreativeMode" value="None"/>
       <property name="Tags" value="food"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="foodWater"/>
@@ -404,7 +400,7 @@
 	
 	
 	<item name="MREChickenCurry">
-			<property name="CreativeMode" value="None"/>
+	  <property name="CreativeMode" value="None"/>
       <property name="Tags" value="food"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="foodWater"/>
@@ -439,7 +435,7 @@
     </item>
 	
 	<item name="MRELambStew">
-			<property name="CreativeMode" value="None"/>
+      <property name="CreativeMode" value="None"/>
       <property name="Tags" value="food"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="foodWater"/>
@@ -474,7 +470,7 @@
     </item>
 	
 	<item name="MREPastaMarinara">
-			<property name="CreativeMode" value="None"/>
+	  <property name="CreativeMode" value="None"/>
       <property name="Tags" value="food"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="foodWater"/>
@@ -510,7 +506,7 @@
 	
 	
 	<item name="MREBreakfast">
-			<property name="CreativeMode" value="None"/>
+	  <property name="CreativeMode" value="None"/>
       <property name="Tags" value="food"/>
       <property name="HoldType" value="31"/>
       <property name="DisplayType" value="foodWater"/>
@@ -549,7 +545,7 @@
 	
 	
 	<item name="MREBeefStewCase">
-			<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="mreCase"/>
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
@@ -571,7 +567,7 @@
 </item>
 	
 <item name="MRELambStewCase">
-		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="mreCase"/>
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
@@ -592,7 +588,7 @@
 	</property>
 </item>
 <item name="MREChickenCurryCase">
-		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="mreCase"/>
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
@@ -613,7 +609,7 @@
 	</property>
 </item>
 <item name="MREPastaMarinaraCase">
-		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="mreCase"/>
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
@@ -634,7 +630,7 @@
 	</property>
 </item>
 <item name="MREBreakfastCase">
-		<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="mreCase"/>
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
@@ -655,7 +651,7 @@
 	</property>
 </item>
 	<item name="MREChiliMacCase">
-			<property name="CreativeMode" value="None"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="mreCase"/>
 	<property name="ItemTypeIcon" value="treasure"/>
 	<property name="DescriptionKey" value="MRECase"/>
@@ -678,7 +674,7 @@
 
 	
 <item name="drinkCocaCola">
-		<property name="CreativeMode" value="None"/>
+	        <property name="CreativeMode" value="None"/>
 			<property name="HoldType" value="3"/>
 			<property name="CustomIcon" value="CanOfCola"/>
 			<property name="DisplayType" value="waterMegaCrush"/>
@@ -718,7 +714,7 @@
 			</effect_group>
 		</item>
 <item name="drinkDrPepper">
-		<property name="CreativeMode" value="None"/>
+	        <property name="CreativeMode" value="None"/>
 			<property name="HoldType" value="3"/>
 			<property name="CustomIcon" value="drpeppericon"/>
 			<property name="DisplayType" value="waterMegaCrush"/>
@@ -758,7 +754,7 @@
 			</effect_group>
 		</item>
 		<item name="MtnDew">
-				<property name="CreativeMode" value="None"/>
+			<property name="CreativeMode" value="None"/>
 			<property name="HoldType" value="3"/>
 			<property name="CustomIcon" value="foodMobbyDew"/>
 			<property name="DisplayType" value="waterMegaCrush"/>

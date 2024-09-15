@@ -148,6 +148,7 @@
 				<property name="completion_distance" value="50" />
 				<property name="phase" value="1" />
 				<property name="PrefabName" value="ARMY_DEPOT_2" />
+				<property name="PrefabName" value="ARMY_DEPOT_OG" />
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -229,7 +230,8 @@
 			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
 				<property name="completion_distance" value="50" />
 				<property name="phase" value="1" />
-				<property name="PrefabName" value="TheBridge80" />
+				<property name="PrefabName" value="The_Bridge_80" />
+				<property name="PrefabName" value="The_Bridge_OG" />
 				<property name="nav_object" value="quest" />
 			</objective>
 
