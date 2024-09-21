@@ -9,7 +9,7 @@
       <ingredient name="oldCash" count="1"/>
     </recipe>
 
-	<recipe name="Mission_3_Retrieve more supplies" count="1"  >
+	<recipe name="Mission_3_Bridge supplies" count="1"  >
 	  <ingredient name="resourceElectricParts" count="40"/>
 	  <ingredient name="resourceHeadlight" count="10"/>
 	  <ingredient name="resourceSpring" count="15"/>

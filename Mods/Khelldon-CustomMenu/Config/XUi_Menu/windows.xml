@@ -14,7 +14,7 @@
 <!-- ######################################################### -->
 <!-- ######################################################### -->
 
-<set xpath="/windows/window[@name='menuBackground']/texture[@name='bgTexture']/@texture">@modfolder:UIAtlases/ItemIconAtlas/AeAuo8h.png</set>
+<set xpath="/windows/window[@name='menuBackground']/texture[@name='bgTexture']/@texture">@modfolder:UIAtlases/ItemIconAtlas/Carrier Challenge.png</set>
 <set xpath="/windows/window[@name='mainMenuLogo']/texture[@name='gameLogo']/@texture">@modfolder:UIAtlases/ItemIconAtlas/logo.png</set>
 
 

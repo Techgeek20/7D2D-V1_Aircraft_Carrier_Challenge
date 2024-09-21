@@ -127,7 +127,7 @@
 			<property name="difficulty" value="medium"/>
 			<property name="difficulty_tier" value="5"/>
 			<property name="offer_key" value="quest_CarrierChallenge01" param1="offer" />
-			<property name="statement_key" value="Find the supplies and fetch item in the POI."/>
+			<property name="statement_key" value="Find the supplies from The Army Depot."/>
 			<property name="response_key" value="Fetch supplies"/>
 			<property name="reward_choices_count" value="5" />
 			<property name="login_rally_reset" value="true"/>
@@ -136,19 +136,17 @@
 
 			<action type="TrackQuest"/>
 
-<!--
-			<objective type="ClosestPOIGoto">
-				<property name="distance" value="50"/>
-				<property name="phase" value="1"/>
-			</objective>
--->
-
-
 			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
 				<property name="completion_distance" value="50" />
 				<property name="phase" value="1" />
 				<property name="PrefabName" value="ARMY_DEPOT_2" />
-				<property name="PrefabName" value="ARMY_DEPOT_OG" />
+				<property name="nav_object" value="quest" />
+			</objective>
+			
+			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
+				<property name="completion_distance" value="50" />
+				<property name="phase" value="1" />
+				 <property name="PrefabName" value="ARMY_DEPOT_OG" /> 
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -199,26 +197,24 @@
 			<objective type="Fetch" id="resourceLeather" value="50" phase="1"/>
 			<objective type="Fetch" id="resourceMetalPipe" value="40" phase="1"/>
 
-			<!-- <objective type="Craft" id="Mission_3_Retrieve more supplies" value="1" phase="2"/> -->
-
-			<reward type="Quest" id="quest_CarrierChallenge2.5"/>
+		    <objective type="Craft" id="Mission_3_Bridge supplies" value="1" phase="2"/> 
 
 			<reward type="Exp" value="50"/>
 
 		</quest>
 
-		<quest id="quest_CarrierChallenge2.5"> <!-- Jen located: go get supplies crate from the Army Depot -->
+		<quest id="quest_CarrierChallenge03"> <!--  Go get supplies from the Bridge -->
 
-			<property name="name_key" value="quest_CarrierChallenge2.5" param1="name" />
-			<property name="subtitle_key" value="quest_CarrierChallenge2.5"/>
-			<property name="description_key" value="quest_CarrierChallenge2.5_description"/>
+			<property name="name_key" value="quest_CarrierChallenge03" param1="name" />
+			<property name="subtitle_key" value="quest_CarrierChallenge03"/>
+			<property name="description_key" value="quest_CarrierChallenge03_description"/>
 			<property name="icon" value="ui_game_symbol_quest"/>
 			<property name="repeatable" value="false"/>
 			<property name="category_key" value="challenge"/>
 			<property name="difficulty" value="medium"/>
 			<property name="difficulty_tier" value="3"/>
-			<property name="offer_key" value="quest_CarrierChallenge2.5" param1="offer" />
-			<property name="statement_key" value="Find the supplies and clear the Bridge."/>
+			<property name="offer_key" value="quest_CarrierChallenge03" param1="offer" />
+			<property name="statement_key" value="Find the supplies on the Bridge."/>
 			<property name="response_key" value="Fetch supplies"/>
 			<property name="reward_choices_count" value="5" />
 			<property name="login_rally_reset" value="true"/>
@@ -230,8 +226,14 @@
 			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
 				<property name="completion_distance" value="50" />
 				<property name="phase" value="1" />
-				<property name="PrefabName" value="The_Bridge_80" />
-				<property name="PrefabName" value="The_Bridge_OG" />
+				<property name="PrefabName" value="TheBridge80" />
+				<property name="nav_object" value="quest" />
+			</objective>
+
+			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
+				<property name="completion_distance" value="50" />
+				<property name="phase" value="1" />
+				<property name="PrefabName" value="The_Bridge" />
 				<property name="nav_object" value="quest" />
 			</objective>
 
@@ -258,20 +260,20 @@
 			</action>
 
 			<reward type="Exp" value="2500"/>
-			<reward type="Quest" id="quest_CarrierChallenge03"/>
+			<reward type="Quest" id="quest_CarrierChallenge04"/>
 
 		</quest>
 
 
-		<quest id="quest_CarrierChallenge03"> <!-- UH-60 Supplies for chasis -->
+		<quest id="quest_CarrierChallenge04"> <!-- UH-60 Supplies for chasis -->
 
-			<property name="name_key" value="quest_CarrierChallenge03"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge03"/>
-			<property name="description_key" value="quest_CarrierChallenge03_description"/>
+			<property name="name_key" value="quest_CarrierChallenge04"/>
+			<property name="subtitle_key" value="quest_CarrierChallenge04"/>
+			<property name="description_key" value="quest_CarrierChallenge04_description"/>
 			<property name="icon" value="ui_game_symbol_gyrocopter"/>
 			<property name="repeatable" value="false"/>
 			<property name="category_key" value="quest"/>
-			<property name="offer_key" value="quest_CarrierChallenge03_offer"/>
+			<property name="offer_key" value="quest_CarrierChallenge04_offer"/>
 			<property name="difficulty" value="medium"/>
 			<property name="shareable" value="False"/>
 
@@ -286,19 +288,19 @@
 			<reward type="Exp" value="50"/>
 			<reward type="Item" id="gunT4Minigun" value="2-4"/>
 			<reward type="Item" id="vehicleUH60accessories"/>
-			<reward type="Item" id="Mission_4_Help Support Ship"/>
+			<reward type="Item" id="Mission_5_Help Support Ship"/>
 
 		</quest>
 
-		<quest id="quest_CarrierChallenge04"> <!-- UH-60 assembly -->
+		<quest id="quest_CarrierChallenge05"> <!-- UH-60 assembly -->
 
-			<property name="name_key" value="quest_CarrierChallenge04"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge04_subtitle"/>
-			<property name="description_key" value="quest_CarrierChallenge04_description"/>
+			<property name="name_key" value="quest_CarrierChallenge05"/>
+			<property name="subtitle_key" value="quest_CarrierChallenge05_subtitle"/>
+			<property name="description_key" value="quest_CarrierChallenge05_description"/>
 			<property name="icon" value="ui_game_symbol_gyrocopter"/>
 			<property name="repeatable" value="false"/>
 			<property name="category_key" value="challenge"/>
-			<property name="offer_key" value="quest_CarrierChallenge04_offer"/>
+			<property name="offer_key" value="quest_CarrierChallenge05_offer"/>
 			<property name="difficulty" value="medium"/>
 			<property name="shareable" value="false"/>
 
@@ -310,23 +312,23 @@
 			<objective type="FetchKeep" id="vehicleWheels" value="3" phase="1"/>
 			<objective type="FetchKeep" id="vehicleUH60placeable" value="1" phase="2"/>
 
-			<reward type="Quest" id="quest_CarrierChallenge05"/>
+			<reward type="Quest" id="quest_CarrierChallenge06"/>
 
 		</quest>
 
-		<quest id="quest_CarrierChallenge05"> <!-- Clear and restore power at the destroyer POI -->
+		<quest id="quest_CarrierChallenge06"> <!-- Clear and restore power at the destroyer POI -->
 
-			<property name="name_key" value="quest_CarrierChallenge05"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge05_subtitle"/>
-			<property name="description_key" value="quest_CarrierChallenge05_description"/>
+			<property name="name_key" value="quest_CarrierChallenge06"/>
+			<property name="subtitle_key" value="quest_CarrierChallenge06_subtitle"/>
+			<property name="description_key" value="quest_CarrierChallenge06_description"/>
 			<property name="icon" value="ui_game_symbol_quest" />
 			<property name="repeatable" value="false" />
 			<property name="category_key" value="challenge" />
 			<property name="difficulty" value="medium" />
 			<property name="difficulty_tier" value="2" param1="difficulty" />
-			<property name="offer_key" value="quest_CarrierChallenge05_offer"/>
-			<property name="statement_key" value="quest_CarrierChallenge05_statement" />
-			<property name="response_key" value="quest_CarrierChallenge05_response" />
+			<property name="offer_key" value="quest_CarrierChallenge06_offer"/>
+			<property name="statement_key" value="quest_CarrierChallenge06_statement" />
+			<property name="response_key" value="quest_CarrierChallenge06_response" />
 			<property name="reward_choices_count" value="5" />
 			<property name="extra_tags" value="infested" param1="extra_tags" />
 			<property name="shareable" value="true"/>
@@ -335,7 +337,7 @@
 			<property name="gamestage_bonus" value="30" param1="gamestage_bonus" />
 
 			<property name="completiontype" value="TurnIn"/>
-			<property name="completion_key" value="quest_CarrierChallenge05_completion"/>
+			<property name="completion_key" value="quest_CarrierChallenge06_completion"/>
 
 			<action type="TrackQuest"/>
 

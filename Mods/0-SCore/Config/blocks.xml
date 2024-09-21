@@ -139,7 +139,7 @@
 				<property name="Logging" value="false"/>
 				<property name="HeadshotOnly" value="false" />
 				<!-- Only way to kill them is through head shots -->
-				<property name="RandomSize" value="false" />
+				<property name="RandomSize" value="true" />
 				<!-- Give them random sizes for more variety -->
 				<property name="RandomWalk" value="false" />
 

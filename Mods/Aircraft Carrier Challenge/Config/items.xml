@@ -1,8 +1,8 @@
 ﻿<configs>
-	<!-- <insertafter xpath="/items/item[@name]/property[1]">
+	<insertafter xpath="/items/item[@name]/property[1]">
 		<property name="CreativeMode" value="none"/>
 	</insertafter>
-	<set xpath="/items/item//property[@name='CreativeMode']/@value">None</set> -->
+	<set xpath="/items/item//property[@name='CreativeMode']/@value">None</set> 
 	
 	<insertAfter xpath="/items/item[@name='ammoBundleMaster']">
 	<item name="Backpack">
@@ -852,7 +852,7 @@
 				<property name="QuestGiven" value="quest_CarrierChallenge01"/>
 			</property>
 		</item>
-		<item name="Mission_3_Retrieve more supplies">
+		<item name="Mission_3_Bridge supplies">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIconTint" value="ff00bf"/>
@@ -860,12 +860,12 @@
 				<property name="QuestGiven" value="quest_CarrierChallenge03"/>
 			</property>
 		</item>
-		<item name="Mission_4_Help Support Ship">
+		<item name="Mission_5_Help Support Ship">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIconTint" value="ff3155"/>
 			<property class="Action0">
-				<property name="QuestGiven" value="quest_CarrierChallenge04"/>
+				<property name="QuestGiven" value="quest_CarrierChallenge05"/>
 			</property>
 		</item>
 		<item name="Mission_6_Assist Trader Joel">

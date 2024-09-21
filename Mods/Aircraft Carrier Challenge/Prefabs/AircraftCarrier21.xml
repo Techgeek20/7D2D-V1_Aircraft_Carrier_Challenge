@@ -31,15 +31,15 @@
   <property name="TriggerVolumeTriggers" value="14" />
   <property name="ThemeTags" value="wildernesspoi" />
   <property class="Stats">
-    <property name="TotalVertices" value="21586524" />
-    <property name="TotalTriangles" value="8051474" />
+    <property name="TotalVertices" value="20783849" />
+    <property name="TotalTriangles" value="7745521" />
     <property class="BlockEntities">
-      <property name="Vertices" value="17888121" />
-      <property name="Triangles" value="5610678" />
+      <property name="Vertices" value="17209274" />
+      <property name="Triangles" value="5394073" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="3500998" />
-      <property name="Triangles" value="2191902" />
+      <property name="Vertices" value="3391127" />
+      <property name="Triangles" value="2124454" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -50,16 +50,16 @@
       <property name="Triangles" value="10742" />
     </property>
     <property class="ChunkMeshes3">
-      <property name="Vertices" value="52656" />
-      <property name="Triangles" value="26328" />
+      <property name="Vertices" value="51744" />
+      <property name="Triangles" value="25872" />
     </property>
     <property class="ChunkMeshes4">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes5">
-      <property name="Vertices" value="129049" />
-      <property name="Triangles" value="211824" />
+      <property name="Vertices" value="116004" />
+      <property name="Triangles" value="190380" />
     </property>
   </property>
   <property class="IndexedBlockOffsets">
@@ -133,6 +133,9 @@
       <property name="1" value="335, 26, 59" />
       <property name="2" value="336, 26, 59" />
       <property name="3" value="337, 26, 59" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="96, 4, 67" />
     </property>
     <property class="challenge_elec_parts">
       <property name="0" value="313, 16, 59" />

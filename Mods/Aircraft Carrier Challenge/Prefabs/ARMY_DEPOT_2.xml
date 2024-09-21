@@ -5,14 +5,14 @@
   <property name="ExcludePOICulling" value="False" />
   <property name="DistantPOIYOffset" value="0" />
   <property name="AllowTopSoilDecorations" value="False" />
-  <property name="DifficultyTier" value="2" />
+  <property name="DifficultyTier" value="5" />
   <property name="ShowQuestClearCount" value="1" />
   <property name="TraderArea" value="False" />
   <property name="PrefabSize" value="14, 27, 27" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="Zoning" value="any" />
   <property name="EditorGroups" value="any" />
-  <property name="Tags" value="wilderness" />
+  <property name="Tags" value="wilderness, trader" />
   <property name="QuestTags" value="clear, fetch" />
   <property name="SleeperVolumeSize" value="14, 3, 18#14, 6, 21#14, 3, 23#14, 6, 19#14, 3, 15" />
   <property name="SleeperVolumeStart" value="0, 0, 6#0, 3, 1#0, 10, 4#0, 13, 8#0, 23, 12" />
@@ -22,6 +22,7 @@
   <property name="SleeperIsQuestExclude" value="False,False,False,False,False" />
   <property name="SleeperVolumeFlags" value="0,0,0,0,0" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # " />
+  <property name="ThemeTags" value="trader, wildernesspoi, traderJen" />
   <property class="IndexedBlockOffsets">
     <property class="TraderOnOff">
       <property name="0" value="0, 0, 0" />

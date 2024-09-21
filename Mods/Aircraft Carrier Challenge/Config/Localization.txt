@@ -5,10 +5,6 @@ goLootRespawnDays,Loot Respawn-[FF4F00]Select 7 Days '[-]
 
 adminQuestTicketDesc,"Read, accept, and complete to recieve next quest.\n\nUsed for quest progression."
 
-Mission_Start_Carrier,	Read to start challenge!
-Mission_1_Retrieve information,We need coffee!
-Mission_3_Retrieve more supplies,Gather more supplies Pt.2  UH-60
-
 resourcePaper,"Classified Document" 
 resourcePaperDesc,"EAM\n FROM: USLANTFLT\n TO: USS SAN PAULO\n MESSAGE AS FOLLOWS:\n Movement to G.S. ATL-001 to acquire TP for bunghole (and other ""supplies"")"
 
@@ -290,42 +286,47 @@ dishongTowerBundleDesc,Starter items for the Aircraft carrier challenge.,,
 
 Welcome,"Started The Aircraft Carrier Challenge"
 
-tutorialTipQuest01,"Welcome Aboard the Aircraft Carrier Challenge.\n\nFight your way thru the carrier, looting and crafting everything you need to craft a UH-60 to make your escape from the carrier. \n\nRULES:\n1. You must enter the Aircraft Carrier immediately ( The tent and U-boats count as being on the carrier) and cannot leave thereafter.\n2. The ground around the carrier is [ff7f27]SPICY[-] and may [ff7f27]NOT[-] be used to support any structures, or to grow any crops, unless you can do this [ff7f27]WITHOUT[-] touching it. \n3. You may build off the side of the carrier to reach things, but must support themselves and cannot touch the ground.\n4. You may not mine or dig under the carrier.\n5. All default game settings, unless you are a seasoned gamer.\n6. It is recommended to have loot and sleeper respawns set to [ff7f27]7 DAYS[-].\n7. You must survive until you are able to build a UH-60 and fly off the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]" \n\n To begin you mission read the quest ticket in your backpack.
+tutorialTipQuest01,"Welcome Aboard the Aircraft Carrier Challenge.\n\nYour challenge is to fight your way thru the carrier, by doing  missions ,looting and crafting everything you need to build a UH-60 to make your escape from the carrier to complete your final mission. \n\nRULES:\n1. You must enter the Aircraft Carrier immediately ( The tent and U-boats count as being on the carrier) and cannot leave thereafter. \n2.When entering the carrier thru the tent, you must choose only [ff7f27]ONE[-] of these [ff7f27]3[-] options  [ff7f27]Keybox[-], [ff7f27]1st[-] or [ff7f27]2nd vaulve[-].\n3. The ground around the carrier is [ff7f27]SPICY[-] and may [ff7f27]NOT[-] be used to support any structures, or to grow any crops, unless you can do this [ff7f27]WITHOUT[-] touching it..\n4. You may not mine or dig under the carrier.\n5. All default game settings, unless you are a seasoned gamer.\n6. It is recommended to have loot and sleeper respawns set to [ff7f27]7 DAYS[-].\n7. You must survive until you are able to build a UH-60 and fly off the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]" 
 
 challenge_StartingCarrier,"Welcome aboard!"
 challenge_StartingCarrier_subtitle,"Prove your worth."
-challenge_StartingCarrier_offer,"Up for a Challenge?"
-challenge_StartingCarrier_description,"So you think you can handle the [cd5c5c] Aircraft Carrier Challenge? [ffffff] The worlds gone to hell in a handbasket, and you think you can just leisurely walk in for some fun?\n\nYeh, right."
+challenge_StartingCarrier_description,"Up for a Challenge?"
+challenge_StartingCarrier_offer,"So you think you can handle the [cd5c5c] Aircraft Carrier Challenge? [ffffff] The worlds gone to hell in a handbasket, and you think you can just leisurely walk in for some fun?\n\nYeh, right."
 
 quest_CarrierChallenge,"Time to report in"
-quest_CarrierChallenge_subtitle,"Report to your C.O."
-quest_CarrierChallenge_description,"Now that your done jack-jawing and lollygaggin', get you arse in gear and check in with your C.O.!"
-quest_CarrierChallenge_offer,"Your C.O.'s waiting....."
+quest_CarrierChallenge_subtitle,"Report to Medical for physical."
+quest_CarrierChallenge_description,"Now that your done jack-jawing and lollygaggin', get you arse in gear and get checked in!"
+quest_CarrierChallenge_offer,"Your nurse is waiting..."
 
 quest_CarrierChallenge01,"Dawn's low on coffee..."
 quest_CarrierChallenge01_subtitle,"Gather Dawn's coffee supplies."
 quest_CarrierChallenge01_offer,"Get Dawnn her coffee stash"
 quest_CarrierChallenge01_description,"Is it just me or did Dawnn look like she's about to doze off?  Can't have that now, she's on duty and needs coffee to keep alert."
 
-quest_CarrierChallenge02,"Gather UH-60 Supplies Pt. 1 - Accessories"
+quest_CarrierChallenge02,"Gather resources to craft your next mission"
 quest_CarrierChallenge02_subtitle,"Gather resources for the UH-60 accessories."
-quest_CarrierChallenge02_offer,"Gather resources for the UH-60 accessories."
-quest_CarrierChallenge02_description,"Gather resources for the UH-60 accessories."
+quest_CarrierChallenge02_offer,"."
+quest_CarrierChallenge02_description,"."
 
-quest_CarrierChallenge03,"Gather UH-60 Supplies Pt. 2 - Chassis"
-quest_CarrierChallenge03_subtitle,"Gather resources for the UH-60 chassis."
-quest_CarrierChallenge03_offer,"Gather resources for the UH-60 chassis."
-quest_CarrierChallenge03_description,"Gather resources for the UH-60 chassis."
+quest_CarrierChallenge03,"Gather supplies from the Bridge"
+quest_CarrierChallenge03_subtitle,"Gather supplies from the Bridge."
+quest_CarrierChallenge03_offer,"."
+quest_CarrierChallenge03_description,"."
 
-quest_CarrierChallenge04,"Assemble UH-60 Parts"
-quest_CarrierChallenge04_subtitle,"Time to assemble your escape aircraft."
-quest_CarrierChallenge04_offer,"Ready to take flight?"
-quest_CarrierChallenge04_description,"Parts and materials acquired, time to make the UH-60."
+quest_CarrierChallenge04,"Gather UH-60 Supplies Pt. 2 - Chassis"
+quest_CarrierChallenge04_subtitle,"Gather resources for the UH-60 chassis."
+quest_CarrierChallenge04_offer,"."
+quest_CarrierChallenge04_description,"."
 
-quest_CarrierChallenge05,"Support ship needs assist!"
-quest_CarrierChallenge05_subtitle,"Support ship aid"
-quest_CarrierChallenge05_offer,"Support ship needs assistance"
-quest_CarrierChallenge05_description,"Our support ship has lost main power and has come under assault.  Clear the zeds, restore main power and then talk to a trader."
+quest_CarrierChallenge05,"Assist support ship!"
+quest_CarrierChallenge05_subtitle,"Get this hunk of junk in the air"
+quest_CarrierChallenge05_offer,"Clear and restore power on our support ship"
+quest_CarrierChallenge05_description,"Gear up and ship out we need you on our support ship."
+
+quest_CarrierChallenge06,"Support ship needs assist!"
+quest_CarrierChallenge06_subtitle,"Support ship aid"
+quest_CarrierChallenge06_offer,"Support ship needs assistance"
+quest_CarrierChallenge06_description,"Our support ship has lost main power and has come under assault.  Clear the zeds, restore main power and then talk to a trader."
 
 Challenge_Completion,"Challenge Complete"
 Challenge_Completion_subtitle,"Congrats!"
