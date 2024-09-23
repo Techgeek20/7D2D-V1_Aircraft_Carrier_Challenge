@@ -460,9 +460,9 @@
 			<property name="RagdollOnDeathChance" value=".5"/>
 
 			<property name="AITask-1" value="BreakBlock"/>
-			<property name="AITask-2" value="Territorial"/>
+			<!-- <property name="AITask-2" value="Territorial"/> -->
 			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6"/>
-			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,15,EntityAnimalStag,20,EntityZombie,20"/>
+			<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,3,EntityBandit,15,EntityAnimalStag,20,EntityZombie,20"/>
 			<property name="AITask-5" value="ApproachSpot"/>
 			<property name="AITask-6" value="Look"/>
 			<property name="AITask-7" value="Wander"/>
@@ -487,7 +487,7 @@
 			<property name="HandItem" value="meleeHandAnimalWolf"/>
 
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="75"/>
+				<passive_effect name="HealthMax" operation="base_set" value="50"/>
 			</effect_group>
 
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>

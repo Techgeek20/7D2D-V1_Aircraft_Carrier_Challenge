@@ -169,8 +169,8 @@ zombieSoldierFeral,Feral Techie
 zombieSoldierRadiated,Radiated Techie
 
 zombieJoe,Cran5000
-zombieJoeFeral,Feral Astryael
-zombieJoeRadiated,Radiated Astryael
+zombieJoeFeral,Feral Cran5000
+zombieJoeRadiated,Radiated Cran5000
 
 zombieSteve,Frantic_Dan
 zombieSteveFeral,Feral Frantic_Dan
@@ -195,6 +195,12 @@ zombieWightRadiated,Radiated DeathAngel
 
 animalSnake,Viper 7
 animalSnakeRadiated,Spicy Viper 7
+
+animalMountainLion,KatPop
+
+animalBear,angeleyes_1971
+
+animalBearSmall,Baby angeleyes_1971
 
 zombieUtilityWorker,Seamen
 zombieUtilityWorkerRadiated,Major Johnson
