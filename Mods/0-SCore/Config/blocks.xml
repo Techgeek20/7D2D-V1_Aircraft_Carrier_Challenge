@@ -139,7 +139,7 @@
 				<property name="Logging" value="false"/>
 				<property name="HeadshotOnly" value="false" />
 				<!-- Only way to kill them is through head shots -->
-				<property name="RandomSize" value="false" />
+				<property name="RandomSize" value="true" />
 				<!-- Give them random sizes for more variety -->
 				<property name="RandomWalk" value="false" />
 
@@ -178,7 +178,7 @@
 				<property name="Logging" value="false"/>
 				<!-- Don't like the UI element for XP? Set to true to disable. -->
 				<property name="DisableXPIconNotification" value="false" />
-				<property name="ShowTargetHealthBar" value="false" />
+				<property name="ShowTargetHealthBar" value="true" />
 			</property>
 
 			<property class="AdvancedWorldGen">
