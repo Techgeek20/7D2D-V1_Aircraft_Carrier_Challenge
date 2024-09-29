@@ -378,6 +378,7 @@
 	<remove xpath="//entity_class[@name='animalDireWolf']"/>
 
 	<append xpath="/entity_classes">
+		
 		<entity_class name="animalDireWolf" extends="animalTemplateHostile">
 			<property name="UserSpawnType" value="Menu"/>
 			<property name="Tags" value="entity,animal,hostile,wolf,perkAT02,perkAT03,DKboss"/>
@@ -502,37 +503,39 @@
 		</entity_class>
 	</append>
 	
+	
 	<remove xpath="//entity_class[@name='zombieSoldierRadiated']"/>
 	<append xpath="/entity_classes">
-	<!-- *** ZOMBIE_SOLDIER_RADIATED -->
-	<entity_class name="zombieSoldierRadiated" extends="zombieSoldierFeral">
-		<property name="UserSpawnType" value="Menu"/>
-		<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieSoldier,TechBoss"/>
-		<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSoldierRadiated.prefab"/>
-		
-		<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
 
-		<!-- Gameplay zombieSoldierRadiated -->
-		<property name="DismemberMultiplierHead" value=".4"/>
-		<property name="DismemberMultiplierArms" value=".4"/>
-		<property name="DismemberMultiplierLegs" value=".4"/>
-		<!-- Radiated -->
-		<property name="PainResistPerHit" value=".9"/>
-		<!-- Radiated -->
-		<property name="ExperienceGain" value="1500"/>
-		<!-- XP grunt radiated -->
-		<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+		<!-- *** ZOMBIE_SOLDIER_RADIATED -->
+		<entity_class name="zombieSoldierRadiated" extends="zombieSoldierFeral">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,zombie,walker,feral,radiated,zombieSoldier,TechBoss"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSoldierRadiated.prefab"/>
 
-		<effect_group name="Base Effects">
-			<passive_effect name="HealthMax" operation="base_set" value="1600"/>
-			<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
-			<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>-->
-			<!-- Feral damage -->
-			<triggered_effect trigger="onSelfFirstSpawn" target="self" action="AddBuff" buff="TGMIN"/>
-			<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="6"/>
-			<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
-		</effect_group>
-	</entity_class>
+			<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+
+			<!-- Gameplay zombieSoldierRadiated -->
+			<property name="DismemberMultiplierHead" value=".4"/>
+			<property name="DismemberMultiplierArms" value=".4"/>
+			<property name="DismemberMultiplierLegs" value=".4"/>
+			<!-- Radiated -->
+			<property name="PainResistPerHit" value=".9"/>
+			<!-- Radiated -->
+			<property name="ExperienceGain" value="1500"/>
+			<!-- XP grunt radiated -->
+			<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1600"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="50"/>
+				<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>-->
+				<!-- Feral damage -->
+				<triggered_effect trigger="onSelfFirstSpawn" target="self" action="AddBuff" buff="TGMIN"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="6"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+			</effect_group>
+		</entity_class>
 
 		<!-- *** ZOMBIE_SOLDIER_MICRO_RADIATED -->
 		<entity_class name="MicroTech" extends="zombieSoldierFeral">
@@ -562,9 +565,39 @@
 				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="6"/>
 				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 			</effect_group>
-		</entity_class>
+			</entity_class>
 		
-	</append>
+		<!-- *** ZOMBIE_SPIDER_FERAL-->
+		<entity_class name="FlippinMonkey" extends="zombieSpider">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,zombie,feral,spider"/>
+			<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZSpiderFeral.prefab"/>
+			<property name="SizeScale" value=".5"/>
+			<!-- Gameplay zombieSpiderFeral -->
+			<property name="DismemberMultiplierHead" value=".7"/>
+			<property name="DismemberMultiplierArms" value=".7"/>
+			<property name="DismemberMultiplierLegs" value=".7"/>
+			<!-- Feral -->
+			<property name="PainResistPerHit" value=".7"/>
+			<!-- Feral -->
+			<property name="MoveSpeedAggro" value="0.6, 1.45"/>
+			<!-- slim, feral -->
+			<property name="JumpMaxDistance" value="11, 13"/>
+			<property name="HandItem" value="meleeHandZombie02Feral"/>
+			<property name="ExperienceGain" value="50"/>
+			<!-- XP grunt feral -->
+			<property name="LootDropProb" value=".03"/>
+			<!-- Feral -->
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="50"/>
+				<triggered_effect trigger="onSelfFirstSpawn" target="self" action="AddBuff" buff="twitch_explode"/>
+				<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>-->
+				<!-- Feral damage -->
+			</effect_group>
+		</entity_class>
+	</append>	
+	
 </configs>
 
 
