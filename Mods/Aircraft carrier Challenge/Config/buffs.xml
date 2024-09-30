@@ -13,7 +13,7 @@
 	</buff>	
 	</insertafter>
 	
-	<append xpath="/buffs">
+<!--	<append xpath="/buffs">
 		<buff name="DKPUPS" hidden="true">
 			<stack_type value="ignore"/>
 			<duration value="1"/>
@@ -31,5 +31,5 @@
 		</buff>
 		
 	</append>
-	
+-->	
 </config>

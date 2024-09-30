@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Servers>
-    <ServerGroup Name="Aircraft Carrier for 7D2D V. 1.0" Logo="" Description="Can you escape the Aircraft Carrier?">
-        <Server Name="Aircraft Carrier for 7D2D V. 1.0" Logo="">
+    <ServerGroup Name="Aircraft Carrier Challenge" Logo="" Description="Can you escape the Aircraft Carrier?">
+        <Server Name="Aircraft Carrier Challenge" Logo="">
             <Description>
-				A mini overhaul mod for V. 1.0 (b336).
-				This mod pack was created for a solo or multiplayer challenge onboard a US Ford class carrier by_NAZ and redesigned by Devilskut for V. 1.0 (b336) with code help from Techgeek_20, and sectional design work by AngelacusGaming.
+				A mini overhaul mod for Release Ver.1.0.
+				This mod pack was created for a solo or multiplayer challenge onboard a US Ford class carrier by_NAZ redesigned by Devilskut for Release Ver. 1.0 with code help from Techgeek_20 and "bug hunting" from AngelacusGaming.
 
 
 				Notes about this mini-mod:
@@ -36,55 +36,57 @@
 
 				This challenge places you, a lone hard core survivor, or a group of survivalists, in a menacing carrier of death incarnate.
 
-				Your only means of escape is to gather everything you need to be able to craft a UH-60 and make your escape from the flight deck to a nearby settlement to complete the challenge.
+				Your only means of escape is to gather everything you need to be able to craft a UH-60 and make your escape from the flight deck to a nearby settlement.
 
-				A mini overhaul mod for V. 1.0 (b336). One carrier with traders and only one means of escape.
+				A mini overhaul mod for Alpha 21. One carrier with traders and only one means of escape.
 
-				Ten custom worlds, each in a different biome, so you can choose your starting "difficulty" - Burnt Forest, Forest, Desert, Snow, or the ultimate challenge, Wasteland.
+				Four custom worlds, each a different biome, so you can choose your starting "difficulty" - Forest, Desert, Snow, or the ultimate challenge, Wasteland.
 
-				Custom-edited Aircraft Carrier POI and an Arleigh Burke POI, giving you everything you need to be able to complete your quest.
+				Custom-edited Aircraft Carrier POI, giving you everything you need to be able to complete your quest.
 
 				Custom questline, guiding you on your way.
 
+				Custom HUD, and in-game options added for toggling crosshair visibility, health bar visibility, etc.
+				Pause the game, and look for "Video", then the "Customize" tab.
+
 				CHALLENGE RULES:
 
-				1: You must enter the aircraft carrier immediately (being in the tent / on a U-boat counts as being in bounds) and cannot leave thereafter.
+				1: You must enter the aircraft carrier immediately (being in the tent counts as being in) and cannot leave thereafter.
 
 				2: The rubble on the ground around the carrier is NOT part of the aircraft carrier, and as such may NOT be used to support any structures, or to grow any crops, unless you can do this WITHOUT touching it.
 
 				3: You may build bridges off the side of the carrier to reach things, but those bridges must support themselves and cannot touch the ground.
 
-				4: "Spicy" rock is indeed "Extra SPICY"...  Don't say we didn't warn ya :)
+				4: You may NOT mine or dig under the carrier.
 
-				5: You may NOT mine or dig under the carrier.
+				5: All default game settings, unless you want to turn up the size of the hordes. It's recommended to have loot respawn set to 7 days and turn airdrops OFF.
 
-				6: All default game settings, adventurer or higher, it is recommended to have loot respawn set to 7 days and turn airdrops OFF.
+				6: If you die, the game is over.
 
-				7: If you die, the game is over.  In multiplayer, if anyone dies = challenge run failed.
-
-				8: You must survive until you are able to build a UH-60 and fly off the flight deck.
+				7: You must survive until you are able to build a UH-60 and fly off the flight deck.
 
 				Contributors:
 				DishongGameOptions 			-Author: w00kien00kie
 				DishongLootBags 			-Author: w00kien00kie
 				DishongPickupWorkstations 	-Author: w00kien00kie
+				KHA21-HPBars				-Author: Khaine
 				Khelldon Custom Menu 		-Author: Khelldon
+				WMMAvoidBloodmoon 			-Author: w00kien00kie
 				WMMLootRespawnTweak			-Author: w00kien00kie
 				WMMPersistGameOptions		-Author: w00kien00kie
 				WMMStaminaDehydrationFix	-Author: w00kien00kie
+				WMMStashBackpack			-Author: w00kien00kie
+				WMMVideoOptions				-Author: w00kien00kie
 
 				Additional thanks for permission to use following modlets by their respective creator(s):
 				UH-60						-Author: Bdubyah
 				Military Blocks				-Author: Shrader971
 
-				Even more thanks to the following for code assistance and concept design for the Arleigh Burke destroyer
-		    	SarahAndJeff (jeff_the_pc_guy) and Viper Seven (a.k.a. cannon_fodder83).
-
 				Shout outs and thanks to the mod authors and Hells_Janitor for the Dishong Tower Challenge and allowing usage of their mods and code.
 
 				For full details, check the forum post here: *No post*
 
-	    		Found a bug or poi stability issue and wish to let us know?  Head to https://github.com/Techgeek20/7D2D-Carrier_Challenge/issues and open an issues ticket.
+		    		Found a bug or poi stability issue and wish to let us know?  Head to https://github.com/Techgeek20/7D2D-V1_Aircraft_Carrier_Challenge/issues and open an issues ticket.
 
 			</Description>
            	
@@ -94,7 +96,7 @@
             <Donate></Donate>
             <DownloadMode>Clone</DownloadMode>
             <Downloads>
-                <Download>https://github.com/Techgeek20/7D2D-V1_Aircraft_Carrier_Challenge</Download>
+                <Download><!-- https://github.com/Techgeek20/7D2D-V1_Aircraft_Carrier_Challenge --></Download>
             </Downloads>
 
         </Server>

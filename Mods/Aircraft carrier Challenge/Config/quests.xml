@@ -77,15 +77,20 @@
 			</action>
 
 			<objective type="EntityKill" value="10" phase="1">
-				<property name="target_tags" value="walker,feral,radiated" />
-			</objective>
+		        <property name="target_tags" value="walker,feral,radiated" />
+		    </objective>
 
-			<reward type="Item" id="modArmorHelmetLight" value="1"/>
-			<reward type="Item" id="bookWasteTreasuresAcid" value="1"/>
-			<reward type="SkillPoints" value="4" />
-			<reward type="Quest" id="quest_CarrierChallenge" />
-			<reward type="Quest" id="quest_eliminatezombies10" />
-			<reward type="Quest" id="quest_workstationSkillMagazine" />
+		    <reward type="Item" id="armorFarmerHelmet" value="1"/>
+		    <reward type="Item" id="armorFarmerOutfit" value="1"/>
+		    <reward type="Item" id="armorFarmerGloves" value="1"/>
+		    <reward type="Item" id="armorFarmerBoots" value="1"/>
+		    <reward type="Item" id="modArmorHelmetLight" value="1"/>
+		    <!-- <reward type="Item" id="bookWasteTreasuresAcid" value="1"/> -->
+		    <reward type="SkillPoints" value="4" />
+		    <reward type="Quest" id="quest_CarrierChallenge" />
+		    <reward type="Quest" id="quest_eliminatezombies10" />
+		    <reward type="Quest" id="quest_workstationSkillMagazine" />
+
 		</quest>
 
 		<quest id="quest_CarrierChallenge"> <!-- Go find Jen -->
@@ -135,6 +140,13 @@
 			<property name="shareable" value="true"/>
 
 			<action type="TrackQuest"/>
+
+			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
+				<property name="completion_distance" value="50" />
+				<property name="phase" value="1" />
+				<property name="PrefabName" value="ARMY_DEPOT_2" />
+				<property name="nav_object" value="quest" />
+			</objective>
 			
 			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
 				<property name="completion_distance" value="50" />
@@ -142,15 +154,6 @@
 				 <property name="PrefabName" value="ARMY_DEPOT_OG" /> 
 				<property name="nav_object" value="quest" />
 			</objective>
-
-
-			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
-				<property name="completion_distance" value="50" />
-				<property name="phase" value="1" />
-				<property name="PrefabName" value="ARMY_DEPOT_2" />
-				<property name="nav_object" value="quest" />
-			</objective>		
-
 
 			<objective type="RallyPoint">
 				<property name="phase" value="2"/>
@@ -333,7 +336,8 @@
 			<property name="response_key" value="quest_CarrierChallenge06_response" />
 			<property name="reward_choices_count" value="5" />
 			<property name="extra_tags" value="infested" param1="extra_tags" />
-			<property name="shareable" value="true"/> 
+			<property name="shareable" value="true"/>
+			<property name="spawn_multiplier" value="2" param1="spawn_multiplier" /> 
 			<property name="gamestage_mod" value=".6" param1="gamestage_mod" />
 			<property name="gamestage_bonus" value="30" param1="gamestage_bonus" />
 
