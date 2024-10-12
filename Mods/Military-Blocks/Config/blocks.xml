@@ -1,0 +1,749 @@
+<configs>
+	
+		<append xpath="/blocks">
+			<block name="ApacheBlock">
+				<property name="Material" value="Mmetal"/>
+				<property name="Class" value="CarExplodeLoot"/>
+				<!-- cars explode when destroyed by a tool without harvest settings -->
+				<!-- <property name="CustomIcon" value=""/> -->
+				<property name="CreativeMode" value="None"/>
+				<property name="ItemTypeIcon" value="explosion"/>
+				<property name="LootList" value="cars"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="IsTerrainDecoration" value="true"/>
+				<property name="Model" value="#@modfolder:Resources/AircraftCarrierBlocks.unity3d?ApacheBlock2.prefab"/>
+				<property name="Place" value="TowardsPlacer"/>
+				<property name="ModelOffset" value="0,0,0"/>
+				<property name="DisplayType" value="blockMulti"/>
+				<property name="MultiBlockDim" value="10,5,8"/>
+				<property name="ImposterDontBlock" value="true"/>
+				<property name="ShowModelOnFall" value="false"/>
+				<property name="PassThroughDamage" value="true"/>
+				<property name="DowngradeBlock" value="ApacheUpgradeBlock"/>
+				<drop event="Harvest" name="resourceHeadlight" count="0,1" prob="0.2" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceLeather" count="1,3" prob="0.2" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+				<drop event="Harvest" name="smallEngine" count="1" prob="0.25" tag="salvageHarvest"/>
+				<drop event="Harvest" name="carBattery" count="1" prob="0.25" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceRadiator" count="1" prob="0.5" tag="salvageHarvest"/>
+				<drop event="Harvest" name="ammoGasCan" count="12,125" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceAcid" prob=".08" count="1" tag="WasteTreasuresAcidHarvest"/>
+				<drop event="Harvest" name="resourceScrapIron" count="9,18" tag="allHarvest"/>
+				<drop event="Harvest" name="resourceMetalPipe" count="5" prob="0.5" tag="salvageHarvest"/>
+				<drop event="Harvest" name="ammoGasCan" count="12,125" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceHeadlight" count="1" prob="0.45" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceOil" count="0,2" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceSpring" count="1,3" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceScrapIron" count="6,10" tag="allHarvest"/>
+				<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+				<drop event="Destroy" count="0"/>
+				<property name="MaxDamage" value="1000"/>
+				<property name="BigDecorationRadius" value="5"/>
+				<property name="CanDecorateOnSlopes" value="false"/>
+				<property class="Explosion">
+					<property name="ParticleIndex" value="4"/>
+					<property name="RadiusBlocks" value="3.5"/>
+					<property name="BlockDamage" value="500"/>
+
+					<property name="RadiusEntities" value="5"/>
+					<property name="EntityDamage" value="250"/>
+				</property>
+				<property name="PlacementDistance" value="6"/>
+				<property name="FilterTags" value="MC_building,SC_automotive"/>
+			</block>
+			<block name="ApacheBlock2 ">
+				<property name="Material" value="Mmetal"/>
+				<property name="Class" value="CarExplodeLoot"/>
+				<!-- cars explode when destroyed by a tool without harvest settings -->
+				<!-- <property name="CustomIcon" value=""/> -->
+				<property name="CreativeMode" value="None"/>
+				<property name="ItemTypeIcon" value="explosion"/>
+				<property name="LootList" value="cars"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="IsTerrainDecoration" value="true"/>
+				<property name="Model" value="#@modfolder:Resources/AircraftCarrierBlocks.unity3d?ApacheBlock2.prefab"/>
+				<property name="Place" value="TowardsPlacer"/>
+				<property name="ModelOffset" value="0,0,0"/>
+				<property name="DisplayType" value="blockMulti"/>
+				<property name="MultiBlockDim" value="10,5,8"/>
+				<property name="ImposterDontBlock" value="true"/>
+				<property name="ShowModelOnFall" value="false"/>
+				<property name="PassThroughDamage" value="true"/>
+				<property name="DowngradeBlock" value="ApacheUpgradeBlock"/>
+				<drop event="Harvest" name="resourceHeadlight" count="0,1" prob="0.2" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceLeather" count="1,3" prob="0.2" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+				<drop event="Harvest" name="smallEngine" count="1" prob="0.25" tag="salvageHarvest"/>
+				<drop event="Harvest" name="carBattery" count="1" prob="0.25" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceRadiator" count="1" prob="0.5" tag="salvageHarvest"/>
+				<drop event="Harvest" name="ammoGasCan" count="12,125" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceAcid" prob=".08" count="1" tag="WasteTreasuresAcidHarvest"/>
+				<drop event="Harvest" name="resourceScrapIron" count="9,18" tag="allHarvest"/>
+				<drop event="Harvest" name="resourceMetalPipe" count="5" prob="0.5" tag="salvageHarvest"/>
+				<drop event="Harvest" name="ammoGasCan" count="12,125" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceHeadlight" count="1" prob="0.45" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceOil" count="0,2" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceSpring" count="1,3" tag="salvageHarvest"/>
+				<drop event="Harvest" name="resourceScrapIron" count="6,10" tag="allHarvest"/>
+				<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+				<drop event="Destroy" count="0"/>
+				<property name="MaxDamage" value="1000"/>
+				<property name="BigDecorationRadius" value="5"/>
+				<property name="CanDecorateOnSlopes" value="false"/>
+				<property class="Explosion">
+					<property name="ParticleIndex" value="4"/>
+					<property name="RadiusBlocks" value="3.5"/>
+					<property name="BlockDamage" value="500"/>
+
+					<property name="RadiusEntities" value="5"/>
+					<property name="EntityDamage" value="250"/>
+				</property>
+				<property name="PlacementDistance" value="6"/>
+				<property name="FilterTags" value="MC_building,SC_automotive"/>
+			</block>
+
+			<block name="ApacheUpgradeBlock">
+				<property name="CreativeMode" value="None"/>
+				<property name="Material" value="Mmetal"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>
+				<property name="Place" value="TowardsPlacerInverted"/>
+				<property name="Path" value="solid"/>
+				<property name="ImposterExchange" value="imposterBlock" param1="2"/>
+				<property name="CanMobsSpawnOn" value="false"/>
+				<property name="Class" value="PlantGrowing"/>
+				<property name="StabilitySupport" value="false"/>
+				<property name="MaxDamage" value="50000"/>
+				<property name="PlantGrowing.Next" value="Apache"/>
+				<property name="PlantGrowing.GrowthRate" value="0.1"/>
+				<property name="PlantGrowing.FertileLevel" value="0"/>
+				<property name="PlantGrowing.IsRandom" value="false"/>
+				<property name="PlantGrowing.LightLevelGrow" value="0"/>
+				<property name="PlantGrowing.LightLevelStay" value="0"/>
+				<property name="PlantGrowing.GrowIfAnythinOnTop" value="true"/>
+				<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+				<drop event="Fall" name="ApacheUpgradeBlock" count="1" prob="1"/>
+				<property class="RepairItems">
+					<property name="resourceScrapIron" value="10"/>
+				</property>
+				<drop event="Destroy" name="ApacheUpgradeBlock" count="1" />
+				<property name="FilterTags" value="MC_building,SC_electrical"/>
+				<property name="SortOrder1" value="70e3"/>
+			</block>
+			<block name="Apache">
+				<property name="DescriptionKey" value="furnitureGroupDesc"/>
+				<property name="Class" value="Loot"/>
+				<property name="LootList" value="cars"/>
+				<property name="Material" value="Mmetal"/>
+				<property name="CreativeMode" value="None"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?ApacheBlock.prefab"/>
+				<property name="MultiBlockDim" value="18,5,8"/>
+				<property name="ModelOffset" value="0,0,0"/>
+				<property name="DowngradeBlock" value="ApacheS2"/>
+				<drop event="Destroy" name="resourceCloth" count="1,3"/>
+				<property name="IsTerrainDecoration" value="true"/>
+				<property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+			</block>
+
+			<block name="ApacheS2">
+				<property name="DescriptionKey" value="furnitureGroupDesc"/>
+				<property name="Material" value="Mmetal"/>
+				<property name="CreativeMode" value="None"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?ApacheBlockStage2.prefab"/>
+				<property name="MultiBlockDim" value="18,5,8"/>
+				<property name="ModelOffset" value="0,0,0"/>
+				<property name="ImposterDontBlock" value="true"/>
+				<property name="WaterFlow" value="permitted"/>
+				<property name="Place" value="TowardsPlacer"/>
+				<property name="PlacementDistance" value="8"/>
+				<property name="BigDecorationRadius" value="5"/>
+				<property name="DowngradeBlock" value="ApacheS3"/>
+				<drop event="Destroy" name="resourceCloth" count="1,3"/>
+				<property name="IsTerrainDecoration" value="true"/>
+				<property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+			</block>
+
+			<block name="ApacheS3">
+				<property name="DescriptionKey" value="furnitureGroupDesc"/>
+				<property name="Material" value="Mmetal"/>
+				<property name="CreativeMode" value="None"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?ApacheBlockStage3.prefab"/>
+				<property name="MultiBlockDim" value="18,5,8"/>
+				<property name="ModelOffset" value="0,0,0"/>
+				<drop event="Destroy" name="resourceCloth" count="1,3"/>
+				<property name="IsTerrainDecoration" value="true"/>
+			</block>
+
+			<!-- <block name="ApacheS4">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?ApacheBlockStage4.prefab"/>
+			<property name="MultiBlockDim" value="18,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="DowngradeBlock" value="ApacheS5"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block>
+
+		<block name="ApacheS5">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?ApacheBlockStage5.prefab"/>
+			<property name="MultiBlockDim" value="18,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block> 
+
+		<block name="Raptor">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="cars"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="none"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlock.prefab"/>
+			<property name="MultiBlockDim" value="18,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="DowngradeBlock" value="RaptorS2"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="RaptorS2">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="none"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlockStage2.prefab"/>
+			<property name="MultiBlockDim" value="18,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <property name="DowngradeBlock" value="RaptorS3"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<block name="RaptorS3">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="none"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlockStage3.prefab"/>
+			<property name="MultiBlockDim" value="18,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="DowngradeBlock" value="RaptorS4"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block>
+
+		<block name="RaptorS4">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="none"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlockStage4.prefab"/>
+			<property name="MultiBlockDim" value="18,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="DowngradeBlock" value="RaptorS5"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block>
+
+		<block name="RaptorS5">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="none"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?RaptorBlockStage5.prefab"/>
+			<property name="MultiBlockDim" value="18,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block> -->
+
+		<block name="atvpuma">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="cars"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?atvpuma.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,1.95,0"/>
+            <property name="DowngradeBlock" value="atvpumaS2"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="atvpumaS2">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?atvpumaStage2.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,1.95,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <property name="DowngradeBlock" value="atvpumaS3"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<block name="atvpumaS3">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?atvpumaStage3.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,1.95,0"/>
+            <!-- <property name="DowngradeBlock" value="atvpumaS4"/> -->
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block>
+
+		<block name="atvpumaS4">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?atvpumaStage4.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,1.95,0"/>
+            <property name="DowngradeBlock" value="atvpumaS5"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block>
+
+		<block name="atvpumaS5">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?atvpumaStage5.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,1.95,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block>
+
+		<!-- <block name="Himars">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="cars"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?Himars.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,1.95,0"/>
+            <property name="DowngradeBlock" value="HimarsS2"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="HimarsS2">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?Himars1.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,1.95,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <property name="DowngradeBlock" value="HimarsS3"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<block name="HimarsS3">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?Himars2.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,1.95,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block> -->
+
+		<block name="BTR80">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="cars"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?BTR80A.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="DowngradeBlock" value="BTR80AS2"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="BTR80AS2">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?BTR80AS1.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <property name="DowngradeBlock" value="BTR80AS3"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<block name="BTR80AS3">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?BTR80AS2.prefab"/>
+			<property name="MultiBlockDim" value="6,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<block name="MilitaryTrailer">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="cars"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?MilitaryTrailer.prefab"/>
+			<property name="MultiBlockDim" value="5,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="DowngradeBlock" value="MilitaryTrailerS2"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="MilitaryTrailerS2">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?MilitaryTrailerS1.prefab"/>
+			<property name="MultiBlockDim" value="5,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <property name="DowngradeBlock" value="MilitaryTrailerS3"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<block name="MilitaryTrailerS3">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?MilitaryTrailerS2.prefab"/>
+			<property name="MultiBlockDim" value="5,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<block name="U-Boat">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="cars"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?U-Boat.prefab"/>
+			<property name="MultiBlockDim" value="5,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="DowngradeBlock" value="U-BoatS2"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="U-BoatS2">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?U-BoatS1.prefab"/>
+			<property name="MultiBlockDim" value="5,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<!-- <block name="OshkoshM1070">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="cars"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?OshkoshM1070.prefab"/>
+			<property name="MultiBlockDim" value="5,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="DowngradeBlock" value="OshkoshM1070S2"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="OshkoshM1070S2">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?OshkoshM1070Stage1.prefab"/>
+			<property name="MultiBlockDim" value="5,3,3"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <property name="DowngradeBlock" value="MilitaryTrailerS3"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<block name="B-2">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="cars"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?B-2.prefab"/>
+			<property name="MultiBlockDim" value="6,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="DowngradeBlock" value="B-2S2"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="B-2S2">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?B-2S2.prefab"/>
+			<property name="MultiBlockDim" value="18,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Place" value="TowardsPlacer"/>
+            <property name="PlacementDistance" value="8"/>
+            <property name="BigDecorationRadius" value="5"/>
+            <property name="DowngradeBlock" value="B-2S3"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>
+
+		<block name="B-2S3">
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+            <property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?B-2S3.prefab"/>
+			<property name="MultiBlockDim" value="18,5,8"/>
+			<property name="ModelOffset" value="0,0,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+		</block> -->
+
+		<block name="AIM-9 Sidewinder">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="ACmunitions"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?AIM-9Sidewinder.prefab"/>
+			<property name="MultiBlockDim" value="1,1,6"/>
+			<property name="ModelOffset" value="-3.825,-3,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="AIM-7 Sparrow">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="ACmunitions"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?AIM-7Sparrow.prefab"/>
+			<property name="MultiBlockDim" value="1,1,6"/>
+			<property name="ModelOffset" value="1.5,-1.5,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="AGM-114 Hellfire">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="ACmunitions"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?AGM-114Hellfire.prefab"/>
+			<property name="MultiBlockDim" value="1,1,6"/>
+			<property name="ModelOffset" value="-13.75,-5.75,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="AGM-65Maverick">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="ACmunitions"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?AGM-65Maverick.prefab"/>
+			<property name="MultiBlockDim" value="1,1,6"/>
+			<property name="ModelOffset" value="11.75,-3.6,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="HJ-10">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="ACmunitions"/>
+			<property name="Material" value="Mmetal"/>	
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?HJ-10.prefab"/>
+			<property name="MultiBlockDim" value="1,1,6"/>
+			<property name="ModelOffset" value="-10.5,-5,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="JDAM">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="ACmunitions"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?JDAM.prefab"/>
+			<property name="MultiBlockDim" value="1,1,6"/>
+			<property name="ModelOffset" value="13.5,-2.1,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="JDAMs2">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="ACmunitions"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?JDAMs2.prefab"/>
+			<property name="MultiBlockDim" value="1,1,6"/>
+			<property name="ModelOffset" value="13.5,-2.1,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+		<block name="PL-11 (2)">
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+            <property name="Class" value="Loot"/>
+	        <property name="LootList" value="ACmunitions"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/MilitaryBundle.unity3d?PL-11(2).prefab"/>
+			<property name="MultiBlockDim" value="1,1,6"/>
+			<property name="ModelOffset" value="5,-2.1,0"/>
+            <drop event="Destroy" name="resourceCloth" count="1,3"/>
+			<property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="MC_helpers,SC_helperOutdoor,A21_NEW"/>
+		</block>	
+
+	</append>
+</configs>
