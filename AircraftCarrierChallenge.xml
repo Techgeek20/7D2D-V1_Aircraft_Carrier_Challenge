@@ -96,7 +96,13 @@
             <Donate></Donate>
             <DownloadMode>Clone</DownloadMode>
             <Downloads>
+<<<<<<< Updated upstream
                 <Download><!-- https://github.com/Techgeek20/7D2D-V1_Aircraft_Carrier_Challenge --></Download>
+=======
+            	
+                <Download>https://github.com/Techgeek20/7D2D-V1_Aircraft_Carrier_Challenge</Download>
+
+>>>>>>> Stashed changes
             </Downloads>
 
         </Server>
