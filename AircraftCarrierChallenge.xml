@@ -90,14 +90,21 @@
 
 			</Description>
            	
+<<<<<<< HEAD
            	<Version>1.1</Version>
-
+=======
+           	<Version>1.0</Version>
+>>>>>>> main
             <EAC>Disabled</EAC>
             <Discord></Discord>
             <Donate></Donate>
             <DownloadMode>Clone</DownloadMode>
             <Downloads>
+<<<<<<< HEAD
                 <Download>https://github.com/Techgeek20/7D2D-V1_Aircraft_Carrier_Challenge</Download>
+=======
+                <Download><!-- https://github.com/Techgeek20/7D2D-V1_Aircraft_Carrier_Challenge --></Download>
+>>>>>>> main
             </Downloads>
 
         </Server>
