@@ -1,0 +1,24 @@
+<configs>
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="remove" >animalZombieBear, 20</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >none, 20
+	</csv>
+		
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="remove" >animalDireWolf, 5</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="add" >animalWolf, 5
+	</csv>	
+	
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/text()" delim="\n" op="remove" >animalBear, 5</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']/text()" delim="\n" op="add" >none, 5
+	</csv>
+
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesAll']/text()" delim="\n" op="add" >
+		FlippinMonkey 
+		MicroTech 
+		Devils_Pup
+	</csv>
+	
+	<csv xpath="/entitygroups/entitygroup[@name='WolfPack']/text()" delim="\n" op="add" >
+		Devils_Pup, 1
+	</csv>
+
+</configs>
