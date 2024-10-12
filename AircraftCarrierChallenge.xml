@@ -3,8 +3,8 @@
     <ServerGroup Name="Aircraft Carrier Challenge" Logo="" Description="Can you escape the Aircraft Carrier?">
         <Server Name="Aircraft Carrier Challenge" Logo="">
             <Description>
-				A mini overhaul mod for Release Ver.1.0.
-				This mod pack was created for a solo or multiplayer challenge onboard a US Ford class carrier by_NAZ redesigned by Devilskut for Release Ver. 1.0 with code help from Techgeek_20 and "bug hunting" from AngelacusGaming.
+				A mini overhaul mod for Release Ver.1.1.
+				This mod pack was created for a solo or multiplayer challenge onboard a US Ford class carrier by_NAZ redesigned by Devilskut for Release Ver. 1.1 with code help from Techgeek_20 and "bug hunting" from AngelacusGaming.
 
 
 				Notes about this mini-mod:
@@ -90,13 +90,13 @@
 
 			</Description>
            	
-           	<Version>1.0</Version>
+           	<Version>1.1</Version>
             <EAC>Disabled</EAC>
             <Discord></Discord>
             <Donate></Donate>
             <DownloadMode>Clone</DownloadMode>
             <Downloads>
-                <Download><!-- https://github.com/Techgeek20/7D2D-V1_Aircraft_Carrier_Challenge --></Download>
+                <Download>https://github.com/Techgeek20/7D2D-V1_Aircraft_Carrier_Challenge</Download>
             </Downloads>
 
         </Server>
