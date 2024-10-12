@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+	<append xpath="//trader_item_group[@name='groupRangedAll']">
+		<item name="weapHCwM" quality="1,6"/>
+	</append>
+
+</config>
