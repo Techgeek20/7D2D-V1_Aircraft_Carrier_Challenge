@@ -259,8 +259,8 @@ loadingTipAircraft7,"Crafting workstations, and tools like the crucible, and veh
 loadingTipAircraft8_title,Cheating
 loadingTipAircraft8,"Trying to leave the ship other than by UH-60 is a very bad idea ..."
 
-loadingTipAircraft9_title,Customization
-loadingTipAircraft9,"Certain in-game functions, like zombie health bars and XP pop-ups, can be enabled or disabled from the pause menu. Pause the game, click 'video' then the 'Customization' tab."
+loadingTipAircraft9_title,Lost Are We?
+loadingTipAircraft9,"If you are lost on where to travel to next, there may have been a kind soul who left directions in the quest instructions. Let's be real though, men neither ask for directions nor read instructions!"
 
 loadingTipAircraft10_title,Special Thanks
 loadingTipAircraft10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original base mod and concept."
@@ -271,20 +271,17 @@ loadingTipAircraft11,"Horde nights, better suck it up, buttercup."
 loadingTipAircraft12_title,Aircraft Resources
 loadingTipAircraft12,"There are many changes from vanilla for resource gathering. Clay soil, for example, can be found by harvesting potted plants, farm plots, and destroyed stone"
 
-loadingTipAircraft13_title,Locked Slots
-loadingTipAircraft13,"You can lock slots in your inventory by hovering over a slot and pressing 'X'. The slot will have a green border, indicating it is locked."
+loadingTipAircraft13_title,Search Everywhere - Check Everything
+loadingTipAircraft13,"For a military vessel, there are considerable nooks, crannies, hidey holes and hidden stashes all over the place. Some say there are hidden shortcuts within the walls too! Navy brass would be rolling in their grave if they weren't ambling around in hordes of the reanimated dead..."
 
 loadingTipAircraft14_title,Wrench
 loadingTipAircraft14,"Keep it repaired. Look after your wrench, and your wrench will look after you."
 
-loadingTipAircraft15,"Fear not, little Robin Hood. Wield a bow without arrows but plentyful crossbow bolts? You may convert your arrows to bolts and your bolts to arrows for free. William Tell those apples, my friend."
 loadingTipAircraft15_title,Archer
+loadingTipAircraft15,"Fear not, little Robin Hood. Wield a bow without arrows but plentyful crossbow bolts? You may convert your arrows to bolts and your bolts to arrows for free. William Tell those apples, my friend."
 
-loadingTipAircraft16,"If you are lost on where to travel to next, there may have been a kind soul who left directions in the quest instructions. Let's be real though, men neither ask for directions nor read instructions!"
-loadingTipAircraft16_title,Lost Are We?
-
-loadingTipAircraft17,"For a military vessel, there are considerable nooks, crannies, hidey holes and hidden stashes all over the place. Some say there are hidden shortcuts within the walls too! Navy brass would be rolling in their grave if they weren't ambling around in hordes of the reanimated dead..."
-loadingTipAircraft17_title,Search Everywhere - Check Everything
+loadingTipAircraft16_title,Sneaky Sneaky
+loadingTipAircraft16,"There may be times where being sneaky is the better part of valor..."
 
 dishongTowerBundle,Aircraft Carrier Challenge Starter Items,,
 dishongTowerBundleDesc,Starter items for the Aircraft carrier challenge.,,
@@ -292,7 +289,7 @@ dishongTowerBundleDesc,Starter items for the Aircraft carrier challenge.,,
 
 Welcome,"Started The Aircraft Carrier Challenge"
 
-tutorialTipQuest01,"Welcome Aboard the Aircraft Carrier Challenge.\n\nYour challenge is to fight your way thru the carrier, by doing  missions ,looting and crafting everything you need to build a UH-60 to make your escape from the carrier to complete your final mission. \n\nRULES:\n1. You must enter the Aircraft Carrier immediately ( The tent and U-boats count as being on the carrier) and cannot leave thereafter. \n2.When entering the carrier thru the tent, you must choose only [ff7f27]ONE[-] of these [ff7f27]3[-] options  [ff7f27]Keybox[-], [ff7f27]1st[-] or [ff7f27]2nd vaulve[-].\n3. The ground around the carrier is [ff7f27]SPICY[-] and may [ff7f27]NOT[-] be used to support any structures, or to grow any crops, unless you can do this [ff7f27]WITHOUT[-] touching it..\n4. You may not mine or dig under the carrier.\n5. All default game settings, unless you are a seasoned gamer.\n6. It is recommended to have loot and sleeper respawns set to [ff7f27]7 DAYS[-].\n7. You must survive until you are able to build a UH-60 and fly off the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]" 
+tutorialTipQuest01,"Welcome Aboard the Aircraft Carrier Challenge.\n\nYour challenge is to fight your way thru the carrier, by doing  missions ,looting and crafting everything you need to build a UH-60 to make your escape from the carrier to complete your final mission. \n\nRULES:\n1. You must enter the Aircraft Carrier immediately ( The tent and U-boats count as being on the carrier) and cannot leave thereafter. \n2.When entering the carrier thru the tent, you must choose only [ff7f27]ONE[-] of these [ff7f27]3[-] options  [ff7f27]Keybox[-], [ff7f27]1st[-] or [ff7f27]2nd valve[-].\n3. The ground around the carrier is [ff7f27]SPICY[-] and may [ff7f27]NOT[-] be used to support any structures, or to grow any crops, unless you can do this [ff7f27]WITHOUT[-] touching it..\n4. You may not mine or dig under the carrier.\n5. All default game settings, unless you are a seasoned gamer.\n6. It is recommended to have loot and sleeper respawns set to [ff7f27]7 DAYS[-].\n7. You must survive until you are able to build a UH-60 and fly off the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]"
 
 challenge_StartingCarrier,"Welcome aboard!"
 challenge_StartingCarrier_subtitle,"Prove your worth."
@@ -327,12 +324,12 @@ quest_CarrierChallenge04_description,"."
 quest_CarrierChallenge05,"Assist support ship!"
 quest_CarrierChallenge05_subtitle,"Get this hunk of junk in the air"
 quest_CarrierChallenge05_offer,"Clear and restore power on our support ship"
-quest_CarrierChallenge05_description,"Gear up and ship out we need you on our support ship."
+quest_CarrierChallenge05_description,"Go find and land on the support ship [FF0000] BEFORE [-] logging out."
 
 quest_CarrierChallenge06,"Support ship needs assist!"
 quest_CarrierChallenge06_subtitle,"Support ship aid"
 quest_CarrierChallenge06_offer,"Support ship needs assistance"
-quest_CarrierChallenge06_description,"Our support ship has lost main power and has come under assault.  Clear the zeds, restore main power and then talk to a trader."
+quest_CarrierChallenge06_description,"Our support ship has lost main power and has come under assault.  Clear the zeds, restore main power and then talk to a trader. Also, hope your ready for a 'long' haul quest...."
 
 Challenge_Completion,"Challenge Complete"
 Challenge_Completion_subtitle,"Congrats!"
