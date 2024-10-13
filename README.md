@@ -1,5 +1,5 @@
 # 7D2D-V1_Aircraft_Carrier_Challenge
-Aircraft Carrier Challenge for V1.0 of 7 Days to Die
+Aircraft Carrier Challenge for V1.1 of 7 Days to Die
 
 DevilsKut is the person that had the idea to create this challege pack and was inspired after seeing the Dishong Tower Challenge.
 Techgeek20 manages the repo and assisted with code and bug fixes...
