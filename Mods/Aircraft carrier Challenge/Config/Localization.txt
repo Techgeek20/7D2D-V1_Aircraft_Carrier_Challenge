@@ -113,7 +113,7 @@ zombieBoeFeral,Feral w00kie n00kie
 zombieBoeRadiated,Radiated w00kie n00kie
 
 zombieBurnt,FlameWizo
-zombieBurntFeral,Feral FlameWizo
+zombieBurntFeral,Feral Smokey_Prime
 zombieBurntRadiated,Radiated FlameWizo
 
 zombieDarlene,Loveshack65
