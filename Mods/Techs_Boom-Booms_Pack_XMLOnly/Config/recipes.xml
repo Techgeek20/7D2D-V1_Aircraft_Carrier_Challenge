@@ -52,7 +52,7 @@
 		</recipe>
 
 		<!-- END Scuttle Charge recipe code block -->
-
+<!--
 		<recipe name="ammoArrowStone" count="1">
 			<ingredient name="ammoCrossbowBoltStone" count="1"/>
 		</recipe>
@@ -92,7 +92,7 @@
 		<recipe name="ammoArrowExploding" count="1">
 			<ingredient name="ammoCrossbowBoltExploding" count="1"/>
 		</recipe>
-
+-->
 	</append> <!-- End of adding modded reciped into 7 Days to Die's memory stack-->
 
 </configs> <!-- End of File -->
