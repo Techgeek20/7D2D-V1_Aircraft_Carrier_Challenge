@@ -76,6 +76,7 @@
 		<recipe name="ammoCrossbowBoltSteelAP" count="1">
 			<ingredient name="ammoArrowSteelAP" count="1"/>
 		</recipe>
+	-->
 
 		<recipe name="ammoArrowFlaming" count="1">
 			<ingredient name="ammoCrossbowBoltFlaming" count="1"/>
@@ -92,7 +93,7 @@
 		<recipe name="ammoArrowExploding" count="1">
 			<ingredient name="ammoCrossbowBoltExploding" count="1"/>
 		</recipe>
--->
+
 	</append> <!-- End of adding modded reciped into 7 Days to Die's memory stack-->
 
 </configs> <!-- End of File -->
