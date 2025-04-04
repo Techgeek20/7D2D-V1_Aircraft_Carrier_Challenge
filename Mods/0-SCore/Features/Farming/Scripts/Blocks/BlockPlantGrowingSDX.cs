@@ -12,18 +12,6 @@ public class BlockPlantGrowingSDX : BlockPlantGrowing
     private int waterRange = 5;
     private bool willWilt = false;
 
-
-    public int GetWaterRange() {
-        return waterRange;
-    }
-
-    public bool RequireWater() {
-        return requireWater;
-    }
-
-    public bool WillWilt() {
-        return willWilt;
-    }
     protected BlockValue wiltedPlant = BlockValue.Air;
     public override void LateInit()
     {

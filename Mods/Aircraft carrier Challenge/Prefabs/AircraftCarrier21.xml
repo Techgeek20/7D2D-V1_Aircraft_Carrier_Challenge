@@ -53,15 +53,15 @@
   <property name="SVS76" value="spawn zombieBikerRadiated 2^waitalive 1^spawn zombieScreamer 6^waitalive 1^spawn zombieZombieDog 2^" />
   <property name="SVS7" value="spawn GroupZomPoliceCarHorde 6^waitalive 2^spawn GroupZomBadass 6^waitalive 1^spawn zombieScreamerRadiated 2^" />
   <property class="Stats">
-    <property name="TotalVertices" value="23819183" />
-    <property name="TotalTriangles" value="9240638" />
+    <property name="TotalVertices" value="23819489" />
+    <property name="TotalTriangles" value="9240796" />
     <property class="BlockEntities">
-      <property name="Vertices" value="19771132" />
-      <property name="Triangles" value="6577363" />
+      <property name="Vertices" value="19771384" />
+      <property name="Triangles" value="6577483" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="3570299" />
-      <property name="Triangles" value="2258473" />
+      <property name="Vertices" value="3570401" />
+      <property name="Triangles" value="2258535" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="222336" />
@@ -72,8 +72,8 @@
       <property name="Triangles" value="14622" />
     </property>
     <property class="ChunkMeshes3">
-      <property name="Vertices" value="88944" />
-      <property name="Triangles" value="44472" />
+      <property name="Vertices" value="88896" />
+      <property name="Triangles" value="44448" />
     </property>
     <property class="ChunkMeshes4">
       <property name="Vertices" value="0" />

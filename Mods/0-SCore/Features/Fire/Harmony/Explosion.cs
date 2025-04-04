@@ -43,7 +43,7 @@ namespace Features.Fire.Harmony
                     FireManager.Instance.Extinguish(position.Key);
                 }
                 else
-                    FireManager.Instance.Add(position.Key,_entityThatCausedExplosion);
+                    FireManager.Instance.Add(position.Key);
             }
 
             return ;

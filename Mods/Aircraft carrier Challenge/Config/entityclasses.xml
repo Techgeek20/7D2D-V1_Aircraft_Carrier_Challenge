@@ -229,12 +229,7 @@
 	<append xpath="//entity_class[starts-with(@name, 'zombieBiker')]">
 		<property name="DishongLootDropEntityClass" value="DishongLootContainerBikerLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
-	</append>
-	
-	<append xpath="//entity_class[starts-with(@name, 'zombieScreamer')]">
-		<property name="DishongLootDropEntityClass" value="DishongLootContainerLumberjackLoot"/>
-		<property name="DishongLootDropProb" value="1"/>
-	</append>
+	</append>	
   
   <append xpath="/entity_classes">
 	<entity_class name="DishongLootContainer">
@@ -382,7 +377,7 @@
 	
 	<remove xpath="//entity_class[@name='animalDireWolf']"/>
 	<remove xpath="//entity_class[@name='animalChicken']"/>
-	<!-- <remove xpath="//entity_class[@name='animalZombieVulture']"/> -->
+	
 	<append xpath="/entity_classes">
 
 		<entity_class name="animalDireWolf" extends="animalTemplateHostile">
@@ -508,7 +503,6 @@
 			<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_wolf,clear_sleeper" />
 		</entity_class>
 
-
 		<!-- *** CHICKEN -->
 		<entity_class name="animalChicken" extends="animalTemplateTimid">
 			<property name="Class" value="EntityAnimalRabbit"/>
@@ -516,21 +510,17 @@
 			<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
-			<property name="AvatarController" value="AvatarAnimalController"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="Prefab" value="/Entities/Animals/Bird/animalBirdChickenPrefab"/>
+			<property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab"/>
 			<property name="Parent" value="Animals"/>
-			<property name="HasDeathAnim" value="true"/>
-			<property name="HasRagdoll" value="true"/>
 			<property name="Faction" value="animals"/>
 			<property name="PhysicsBody" value="chicken"/>
-			<property name="Mass" value="36"/>
-			<property name="Weight" value="12"/>
+			<property name="Mass" value="15"/>
+			<property name="Weight" value="10"/>
 			<property name="SoundHurt" value="chickenpain"/>
 			<property name="SoundDeath" value="chickendeath"/>
 			<property name="SwimOffset" value="2"/>
-			<property name="HasRagdoll" value="true"/>
-			<property name="HasDeathAnim" value="true"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="false"/>
 			<property name="CanBigHead" value="false" />
 
 			<!-- Gameplay  -->
@@ -553,14 +543,11 @@
 		</entity_class>
 
 		<entity_class name="Colonel Sanders" extends="animalTemplateHostile">
-			<property name="Class" value="EntityAnimalRabbit"/>
 			<property name="UserSpawnType" value="Menu"/>
-			<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
+			<property name="Tags" value="entity,animal,chicken,hostile"/>
 			<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 			<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
-			<property name="AvatarController" value="AvatarAnimalController"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="Prefab" value="/Entities/Animals/Bird/animalBirdChickenPrefab"/>
+			<property name="Prefab" value="/Entities/Animals/CHICKEN/chickenPrefab"/>
 			<property name="SizeScale" value="2.1"/>
 			<property name="Parent" value="Animals"/>
 			<property name="Faction" value="animals"/>
@@ -611,8 +598,7 @@
 		</entity_class>
 
 		<!-- *** ZOMBIE_VULTURE -->
-		
-      <!--  <entity_class name="animalZombieVulture" extends="animalTemplateHostile">
+		<entity_class name="I Ripper" extends="animalTemplateHostile">
 			<property name="Class" value="EntityVulture"/>
 			<property name="UserSpawnType" value="Menu"/>
 			<property name="EntityFlags" value="animal,zombie"/>
@@ -624,64 +610,6 @@
 			<property name="PhysicsBody" value="vulture"/>
 			<property name="Mass" value="35"/>
 			<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
-			<property name="SizeScale" value=".7"/>
-
-			<property name="AITask-1" value=""/>
-			<property name="AITarget-1" value=""/>
-
-			<property name="SoundRandom" value="vultureroam"/>
-			<property name="SoundAlert" value="vulturealert"/>
-			<property name="SoundHurt" value="vulturepain"/>
-			<property name="SoundDeath" value="vulturedeath"/>
-			<property name="SoundAttack" value="vultureattack"/>
-			<property name="SoundSense" value="vulturesense"/>
-			<property name="SoundGiveUp" value="vulturegiveup"/>
-
-			
-			<property name="SightRange" value="70"/>
-
-			
-			<property name="MoveSpeed" value="1"/>
-			<property name="MoveSpeedAggro" value="2.1, 2.1"/>
-			
-			<property name="MaxTurnSpeed" value="190"/>
-
-			<property name="HandItem" value="meleeHandAnimalZombieVulture"/>
-			<property name="Immunity" value="sickness;disease;wellness"/>
-			
-
-			<property name="DismemberMultiplierLegs" value="0"/>
-			<property name="PainResistPerHit" value="-1"/>
-			
-
-			<property name="DeadBodyHitPoints" value="175"/>
-			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-			<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="4"/>
-			
-			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="30"/>
-			<drop event="Harvest" name="foodEgg" tag="butcherHarvest" count="1"/>
-			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="6"/>
-			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
-
-			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="45"/>
-				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffRadiationPool"/>
-			</effect_group>
-		</entity_class> -->
-
-		<!-- *** ZOMBIE_VULTURE -->
-		<entity_class name="I Ripper" extends="animalTemplateHostile">
-			<property name="Class" value="EntityVulture"/>
-			<property name="UserSpawnType" value="Menu"/>
-			<property name="EntityFlags" value="animal,zombie"/>
-			<property name="EntityType" value="Zombie"/>
-			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
-			<property name="AvatarController" value="AvatarAnimalController"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="HasRagdoll" value="true"/>
-			<property name="PhysicsBody" value="vulture"/>
-			<property name="Mass" value="45"/>
-			<property name="Prefab" value="/Entities/Animals/Vulture/animalBirdVulturePrefab"/>
 			<property name="SizeScale" value="1.7"/>
 
 			<property name="AITask-1" value=""/>
@@ -726,7 +654,7 @@
 				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffRadiationPool"/>
 			</effect_group>
 		</entity_class>
-		
+
 		<!-- *** ZOMBIE_SOLDIER_MICRO_RADIATED -->
 		<entity_class name="MicroTech" extends="zombieSoldierFeral">
 			<property name="UserSpawnType" value="Menu"/>
@@ -852,6 +780,7 @@
 			</effect_group>
 		</entity_class>
 	</append>
+
 </configs>
 
 

@@ -4,31 +4,7 @@
   <decoration type="model" name="ARMY_DEPOT_2" position="312,25,283" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="HughGotIT2" position="317,24,373" rotation="1" y_is_groundlevel="true" />
   <decoration type="model" name="Trader_Jen_2" position="302,26,109" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="ACCENDINGJOEL" position="-584,50,-804" rotation="2" y_is_groundlevel="true" />
+  <decoration type="model" name="trader_joel" position="-584,50,-804" rotation="2" y_is_groundlevel="true" />
   <decoration type="model" name="UUSS_Arleigh_Burke_Destroyer_02" position="-36,35,-289" rotation="3" y_is_groundlevel="true" />
   <decoration type="model" name="TheBridge80" position="336,15,135" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="378,32,61" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="378,32,161" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="378,32,259" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="378,32,357" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="378,32,432" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="280,32,432" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="180,32,432" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="162,32,61" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="162,32,159" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="162,32,257" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="162,32,355" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="162,32,-37" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="262,32,-37" rotation="0" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="362,32,-37" rotation="2" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="57,32,-389" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="-41,32,-389" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="-135,32,-289" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="-135,32,-389" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="-37,32,-239" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="-135,32,-239" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="61,32,-239" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="155,32,-237" rotation="1" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="155,32,-389" rotation="3" y_is_groundlevel="true" />
-  <decoration type="model" name="DOD_WATER_EVERYWHERE" position="155,32,-303" rotation="0" y_is_groundlevel="true" />
 </prefabs>

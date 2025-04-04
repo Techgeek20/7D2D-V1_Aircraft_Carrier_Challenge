@@ -11,15 +11,9 @@ namespace Challenges {
         public override ChallengeObjectiveType ObjectiveType =>
             (ChallengeObjectiveType)ChallengeObjectiveTypeSCore.ChallengeObjectiveEnterPOI;
 
-        private string _descriptionOverride;
+        public override string DescriptionText =>
+            Localization.Get("challengeObjectiveEnter") + " " + Localization.Get(_prefabName);
 
-        public override string DescriptionText {
-            get {
-                if (string.IsNullOrEmpty(_descriptionOverride))
-                    return  Localization.Get("challengeObjectiveEnter") + " " + Localization.Get(_prefabName);
-                return Localization.Get(_descriptionOverride);
-            }
-        }
         public override void Init() {
         }
 
@@ -79,17 +73,12 @@ namespace Challenges {
             {
                 _poiTags = FastTags<TagGroup.Poi>.Parse(e.GetAttribute("tags"));
             }
-            if (e.HasAttribute("description_override"))
-                _descriptionOverride = e.GetAttribute("description_override");
         }
 
         public override BaseChallengeObjective Clone() {
             return new ChallengeObjectiveEnterPOI {
                 _prefabName = this._prefabName,
                 _poiTags =  this._poiTags
-                ,
-                _descriptionOverride = _descriptionOverride
-
             };
         }
     }

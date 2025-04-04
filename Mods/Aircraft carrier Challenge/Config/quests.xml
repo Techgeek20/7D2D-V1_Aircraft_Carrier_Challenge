@@ -10,34 +10,55 @@
 
 		<remove xpath="/quests/quest[@id='challengegroup_reward_homesteading']"/>
 		<remove xpath="/quests/quest[@template='challengegroup_reward_homesteading']"/>
+		
+		<remove xpath="/quests/quest[@id='treasure_taylor']"/>
+		<remove xpath="/quests/quest[@template='treasure_taylor']"/>
 
-	    <remove xpath="/quests/quest_list/quest[@id='intro_buried_supplies']" />
-	
-	    <remove xpath="/quests/quest[contains(@id,'_fetch') or
-									 contains(@id,'_clear') or
-									 contains(@id,'supplies') or
-									 contains(@id,'_restore_power') or
-									 contains(@id,'_test_turnin') or
-									 contains(@id,'_reward_quest_')
-									 ]/reward[@type='LootItem']"/>
-	    <remove xpath="/quests/quest[contains(@id,'_fetch') or
-									contains(@id,'_clear') or
-									contains(@id,'supplies') or
-									contains(@id,'_restore_power') or
-									contains(@id,'_test_turnin') or
-									contains(@id,'_reward_quest_')
-									]/reward[@type='Item']"/>
-		
-		
+		<remove xpath="/quests/quest[@id='tier1_fetch']"/>
+		<remove xpath="/quests/quest[@template='tier1_fetch']"/>
+
+		<remove xpath="/quests/quest[@id='tier1_clear']"/>
+		<remove xpath="/quests/quest[@template='tier1_clear']"/>
+
+		<remove xpath="/quests/quest[@id='tier2_clear_infested']"/>
+		<remove xpath="/quests/quest[@template='tier2_clear_infested']"/>
+
+		<remove xpath="/quests/quest[@id='tier2_restore_power']"/>
+		<remove xpath="/quests/quest[@template='tier2_restore_power']"/>
+
+		<remove xpath="/quests/quest[@id='tier2_fetch_clear']"/>
+		<remove xpath="/quests/quest[@template='tier2_fetch_clear']"/>
+
+		<remove xpath="/quests/quest[@id='intro_buried_supplies']"/>
+		<remove xpath="/quests/quest[@id='tier1_buried_supplies']"/>
+		<remove xpath="/quests/quest[@template='tier1_buried_supplies']"/>
+
+		<remove xpath="/quests/quest[@id='tier2_nexttrader']"/>
+		<remove xpath="/quests/quest[@id='tier3_nexttrader']"/>
+		<remove xpath="/quests/quest[@id='tier4_nexttrader']"/>
+		<remove xpath="/quests/quest[@id='tier5_nexttrader']"/>
+
+		<remove xpath="/quests/quest[@id='quest_tier1complete']"/>
+		<remove xpath="/quests/quest[@id='quest_tier2complete']"/>
+		<remove xpath="/quests/quest[@id='quest_tier3complete']"/>
+		<remove xpath="/quests/quest[@id='quest_tier4complete']"/>
+		<remove xpath="/quests/quest[@id='quest_tier5complete']"/>
+		<remove xpath="/quests/quest[@id='quest_tier6complete']"/>
+
+		<remove xpath="/quests/quest_list[@id='trader_rekt_quests']"/>
+		<remove xpath="/quests/quest_list[@id='trader_jen_quests']"/>
+		<remove xpath="/quests/quest_list[@id='trader_bob_quests']"/>
+		<remove xpath="/quests/quest_list[@id='trader_hugh_quests']"/>
+		<remove xpath="/quests/quest_list[@id='trader_joel_quests']"/>
+
 <!-- END removal of ALL vanillia quests -->
 
 <!-- BEGIN Aircraft Carrier Challenge main quest line -->
 
 	<append xpath="/quests">
 
-		<!-- Initial quest that kicks off the challenge -->
-		
-		<quest id="quest_whiteRiverCitizen1"> 
+		<quest id="quest_whiteRiverCitizen1"> <!-- Initial quest that kicks off the challenge -->
+
 			<property name="name_key" value="challenge_StartingCarrier"/>
 			<property name="subtitle_key" value="challenge_StartingCarrier_subtitle"/>
 			<property name="description_key" value="challenge_StartingCarrier_description"/>
@@ -54,25 +75,24 @@
 				<property name="message" value="tutorialTipQuest01"/>
 				<property name="delay" value="2"/>
 			</action>
-			
+
 			<objective type="EntityKill" value="10" phase="1">
-				<property name="target_tags" value="crawler,walker,feral,radiated" />
+				<property name="target_tags" value="walker,feral,radiated" />
 			</objective>
-			
-			<reward type="Item" id="armorPrimitiveHelmet" value="2"/>
-			<reward type="Item" id="armorPrimitiveOutfit" value="2"/>
-			<reward type="Item" id="armorPrimitiveGloves" value="2"/>
-			<reward type="Item" id="armorPrimitiveBoots" value="2"/>
+            <reward type="Item" id="armorFarmerHelmet" value="1"/>
+            <reward type="Item" id="armorFarmerOutfit" value="1"/>
+            <reward type="Item" id="armorFarmerGloves" value="1"/>
+            <reward type="Item" id="armorFarmerBoots" value="1"/>
 			<reward type="Item" id="modArmorHelmetLight" value="1"/>
-			
+			<!-- <reward type="Item" id="bookWasteTreasuresAcid" value="1"/> -->
 			<reward type="SkillPoints" value="4" />
 			<reward type="Quest" id="quest_CarrierChallenge" />
-			<reward type="Quest" id="quest_eliminatezombies10" />		
+			<reward type="Quest" id="quest_eliminatezombies10" />
+			<reward type="Quest" id="quest_workstationSkillMagazine" />
 		</quest>
 
-		<!-- Go find Jen -->
-		
-		<quest id="quest_CarrierChallenge">
+		<quest id="quest_CarrierChallenge"> <!-- Go find Jen -->
+
 			<property name="name_key" value="quest_CarrierChallenge"/>
 			<property name="subtitle_key" value="quest_CarrierChallenge_subtitle"/>
 			<property name="description_key" value="quest_CarrierChallenge_description"/>
@@ -96,20 +116,21 @@
 				<property name="use_closest" value="true" />
 			</objective>
 			
-		<reward type="Item" id="Mission_1_Retrieve Apache information" value="1"/>
-		
-			</quest>
+			<reward type="Item" id="Mission_1_Retrieve information" value="1"/>
+		</quest>
 
-		<quest id="quest_CarrierChallenge01"> 
+		<quest id="quest_CarrierChallenge01"> <!-- Jen located: go get supplies crate from the Army Depot -->
+
 			<property name="name_key" value="quest_CarrierChallenge01" param1="name" />
-			<property name="subtitle_key" value="quest_CarrierChallenge01_subtitle"/>
+			<property name="subtitle_key" value="quest_CarrierChallenge01"/>
 			<property name="description_key" value="quest_CarrierChallenge01_description"/>
 			<property name="icon" value="ui_game_symbol_quest"/>
 			<property name="repeatable" value="false"/>
 			<property name="category_key" value="challenge"/>
 			<property name="difficulty" value="medium"/>
-			<property name="difficulty_tier" value="2"/>
-			<property name="offer_key" value="quest_CarrierChallenge01" />
+			<property name="difficulty_tier" value="5"/>
+			<property name="offer_key" value="quest_CarrierChallenge01" param1="offer" />
+			<property name="statement_key" value="Find the supplies from The Army Depot."/>
 			<property name="response_key" value="Fetch supplies"/>
 			<property name="reward_choices_count" value="5" />
 			<property name="login_rally_reset" value="true"/>
@@ -124,10 +145,19 @@
 				<property name="PrefabName" value="ARMY_DEPOT_2" />
 				<property name="nav_object" value="quest" />
 			</objective>
+			
+			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
+				<property name="completion_distance" value="50" />
+				<property name="phase" value="1" />
+				 <property name="PrefabName" value="ARMY_DEPOT_OG" /> 
+				<property name="nav_object" value="quest" />
+			</objective>
+
 			<objective type="RallyPoint">
 				<property name="phase" value="2"/>
 				<property name="nav_object" value="rally" />
 			</objective>
+
 			<objective type="FetchFromContainer">
 				<property name="phase" value="3"/>
 				<property name="quest_item_ID" value="1"/>
@@ -135,7 +165,8 @@
 				<property name="default_container" value="cntFetchQuestSatchel"/>
 				<property name="nav_object" value="fetch_container" />
 			</objective>
-          	<objective type="POIStayWithin">
+
+			<objective type="POIStayWithin">
 				<property name="phase" value="3"/>
 				<property name="radius" value="25"/>
 			</objective>
@@ -143,345 +174,226 @@
 			<action type="UnlockPOI" >
 				<property name="phase" value="4"/>
 			</action>
-				
+			
+			
 			<reward type="Exp" value="2500"/>
-			<reward type="SkillPoints" value="2" />
 			<reward type="Quest" id="quest_CarrierChallenge02"/>
-        </quest>
 
-	    <!--AH-64 Supplies for Starter Helicopter-->
+		</quest>
 
-		<quest id="quest_CarrierChallenge02">
+		<quest id="quest_CarrierChallenge02"> <!-- UH-60 Supplies for accessories -->
+
 			<property name="name_key" value="quest_CarrierChallenge02"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge02_subtitle"/>
+			<property name="subtitle_key" value="quest_CarrierChallenge02"/>
 			<property name="description_key" value="quest_CarrierChallenge02_description"/>
 			<property name="icon" value="ui_game_symbol_gyrocopter"/>
 			<property name="repeatable" value="false"/>
 			<property name="category_key" value="quest"/>
-			<property name="offer_key" value="CarrierChallenge02_offer"/>
+			<property name="offer_key" value="quest_CarrierChallenge02_offer"/>
 			<property name="difficulty" value="medium"/>
-			<property name="shareable" value="false"/>
+			<property name="shareable" value="true"/>
 
 			<action type="TrackQuest"/>
 
-			<objective type="Fetch" id="resourceBrokenGlass" value="110" phase="1"/>
-			<objective type="Fetch" id="resourceScrapBrass" value="180" phase="1"/>
-			<objective type="Fetch" id="resourceScrapLead" value="140" phase="1"/>
-			<objective type="Fetch" id="resourceScrapIron" value="250" phase="1"/>
-			<objective type="Fetch" id="resourceClayLump" value="80" phase="1"/>
+			<objective type="Fetch" id="resourceElectricParts" value="40" phase="1"/>
+			<objective type="Fetch" id="resourceHeadlight" value="10" phase="1"/>
+			<objective type="Fetch" id="resourceSpring" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceLeather" value="50" phase="1"/>
+			<objective type="Fetch" id="resourceMetalPipe" value="40" phase="1"/>
 
-			<objective type="Craft" id="ApacheHelicopterCanopy" value="1" phase="2"/>
-			<objective type="Craft" id="Mission_3_Bridge supplies" value="1" phase="3"/>
+		    <objective type="Craft" id="Mission_3_Bridge supplies" value="1" phase="2"/> 
 
-			<reward type="Exp" value="2500"/>	
+			<reward type="Exp" value="50"/>
+
 		</quest>
-		
-		<quest id="quest_CarrierChallenge03">
-			<property name="name_key" value="quest_CarrierChallenge03"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge03_subtitle"/>
+
+		<quest id="quest_CarrierChallenge03"> <!--  Go get supplies from the Bridge -->
+
+			<property name="name_key" value="quest_CarrierChallenge03" param1="name" />
+			<property name="subtitle_key" value="quest_CarrierChallenge03"/>
 			<property name="description_key" value="quest_CarrierChallenge03_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
 			<property name="repeatable" value="false"/>
-			<property name="category_key" value="challenge" />
-			<property name="difficulty_tier" value="5" param1="difficulty"/>
-			<property name="offer_key" value="quest_CarrierChallenge03_offer" />
-			<property name="statement_key" value="quest_restore_power_statement"/>
-		    <property name="response_key" value="quest_restore_power_response"/>
-			<property name="difficulty" value="medium" />
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="medium"/>
+			<property name="difficulty_tier" value="3"/>
+			<property name="offer_key" value="quest_CarrierChallenge03" param1="offer" />
+			<property name="statement_key" value="Find the supplies on the Bridge."/>
+			<property name="response_key" value="Fetch supplies"/>
+			<property name="reward_choices_count" value="5" />
+			<property name="login_rally_reset" value="true"/>
+			<!-- <property name="extra_tags" value="infested" param1="extra_tags" /> -->
 			<property name="shareable" value="true"/>
 
-			<property name="login_rally_reset" value="true"/>
-	
+			<action type="TrackQuest"/>
+
 			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
 				<property name="completion_distance" value="50" />
 				<property name="phase" value="1" />
 				<property name="PrefabName" value="TheBridge80" />
 				<property name="nav_object" value="quest" />
 			</objective>
+
+			<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
+				<property name="completion_distance" value="50" />
+				<property name="phase" value="1" />
+				<property name="PrefabName" value="The_Bridge" />
+				<property name="nav_object" value="quest" />
+			</objective>
+
 			<objective type="RallyPoint">
 				<property name="phase" value="2"/>
-				<property name="nav_object" value="rally"/>
-				<property name="allowed_start_hour" value="22"/>
-				<property name="allowed_end_hour" value="4"/>
+				<property name="nav_object" value="rally" />
 			</objective>
-			<objective type="POIBlockActivate" >
+
+			<objective type="FetchFromContainer">
 				<property name="phase" value="3"/>
-				<property name="block_index" value="QuestRestorePower"/>
-				<property name="nav_object" value="restore_power"/>
-				<property name="complete_event" value="quest_poi_lights_on"/>
+				<property name="quest_item_ID" value="1"/>
+				<property name="item_count" value="1"/>
+				<property name="default_container" value="cntFetchQuestSatchel"/>
+				<property name="nav_object" value="fetch_container" />
 			</objective>
+
 			<objective type="POIStayWithin">
 				<property name="phase" value="3"/>
 				<property name="radius" value="25"/>
 			</objective>
+
 			<action type="UnlockPOI" >
 				<property name="phase" value="4"/>
 			</action>
 
 			<reward type="Exp" value="2500"/>
-			<reward type="SkillPoints" value="4" />
-			<reward type="Quest" id="quest_CarrierChallenge04">
-			</reward>
+			<reward type="Quest" id="quest_CarrierChallenge04"/>
+
 		</quest>
-		
-		<quest id="quest_CarrierChallenge04">
+
+
+		<quest id="quest_CarrierChallenge04"> <!-- UH-60 Supplies for chasis -->
+
 			<property name="name_key" value="quest_CarrierChallenge04"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge04_subtitle"/>
+			<property name="subtitle_key" value="quest_CarrierChallenge04"/>
 			<property name="description_key" value="quest_CarrierChallenge04_description"/>
 			<property name="icon" value="ui_game_symbol_gyrocopter"/>
 			<property name="repeatable" value="false"/>
 			<property name="category_key" value="quest"/>
 			<property name="offer_key" value="quest_CarrierChallenge04_offer"/>
 			<property name="difficulty" value="medium"/>
-			<property name="shareable" value="true"/>
+			<property name="shareable" value="False"/>
 
 			<action type="TrackQuest"/>
 
-			<objective type="FetchKeep" id="resourceElectricParts" value="40" phase="1"/>
-			<objective type="FetchKeep" id="resourceHeadlight" value="8" phase="1"/>
-			<objective type="FetchKeep" id="resourceLeather" value="50" phase="1"/>
-			<objective type="FetchKeep" id="resourceDuctTape" value="20" phase="1"/>
-			<objective type="FetchKeep" id="resourceMetalPipe" value="25" phase="1"/>
+			<objective type="FetchKeep" id="resourceForgedSteel" value="400" phase="1"/>
+			<objective type="FetchKeep" id="resourceDuctTape" value="40" phase="1"/>
+			<objective type="FetchKeep" id="resourceSpring" value="25" phase="1"/>
+			<objective type="FetchKeep" id="resourceMetalPipe" value="50" phase="1"/>
+			<objective type="FetchKeep" id="resourceMechanicalParts" value="50" phase="1"/>
 
-			<objective type="Craft" id="ApacheHelicopterCockpit" value="1" phase="2"/>
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="gunT4Minigun" value="2-4"/>
+			<reward type="Item" id="vehicleUH60accessories"/>
+			<reward type="Item" id="Mission_5_Help Support Ship"/>
 
-			<reward type="Exp" value="5000"/>
-			<reward type="Quest" id="quest_CarrierChallenge05"/>
 		</quest>
 
-		<quest id="quest_CarrierChallenge05">
+		<quest id="quest_CarrierChallenge05"> <!-- UH-60 assembly -->
+
 			<property name="name_key" value="quest_CarrierChallenge05"/>
 			<property name="subtitle_key" value="quest_CarrierChallenge05_subtitle"/>
 			<property name="description_key" value="quest_CarrierChallenge05_description"/>
 			<property name="icon" value="ui_game_symbol_gyrocopter"/>
 			<property name="repeatable" value="false"/>
-			<property name="category_key" value="quest" />
-			<property name="offer_key" value="quest_CarrierChallenge05_offer" />
-			<property name="difficulty" value="medium" />
-			<property name="shareable" value="true"/>
-
-			<objective type="FetchKeep" id="resourceElectricParts" value="66" phase="1"/>
-			<objective type="FetchKeep" id="resourceHeadlight" value="4" phase="1"/>
-			<objective type="FetchKeep" id="resourceMetalPipe" value="100" phase="1"/>
-			<objective type="FetchKeep" id="resourceMechanicalParts" value="20" phase="1"/>
-			<objective type="FetchKeep" id="resourceSpring" value="8" phase="1"/>
-
-			<objective type="Craft" id="vehicleApacheHelicopterAccessories" value="2" phase="2"/>
-			
-
-			<reward type="Exp" value="5000"/>
-			<reward type="Quest" id="quest_CarrierChallenge06">
-			</reward>
-		</quest>
-
-		<quest id="quest_CarrierChallenge06">
-			<property name="name_key" value="quest_CarrierChallenge06"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge06"/>
-			<property name="description_key" value="quest_CarrierChallenge06_description"/>
-			<property name="icon" value="ui_game_symbol_gyrocopter"/>
-			<property name="repeatable" value="false"/>
-			<property name="category_key" value="quest"/>
-			<property name="offer_key" value="quest_CarrierChallenge06_offer"/>
-			<property name="difficulty" value="medium"/>
-			<property name="shareable" value="false"/>
-
-			<action type="TrackQuest"/>
-			<objective type="FetchKeep" id="resourceForgedSteel" count="400" phase="1"/>
-			<objective type="FetchKeep" id="resourceMechanicalParts" count="50" phase="1"/>
-			<objective type="FetchKeep" id="resourceDuctTape" count="40" phase="1"/>
-			<objective type="FetchKeep" id="resourceLeather" count="25" phase="1"/>
-			<objective type="FetchKeep" id="resourceMetalPipe" count="50" phase="1"/>
-
-			<objective type="Craft" id="vehicleApacheHelicopterChassis" value="1" phase="2"/>
-			
-
-			<reward type="Exp" value="5000"/>
-			<reward type="Quest" id="quest_CarrierChallenge07"/>
-		</quest>
-
-		<quest id="quest_CarrierChallenge07">
-			<property name="name_key" value="quest_CarrierChallenge07"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge07"/>
-			<property name="description_key" value="quest_CarrierChallenge07_description"/>
-			<property name="icon" value="ui_game_symbol_gyrocopter"/>
-			<property name="repeatable" value="false"/>
-			<property name="category_key" value="quest"/>
-			<property name="offer_key" value="quest_CarrierChallenge07_offer"/>
+			<property name="category_key" value="challenge"/>
+			<property name="offer_key" value="quest_CarrierChallenge05_offer"/>
 			<property name="difficulty" value="medium"/>
 			<property name="shareable" value="false"/>
 
 			<action type="TrackQuest"/>
 
-			
-			<objective type="FetchKeep" id="vehicleWheels" value="3" phase="1"/>
+			<objective type="FetchKeep" id="vehicleUH60chassis" value="1" phase="1"/>
 			<objective type="FetchKeep" id="smallEngine" value="2" phase="1"/>
 			<objective type="FetchKeep" id="carBattery" value="2" phase="1"/>
-			<objective type="FetchKeep" id="resourceForgedIron" value="50" phase="1"/>
-			<objective type="FetchKeep" id="resourceElectricParts" value="100" phase="1"/>
+			<objective type="FetchKeep" id="vehicleWheels" value="3" phase="1"/>
+			<objective type="FetchKeep" id="vehicleUH60placeable" value="1" phase="2"/>
 
-			<objective type="Craft" id="ApacheS4" value="1" phase="2"/>
+			<reward type="Quest" id="quest_CarrierChallenge06"/>
 
-			<reward type="Exp" value="5000"/>
-			<reward type="Quest" id="quest_CarrierChallenge08"/>
 		</quest>
 
-		<quest id="quest_CarrierChallenge08">
-			<property name="name_key" value="quest_CarrierChallenge08"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge08"/>
-			<property name="description_key" value="quest_CarrierChallenge08"/>
-			<property name="icon" value="ui_game_symbol_gyrocopter"/>
-			<property name="repeatable" value="false"/>
-			<property name="category_key" value="challenge"/>
-			<property name="offer_key" value="quest_CarrierChallenge08_offer"/>
-			<property name="difficulty" value="medium"/>
-			<property name="shareable" value="false"/>
+		<quest id="quest_CarrierChallenge06"> <!-- Clear and restore power at the destroyer POI -->
+
+			<property name="name_key" value="quest_CarrierChallenge06"/>
+			<property name="subtitle_key" value="quest_CarrierChallenge06_subtitle"/>
+			<property name="description_key" value="quest_CarrierChallenge06_description"/>
+			<property name="icon" value="ui_game_symbol_quest" />
+			<property name="repeatable" value="false" />
+			<property name="category_key" value="challenge" />
+			<property name="difficulty" value="medium" />
+			<property name="difficulty_tier" value="2" param1="difficulty" />
+			<property name="offer_key" value="quest_CarrierChallenge06_offer"/>
+			<property name="statement_key" value="quest_CarrierChallenge06_statement" />
+			<property name="response_key" value="quest_CarrierChallenge06_response" />
+			<property name="reward_choices_count" value="5" />
+			<property name="extra_tags" value="infested" param1="extra_tags" />
+			<property name="shareable" value="true"/>
+			<property name="gamestage_mod" value=".6" param1="gamestage_mod" />
+			<property name="gamestage_bonus" value="30" param1="gamestage_bonus" />
+
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="quest_CarrierChallenge06_completion"/>
 
 			<action type="TrackQuest"/>
 
-			<objective type="FetchKeep" id="resourceForgedSteel" count="16" phase="1"/>
-			<objective type="FetchKeep" id="resourceMechanicalParts" count="6" phase="1"/>
-			<objective type="FetchKeep" id="resourceSpring" count="3" phase="1"/>
-			<objective type="FetchKeep" id="resourceDuctTape" count="2" phase="1"/>
-			<objective type="FetchKeep" id="resourceLegendaryParts" count="1" phase="1"/>
+			<objective type="ClosestPOIGoto">
+				<property name="distance" value="10"/>
+				<property name="phase" value="1"/>
+			</objective>
 
-			<objective type="Craft" id="meleeToolSalvageT3ImpactDriverAC" value="1" phase="2"/>
+			<objective type="RallyPoint">
+				<property name="phase" value="2" />
+				<property name="nav_object" value="rally" />
+				<property name="allowed_start_hour" value="22" />
+				<property name="allowed_end_hour" value="1" />
+				<property name="complete_event" value="quest_poi_lights_off" />
+			</objective>
 
-			<reward type="Exp" value="5000"/>
-			<reward type="Quest" id="quest_CarrierChallenge09"/>
-		</quest>
+			<objective type="ClearSleepers">
+				<property name="phase" value="3" />
+				<property name="nav_object" value="sleeper_volume"/>
+			</objective>
 
-		<quest id="quest_CarrierChallenge09">
-			<property name="name_key" value="quest_CarrierChallenge09"/>
-			<property name="subtitle_key" value="quest_CarrierChallenge09_subtitle"/>
-			<property name="description_key" value="quest_CarrierChallenge09_description"/>
-			<property name="icon" value="ui_game_symbol_gyrocopter"/>
-			<property name="repeatable" value="false"/>
-			<property name="category_key" value="challenge"/>
-			<property name="offer_key" value="quest_CarrierChallenge09_offer"/>
-			<property name="difficulty" value="medium"/>
-			<property name="shareable" value="false"/>
+			<objective type="POIBlockActivate" >
+				<property name="phase" value="3" />
+				<property name="block_index" value="QuestRestorePower" />
+				<property name="nav_object" value="restore_power" />
+				<property name="complete_event" value="quest_poi_lights_on" />
+			</objective>
 
-			<action type="TrackQuest"/>
+			<objective type="POIStayWithin">
+				<property name="phase" value="3" />
+				<property name="radius" value="25" />
+			</objective>
 
-			<objective type="BlockPlace" id="ApacheS4" value="1" phase="1"/>
+			<action type="UnlockPOI" >
+				<property name="phase" value="4"/>
+			</action>
 
-			<objective type="FetchKeep" id="ApacheHelicopterCanopy" count="1" phase="2"/>
-			<objective type="FetchKeep" id="ApacheHelicopterCockpit" count="1" phase="2"/>
-			<objective type="FetchKeep" id="vehicleApacheHelicopterAccessories" count="2" phase="2"/>
-			<objective type="FetchKeep" id="vehicleApacheHelicopterChassis" count="1" phase="2"/>
+			<objective type="Goto" id="trader" value="1" phase="4">
+				<property name="distance" value="300"/>
+				<property name="biome_filter_type" value="any"/>
+				<property name="Zoning" value="any"/>
+				<property name="nav_object" value="go_to_trader"/>
+			</objective>
 
-			<reward type="Quest" id="quest_CarrierChallengeDestroyer"/>
-		</quest>
+			<objective type="InteractWithNPC">
+				<property name="phase" value="4" />
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
 
-		<!-- Clear and restore power at the destroyer POI -->
-	
-		<quest id="quest_CarrierChallengeDestroyer">
-				<property name="name_key" value="quest_CarrierChallengeDestroyer"/>
-				<property name="subtitle_key" value="quest_CarrierChallengeDestroyer_subtitle"/>
-				<property name="description_key" value="quest_CarrierChallengeDestroyer_description"/>
-				<property name="repeatable" value="false"/>
-				<property name="category_key" value="quest" />
-				<property name="offer_key" value="quest_CarrierChallengeDestroyer_offer" />
-				<property name="difficulty" value="medium" />
-				<property name="shareable" value="true"/>
+			<reward type="Exp" value="5060"/>
+			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+			<reward type="Quest" id="Completion"/>
 
-				<property name="login_rally_reset" value="true"/>
-
-				<action type="TrackQuest"/>
-
-				<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
-					<property name="completion_distance" value="50" />
-					<property name="phase" value="1" />
-					<property name="PrefabName" value="UUSS_Arleigh_Burke_Destroyer_02" />
-					<property name="nav_object" value="quest" />
-				</objective>
-				<objective type="RallyPoint">
-					<property name="phase" value="2"/>
-					<property name="nav_object" value="rally"/>
-					<property name="allowed_start_hour" value="22"/>
-					<property name="allowed_end_hour" value="4"/>
-				</objective>
-				<objective type="ClearSleepers">
-					<property name="phase" value="3"/>
-					<property name="nav_object" value="sleeper_volume"/>
-				</objective>
-				<objective type="POIBlockActivate" >
-					<property name="phase" value="3"/>
-					<property name="block_index" value="QuestRestorePower"/>
-					<property name="nav_object" value="restore_power"/>
-					<property name="complete_event" value="quest_poi_lights_on"/>
-				</objective>
-				<objective type="POIStayWithin">
-					<property name="phase" value="3"/>
-					<property name="radius" value="25"/>
-				</objective>
-				<action type="UnlockPOI" >
-					<property name="phase" value="4"/>
-				</action>
-
-				<reward type="Exp" value="500"/>
-				<reward type="Quest" id="quest_CarrierChallengeDestroyer2">
-				</reward>
-			</quest>
-		
-	<quest id="quest_CarrierChallengeDestroyer2">
-		<property name="name_key" value="quest_ChallengeDestroyer2"/>
-		<property name="subtitle_key" value="quest_ChallengeDestroyer2"/>
-		<property name="description_key" value="quest_ChallengeDestroyer2_description"/>
-		<property name="icon" value="ui_game_symbol_gyrocopter"/>
-		<property name="repeatable" value="false"/>
-		<property name="category_key" value="quest"/>
-		<property name="offer_key" value="quest_ChallengeDestroyer2_offer"/>
-		<property name="difficulty" value="medium"/>
-		<property name="extra_tags" value="infested" param1="extra_tags" />
-		<property name="shareable" value="true"/>
-		<property name="gamestage_mod" value=".6" param1="gamestage_mod" />
-		<property name="gamestage_bonus" value="30" param1="gamestage_bonus" />
-
-		<property name="login_rally_reset" value="true"/>
-
-		<action type="TrackQuest"/>
-
-		<objective type="GotoPOISDX, SCore" value="10-6000" phase="1">
-			<property name="completion_distance" value="50" />
-			<property name="phase" value="1" />
-			<property name="PrefabName" value="ACCENDINGJOEL" />
-			<property name="nav_object" value="quest" />
-		</objective>
-
-		<objective type="RallyPoint">
-			<property name="phase" value="2"/>
-			<property name="nav_object" value="rally"/>
-			<property name="allowed_start_hour" value="22"/>
-			<property name="allowed_end_hour" value="4"/>
-		</objective>
-
-		<objective type="ClearSleepers">
-			<property name="phase" value="3"/>
-			<property name="nav_object" value="sleeper_volume"/>
-		</objective>
-
-		<objective type="POIStayWithin">
-			<property name="phase" value="3"/>
-			<property name="radius" value="25"/>
-		</objective>
-
-		<action type="UnlockPOI" >
-			<property name="phase" value="4"/>
-		</action>
-		
-	     <objective type="Goto" id="trader" value="1" phase="4">
-			<property name="biome_filter_type" value="any"/>
-			<property name="Zoning" value="any"/>
-			<property name="nav_object" value="go_to_trader"/>
-		</objective> 
-
-		<objective type="InteractWithNPC">
-			<property name="phase" value="4" />
-			<property name="nav_object" value="return_to_trader" /> 
-		</objective> 
-
-		<reward type="Exp" value="500"/>
-		<reward type="Quest" id="Completion"/>
 		</quest>
 
 		<quest id="Completion"> <!-- Challenge Completion -->
@@ -548,7 +460,6 @@
 			</objective>
 
 			<reward type="Exp" value="1500"/>
-			<reward type="Item" id="electricianSkillMagazineAC" value="2"/>
 			<reward type="Quest" id="quest_eliminatezombies25">
 				<property name="chainquest" value="false"/>
 			</reward>
@@ -663,12 +574,351 @@
 			</objective>
 
 			<reward type="SkillPoints" value="2" chainreward="false"/>
-			<reward type="Item" id="gunT4Flamethrower" value="2-6"/>
+			<reward type="Item" id="gunT4Flamethrower" value="1-6"/>
 
 			<reward type="Quest" id="quest_eliminatezombies10">
 				<property name="chainquest" value="false"/>
 			</reward>
 		</quest>
+
+		<!-- BEGIN chained magazine,zombies kill repeatable quest line -->
+			
+			 <quest id="quest_workstationSkillMagazine">
+
+				<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="name_key" value="Magazines 1" />
+				<property name="subtitle_key" value="Workstation Magazine" />
+				<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="CustomIcon" value="bookForgeAhead"/>
+				<property name="repeatable" value="true"/>
+				<property name="category_key" value="Quest"/>
+				<property name="difficulty" value="easy"/>
+				<property name="shareable" value="false"/>
+
+				<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+				<objective type="Fetch" id="resourceMetalPipe" value="10" phase="1"/>
+				<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+				<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+				<objective type="EntityKill" id="zombieUtilityWorker" value="2" phase="2"/>
+                	 
+				<reward type="Exp" value="50"/>
+				<reward type="Item" id="workstationSkillMagazine" value="1"/>
+
+				<reward type="Quest" id="quest_bowsSkillMagazine">
+					<property name="chainquest" value="false"/>
+				</reward>
+
+			</quest>
+
+		<quest id="quest_bowsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 2" />
+			<property name="subtitle_key" value="Bow Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceLeather" value="2" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieBoe" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="bowsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_foodSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_foodSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 3" />
+			<property name="subtitle_key" value="Food Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookHomeCookingWeekly"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="foodRottingFlesh" value="10" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieArlene" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="foodSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_handgunsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+		
+		<quest id="quest_handgunsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 4" />
+			<property name="subtitle_key" value="Pistol Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceGlue" value="2" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieMoe" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="handgunsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_medicalSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_medicalSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 5" />
+			<property name="subtitle_key" value="Medical Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bundleBooks"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceCloth" value="10" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieNurse" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="medicalSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_armorSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+		</quest>
+
+		<quest id="quest_armorSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 6" />
+			<property name="subtitle_key" value="Armor Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bundleBooks"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="armorParts" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieSoldier" value="2" phase="2"/>	
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="armorSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_harvestingToolsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+		</quest>
+
+		<quest id="quest_harvestingToolsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 7" />
+			<property name="subtitle_key" value="Harvesting Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourceLeather" value="5" phase="1"/>
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceWood" value="10" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieDarlene" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="harvestingToolsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_shotgunsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_shotgunsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 8" />
+			<property name="subtitle_key" value="Shotgun Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bundleBooks"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceBuckshot" value="5" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieSteve" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="shotgunsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_salvageToolsSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+		</quest>
+
+		<quest id="quest_salvageToolsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 9" />
+			<property name="subtitle_key" value="Harvesting Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bookForgeAhead"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourceLeather" value="5" phase="1"/>
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceWood" value="10" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieDarlene" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="salvageToolsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_riflesSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+
+		</quest>
+
+		<quest id="quest_riflesSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 10" />
+			<property name="subtitle_key" value="Rifle Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bundleBooks"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceForgedIron" value="1" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombiePartyGirl" value="1" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="riflesSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_vehiclesSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+		</quest>
+
+		<quest id="quest_vehiclesSkillMagazine">
+
+				<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="name_key" value="Magazines 11" />
+				<property name="subtitle_key" value="Vehicle Magazine" />
+				<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+				<property name="CustomIcon" value="bundleBooks"/>
+				<property name="repeatable" value="true"/>
+				<property name="category_key" value="Quest"/>
+				<property name="difficulty" value="easy"/>
+				<property name="shareable" value="false"/>
+
+
+				<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+				<objective type="Fetch" id="ammoGasCan" value="10" phase="1"/>
+				<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+				<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+				<objective type="EntityKill" id="zombieBiker" value="2" phase="2"/>
+                 
+				
+				<reward type="Exp" value="50"/>
+				<reward type="Item" id="vehiclesSkillMagazineAC" value="1"/>
+
+				<reward type="Quest" id="quest_machineGunsSkillMagazine">
+					<property name="chainquest" value="false"/>
+				</reward>
+
+			</quest>
+
+		<quest id="quest_machineGunsSkillMagazine">
+
+			<property name="offer_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="name_key" value="Magazines 12" />
+			<property name="subtitle_key" value="Machine Guns Magazine" />
+			<property name="description_key" value="Accept this quest to receive extra magazines. This Quest chain repeats in an endless loop." />
+			<property name="CustomIcon" value="bundleBooks"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="Quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Fetch" id="resourcePaint" value="15" phase="1"/>
+			<objective type="Fetch" id="resourceSpring" value="2" phase="1"/>
+			<objective type="Fetch" id="meleeToolPaintTool" value="1" phase="1"/>
+			<objective type="Fetch" id="resourcePaper" value="25" phase="1"/>
+
+			<objective type="EntityKill" id="zombieBusinessMan" value="2" phase="2"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="machineGunsSkillMagazineAC" value="1"/>
+
+			<reward type="Quest" id="quest_workstationSkillMagazine">
+				<property name="chainquest" value="false"/>
+			</reward>
+		</quest>
+		
+		<!-- End Removal of quests that don't fit in to this pack / quests that are placed outside the main POI for this pack -->
 
 	</append>
 

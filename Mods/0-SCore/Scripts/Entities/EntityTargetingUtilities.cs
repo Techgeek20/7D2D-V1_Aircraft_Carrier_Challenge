@@ -55,7 +55,7 @@ public static class EntityTargetingUtilities
             }
 
             // Otherwise, use factions.
-            return !IsFriendlyFireByFaction(selfPlayer, target);
+            return !IsFriendlyFireByFaction(target, selfPlayer);
         }
 
         // You can always damage your revenge target, even if it's a player (since they hit first).

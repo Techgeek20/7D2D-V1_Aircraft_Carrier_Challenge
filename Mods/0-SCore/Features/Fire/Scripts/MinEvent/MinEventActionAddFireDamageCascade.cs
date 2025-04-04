@@ -36,7 +36,6 @@ public class MinEventActionAddFireDamageCascade : MinEventActionRemoveBuff
     public override void Execute(MinEventParams @params)
     {
         var position = @params.Position;
-        var entityId = @params.Self.entityId;
         if (targetType != TargetTypes.positionAOE)
         {
             if (Voxel.voxelRayHitInfo.bHitValid)
@@ -46,10 +45,10 @@ public class MinEventActionAddFireDamageCascade : MinEventActionRemoveBuff
                 position = hitInfo.hit.blockPos;
             }
         }
-        SpreadFire(position, entityId);
+        SpreadFire(position);
     }
 
-    private void SpreadFire(Vector3 position, int entityId)
+    private void SpreadFire(Vector3 position)
     {
         var targetBlock = GameManager.Instance.World.GetBlock(new Vector3i(position));
 
@@ -66,21 +65,21 @@ public class MinEventActionAddFireDamageCascade : MinEventActionRemoveBuff
                     {
                         case FilterTypeCascade.Type:
                             if (neighborBlock.type == targetBlock.type)
-                                FireManager.Instance.Add(vector,entityId);
+                                FireManager.Instance.Add(vector);
                             break;
                         case FilterTypeCascade.Material:
                             if (neighborBlock.Block.blockMaterial.id == targetBlock.Block.blockMaterial.id)
-                                FireManager.Instance.Add(vector,entityId);
+                                FireManager.Instance.Add(vector);
                             break;
                         case FilterTypeCascade.MaterialDamage:
                             if (neighborBlock.Block.blockMaterial.DamageCategory ==
                                 targetBlock.Block.blockMaterial.DamageCategory)
-                                FireManager.Instance.Add(vector,entityId);
+                                FireManager.Instance.Add(vector);
                             break;
                         case FilterTypeCascade.MaterialSurface:
                             if (neighborBlock.Block.blockMaterial.SurfaceCategory ==
                                 targetBlock.Block.blockMaterial.SurfaceCategory)
-                                FireManager.Instance.Add(vector,entityId);
+                                FireManager.Instance.Add(vector);
                             break;
                     }
                 }

@@ -16,25 +16,12 @@ namespace SCore.Features.RemoteCrafting.Scripts {
             var strDistance = Configuration.GetPropertyValue(AdvFeatureClass, "Distance");
             if (!string.IsNullOrEmpty(strDistance))
                 distance = StringParsers.ParseFloat(strDistance);
-            var tileEntities = GetTileEntities(player, distance, false);
+            var tileEntities = GetTileEntities(player, distance);
             return tileEntities;
         }
 
-        public static bool CheckEnemyForCrafting() {
-            return Configuration.CheckFeatureStatus("AdvancedRecipes", "BlockOnNearbyEnemies");
-        }
-        public static bool CheckEnemyForRepairing() {
-            return Configuration.CheckFeatureStatus("BlockUpgradeRepair", "BlockOnNearbyEnemies");
-        }
-
-        
-        public static List<TileEntity> GetTileEntities(EntityAlive player, float distance, bool forRepairs) {
-            if ( forRepairs && CheckEnemyForRepairing())
-                if (IsEnemyNearby(player)) return new List<TileEntity>() ;
-
-            if ( !forRepairs && CheckEnemyForCrafting())
-                if (IsEnemyNearby(player)) return new List<TileEntity>() ;
-
+        public static List<TileEntity> GetTileEntities(EntityAlive player, float distance) {
+            if (IsEnemyNearby(player)) return new List<TileEntity>() ;
             var disabledsender = Configuration.GetPropertyValue(AdvFeatureClass, "disablesender").Split(',');
             var nottoWorkstation = Configuration.GetPropertyValue(AdvFeatureClass, "nottoWorkstation");
             var bindtoWorkstation = Configuration.GetPropertyValue(AdvFeatureClass, "bindtoWorkstation");
@@ -208,7 +195,7 @@ namespace SCore.Features.RemoteCrafting.Scripts {
             var item = new List<ItemStack>();
 
             var items = new List<ItemStack>();
-            var tileEntities = GetTileEntities(player, distance, false);
+            var tileEntities = GetTileEntities(player, distance);
             foreach (var tileEntity in tileEntities)
             {
                 if (!tileEntity.TryGetSelfOrFeature<ITileEntityLootable>(out var lootTileEntity))
@@ -231,7 +218,7 @@ namespace SCore.Features.RemoteCrafting.Scripts {
         }
 
         public static bool AddToNearbyContainer(EntityAlive player, ItemStack itemStack, float distance) {
-            var tileEntities = GetTileEntities(player, distance, false);
+            var tileEntities = GetTileEntities(player, distance);
             foreach (var tileEntity in tileEntities)
             {
                 if (!tileEntity.TryGetSelfOrFeature<ITileEntityLootable>(out var lootTileEntity)) continue;

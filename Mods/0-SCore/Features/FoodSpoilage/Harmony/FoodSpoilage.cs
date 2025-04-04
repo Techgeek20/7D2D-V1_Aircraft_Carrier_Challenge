@@ -217,13 +217,7 @@ public class SphereII_FoodSpoilage {
                                           blockValue.Block.Properties.GetFloat("PreserveBonus") + " )";
                             var preserveBonus = blockValue.Block.Properties.GetFloat("PreserveBonus");
                             if (preserveBonus == -99f)
-                            {
-                                // Setting the next spoilage tick to reset the stack.
-                                nextTick = CalculateNextSpoilageTick(worldTime, tickPerLoss);
-                                SetNextSpoilageTick(__instance.ItemStack.itemValue, nextTick);
-                                __instance.ForceRefreshItemStack();
                                 return true;
-                            }
 
                             perUse -= preserveBonus;
                         }

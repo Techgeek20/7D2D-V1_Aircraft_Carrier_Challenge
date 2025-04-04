@@ -3,7 +3,7 @@ Key,English
 goGameWorld,[FF4F00]Select 'Aircraft  (biome)'[-]
 goLootRespawnDays,Loot Respawn-[FF4F00]Select 7 Days '[-]
 
-adminQuestTicketDesc,"Read, accept, and complete to receive next quest.\n\nUsed for quest progression."
+adminQuestTicketDesc,"Read, accept, and complete to recieve next quest.\n\nUsed for quest progression."
 
 resourcePaper,"Classified Document" 
 resourcePaperDesc,"EAM\n FROM: USLANTFLT\n TO: USS SAN PAULO\n MESSAGE AS FOLLOWS:\n Movement to G.S. ATL-001 to acquire TP for bunghole (and other ""supplies"")"
@@ -20,6 +20,9 @@ resourceAnimalFatDesc,"Fat can be eaten raw or used in cooking or other crafting
 drugAntibioticsDT,Antibiotics
 drugAntibioticsDTDesc,Antibiotics can cure infections.\n\nCan be crafted in a beaker at a campfire or at the chemistry station.
 
+foodShepardsPie,Shepherd's Pie
+foodShepardsPieDesc,"Shepherd's Pie sure is tasty and super filling.\n\nI just wish The Fun Pimps spelt it properly, so I didn't need to add this description..."
+
 perkGreaseMonkeyRank1Desc,Wheely good
 perkGreaseMonkeyRank1LongDesc,Congratulations - you are now as smart as a primitive human!\n\nCraft wheels 33% cheaper.\n\nRepair kits are 10 percent more effective on vehicles.
 
@@ -33,24 +36,13 @@ perkGreaseMonkeyRank4Desc,Not very basic
 perkGreaseMonkeyRank4LongDesc,"Your mechanical prowess is that of a professional pit crew!\n\nRepair kits are 40 percent more effective on vehicles."
 
 perkGreaseMonkeyRank5Desc,At last!!
-perkGreaseMonkeyRank5LongDesc,"You're a full-on aeronautical MacGyver.\nCraft AH-64 parts 33% cheaper.\n\nRepair kits are 50 percent more effective on vehicles."
+perkGreaseMonkeyRank5LongDesc,"You're a full-on aeronautical MacGyver.\nCraft UH-60 parts 33% cheaper.\n\nRepair kits are 50 percent more effective on vehicles."
 
 vehiclesT1,Tier 1: Wheels
 vehiclesT2,Tier 2: Oil
 vehiclesT3,Tier 3: Gas Cans
 vehiclesT4,Tier 4: Acid
 vehiclesT5,Tier 5: Flight
-
-ApacheS4,Starter Helicopter
-ApacheS3,Canopy
-ApacheS2,Cockpit
-ApacheS1,Accessories
-Apache,Chassis
-
-AH-64ApacheHelicopterDesc,Used to create your own AH-64 Apache.
-AH-64ApacheHelicopter2Desc,Do not place this item until all parts are crafted for the challenge.
-
-meleeToolSalvageT3ImpactDriverAC,Apache Impact Driver
 
 DishongLootContainerUtilityWorkerLoot,Duffle Bag
 DishongLootContainerBusinessManLoot,Duffle Bag
@@ -121,16 +113,16 @@ zombieBoeFeral,Feral w00kie n00kie
 zombieBoeRadiated,Radiated w00kie n00kie
 
 zombieBurnt,FlameWizo
-zombieBurntFeral,Feral FlameWizo
-zombieBurntRadiated,Radiated Smokey_Prime
+zombieBurntFeral,Feral Smokey_Prime
+zombieBurntRadiated,Radiated FlameWizo
 
 zombieDarlene,Loveshack65
 zombieDarleneFeral,Feral Loveshack65
 zombieDarleneRadiated,Radiated Loveshack65
 
-zombieJanitor,HellsJanitor
-zombieJanitorFeral,Feral HellsJanitor
-zombieJanitorRadiated,Radiated HellsJanitor
+zombieJanitor,HellsJanitorTV
+zombieJanitorFeral,Feral HellsJanitorTV
+zombieJanitorRadiated,Radiated HellsJanitorTV
 
 zombieLab,CharmCuddler
 zombieLabFeral,Feral CharmCuddler
@@ -152,9 +144,9 @@ zombieMoe,Angelacus
 zombieMoeFeral,Feral Angelacus
 zombieMoeRadiated,Radiated Angelacus
 
-zombieNurse,KatsPurr
-zombieNurseFeral,Feral Katspurr
-zombieNurseRadiated,Radiated KatsPurr
+zombieNurse,ArrantHealer
+zombieNurseFeral,Feral ArrantHealer
+zombieNurseRadiated,Radiated ArrantHealer
 
 zombieYo,Sarcoth
 zombieYoFeral,Feral Sarcoth
@@ -168,9 +160,9 @@ zombiePartyGirl,ElainethePaine
 zombiePartyGirlFeral,Feral ElainethePaine
 zombiePartyGirlRadiated,Radiated Elainethepaine
 
-zombieBusinessMan,LobitoGamingTV
-zombieBusinessManFeral,Feral LobitoGamingTV
-zombieBusinessManRadiated,Radiated LobitoGamingTV
+zombieBusinessMan,Yubinashi
+zombieBusinessManFeral,Feral Yubinashi
+zombieBusinessManRadiated,Radiated Yubinashi
 
 zombieSoldier,Techie
 zombieSoldierFeral,Feral Techie
@@ -188,8 +180,6 @@ zombieSteveCrawler,PitchieB
 zombieSteveCrawlerFeral,Feral PitchieB
 
 animalBossGrace,SpeedyPig69
-
-animalhostilechicken,RoadRunner
 
 animalWolf,Korbulas
 animalDireWolf,Raging Korbulas
@@ -213,12 +203,12 @@ animalBear,angeleyes_1971
 animalBearSmall,Baby angeleyes_1971
 
 zombieUtilityWorker,Seamen
-zombieUtilityWorkerFeral,Private Willie
 zombieUtilityWorkerRadiated,Major Johnson
+zombieUtilityFeral,Private Willie
 
-zombieArlene,JynxdGinger79
-zombieArleneFeral,Feral JynxdGinger79
-zombieArleneRadiated,Radiated JynxdGinger79
+zombieArlene,DeaditeGirl
+zombieArleneFeral,Feral DeaditeGirl
+zombieArleneRadiated,Radiated DeaditeGirl
 
 zombieSpider,NuttyMonkey15
 zombieSpiderFeral,Feral NuttyMonkey15
@@ -246,19 +236,19 @@ zombieMutatedRadiated,HamandLiz Radiated
 
 
 loadingTipAircraft1_title,Seeds asshole
-loadingTipAircraft1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are NO useable farm plots in the ship ..."
+loadingTipAircraft1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are NO usuable farmplots in the ship ..."
 
 loadingTipAircraft2_title,Zombie Loot
 loadingTipAircraft2,"Almost every zombie will drop a loot bag once dead, and specific zombies will have a chance to drop specific loot."
 
 loadingTipAircraft3_title,Questing for Skill Magazines
-loadingTipAircraft3,"Skill magazines can be found in their usual places, and certain zombies also have a chance to give certain magazines in their loot bag."
+loadingTipAircraft3,"Skill magazines can be quested for or found in their usual places, and certain zombies also have a chance to give certain magazines in their loot bag."
 
 loadingTipAircraft4_title,Looting
-loadingTipAircraft4,"Loot is an integral part to completing this challenge. Loot will NOT restock."
+loadingTipAircraft4,"Loot respawn is integral to completing this challenge. Loot will automatically restock after a certain period of time, determined by the 'Loot Respawn' number you set before starting the game."
 
 loadingTipAircraft5_title,Zombie respawns
-loadingTipAircraft5,"Zombies can now be set to respawn after a time you decide. Check the 'Aircraft' tab on the main menu, and set the number of days (7) recommended, you want between zombies respawning on the ship."
+loadingTipAircraft5,"Zombies can now be set to respawn after a time you decide. Check the 'Aircraft' tab on the main menu, and set the number of days you want between zombies respawning on the ship."
 
 loadingTipAircraft6_title,Resources
 loadingTipAircraft6,"Resources are scarce in the ship, but you will be able to find or craft everything you need to complete the challenge. Some resources, like old cash, can be used in recipes - so make sure you check the recipes for EVERYTHING. Also, some of the rarer resources, like acid, can now be crafted. It can also be looted from zombies - along with antibiotics and beakers."
@@ -267,19 +257,19 @@ loadingTipAircraft7_title,Crafting
 loadingTipAircraft7,"Crafting workstations, and tools like the crucible, and vehicles themselves, take fewer magazines to read before they unlock."
 
 loadingTipAircraft8_title,Cheating
-loadingTipAircraft8,"Trying to leave the ship other than by an AH-64 Apache helicopter (Zilox mod) is not advised . The ground is SPICY and will end your challenge ...."
+loadingTipAircraft8,"Trying to leave the ship other than by UH-60 is a very bad idea ..."
 
 loadingTipAircraft9_title,Lost Are We?
 loadingTipAircraft9,"If you are lost on where to travel to next, there may have been a kind soul who left directions in the quest instructions. Let's be real though, men neither ask for directions nor read instructions!"
 
 loadingTipAircraft10_title,Special Thanks
-loadingTipAircraft10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original mod and concept."
+loadingTipAircraft10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original base mod and concept."
 
 loadingTipAircraft11_title,Horde Night
 loadingTipAircraft11,"Horde nights, better suck it up, buttercup."
 
 loadingTipAircraft12_title,Aircraft Resources
-loadingTipAircraft12,"There are many changes from vanilla for resource gathering. Clay soil, for example, can be found by harvesting potted plants, farm plots, and destroyed stone."
+loadingTipAircraft12,"There are many changes from vanilla for resource gathering. Clay soil, for example, can be found by harvesting potted plants, farm plots, and destroyed stone"
 
 loadingTipAircraft13_title,Search Everywhere - Check Everything
 loadingTipAircraft13,"For a military vessel, there are considerable nooks, crannies, hidey holes and hidden stashes all over the place. Some say there are hidden shortcuts within the walls too! Navy brass would be rolling in their grave if they weren't ambling around in hordes of the reanimated dead..."
@@ -288,7 +278,10 @@ loadingTipAircraft14_title,Wrench
 loadingTipAircraft14,"Keep it repaired. Look after your wrench, and your wrench will look after you."
 
 loadingTipAircraft15_title,Archer
-loadingTipAircraft15,"Fear not, little Robin Hood. Wield a bow without arrows but plentiful crossbow bolts? You may convert your arrows to bolts and your bolts to arrows for free. William Tell those apples, my friend."
+loadingTipAircraft15,"Fear not, little Robin Hood. Wield a bow without arrows but plentyful crossbow bolts? You may convert your arrows to bolts and your bolts to arrows for free. William Tell those apples, my friend."
+
+loadingTipAircraft16_title,Sneaky Sneaky
+loadingTipAircraft16,"There may be times where being sneaky is the better part of valor..."
 
 dishongTowerBundle,Aircraft Carrier Challenge Starter Items,,
 dishongTowerBundleDesc,Starter items for the Aircraft carrier challenge.,,
@@ -296,60 +289,47 @@ dishongTowerBundleDesc,Starter items for the Aircraft carrier challenge.,,
 
 Welcome,"Started The Aircraft Carrier Challenge"
 
-tutorialTipQuest01,"Don't know how I got in this U-boat but I'm glad I did, the ground outside messed me up real quick! Someone had to have helped me but where are they? Looks like I'm here to stay, If I can find them, maybe we can help each other find a safe haven. No matter what, I need supplies, I have barely enough food and water for the rest of the day, glad I found this backpack with some basic tools and weapons to give me a fighting chance.\n\nYou must survive, by doing missions ,looting and crafting everything you need to build an AH-64 APACHE to make your escape from the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]" 
+tutorialTipQuest01,"Welcome Aboard the Aircraft Carrier Challenge.\n\nYour challenge is to fight your way thru the carrier, by doing  missions ,looting and crafting everything you need to build a UH-60 to make your escape from the carrier to complete your final mission. \n\nRULES:\n1. You must enter the Aircraft Carrier immediately ( The tent and U-boats count as being on the carrier) and cannot leave thereafter. \n2.When entering the carrier thru the tent, you must choose only [ff7f27]ONE[-] of these [ff7f27]3[-] options  [ff7f27]Keybox[-], [ff7f27]1st[-] or [ff7f27]2nd valve[-].\n3. The ground around the carrier is [ff7f27]SPICY[-] and may [ff7f27]NOT[-] be used to support any structures, or to grow any crops, unless you can do this [ff7f27]WITHOUT[-] touching it..\n4. You may not mine or dig under the carrier.\n5. All default game settings, unless you are a seasoned gamer.\n6. It is recommended to have loot and sleeper respawns set to [ff7f27]7 DAYS[-].\n7. You must survive until you are able to build a UH-60 and fly off the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]" 
 
-challenge_StartingCarrier,"Welcome aboard Petty officer 2nd class!"
+challenge_StartingCarrier,"Welcome aboard!"
 challenge_StartingCarrier_subtitle,"Prove your worth."
-challenge_StartingCarrier_description,"If you are to survive you will need to eliminate zombies for their red bags."
+challenge_StartingCarrier_description,"Up for a Challenge?"
+challenge_StartingCarrier_offer,"So you think you can handle the [cd5c5c] Aircraft Carrier Challenge? [ffffff] The worlds gone to hell in a handbasket, and you think you can just leisurely walk in for some fun?\n\nYeh, right."
 
-quest_CarrierChallenge,"Find a survivor"
-quest_CarrierChallenge_subtitle,"Head to medical"
-quest_CarrierChallenge_description,"Head to medical on Deck 10 just below the Mess Hall. Also, get yourself healed, you look pretty messed up after all those zombies."
+quest_CarrierChallenge,"Time to report in"
+quest_CarrierChallenge_subtitle,"Report to Medical for physical."
+quest_CarrierChallenge_description,"Now that your done jack-jawing and lollygaggin', get you arse in gear and get checked in!"
+quest_CarrierChallenge_offer,"Your nurse is waiting..."
 
-quest_CarrierChallenge01,"Mission Bob's Blueprint"
-quest_CarrierChallenge01_subtitle,"Find Bob's Blueprint"
-quest_CarrierChallenge01_description,"Bob told me he found plans for a chopper in the Army Depot, maybe you can head down there, he may have left it."
+quest_CarrierChallenge01,"Dawn's low on coffee..."
+quest_CarrierChallenge01_subtitle,"Gather Dawn's coffee supplies."
+quest_CarrierChallenge01_offer,"Get Dawnn her coffee stash"
+quest_CarrierChallenge01_description,"Is it just me or did Dawnn look like she's about to doze off?  Can't have that now, she's on duty and needs coffee to keep alert."
 
-quest_CarrierChallenge02,"Gather AH-64 Parts 1/5 "
-quest_CarrierChallenge02_subtitle,"Build Apache Canopy"
-quest_CarrierChallenge02_description,"Gather parts and craft an Apache Canopy."
+quest_CarrierChallenge02,"Gather resources to craft your next mission"
+quest_CarrierChallenge02_subtitle,"Gather resources for the UH-60 accessories."
+quest_CarrierChallenge02_offer,"."
+quest_CarrierChallenge02_description,"."
 
-quest_CarrierChallenge03,"Restore Power to the bridge"
-quest_CarrierChallenge03_subtitle,"Restore Bridge Operation Systems"
-quest_CarrierChallenge03_description,"Just had a thought, we're going to need radar support, can you restore the power to the Bridge Operation Systems?"
-quest_CarrierChallenge03_offer,"Just had a thought, we're going to need radar support, can you restore the power to the Bridge Operation Systems?"
+quest_CarrierChallenge03,"Gather supplies from the Bridge"
+quest_CarrierChallenge03_subtitle,"Gather supplies from the Bridge."
+quest_CarrierChallenge03_offer,"."
+quest_CarrierChallenge03_description,"."
 
-quest_CarrierChallenge04,"Gather AH-64 Parts 2/5 "
-quest_CarrierChallenge04_subtitle,"Build Apache Cockpit"
-quest_CarrierChallenge04_description,"Gather parts and craft an Apache Cockpit in a workbench."
+quest_CarrierChallenge04,"Gather UH-60 Supplies Pt. 2 - Chassis"
+quest_CarrierChallenge04_subtitle,"Gather resources for the UH-60 chassis."
+quest_CarrierChallenge04_offer,"."
+quest_CarrierChallenge04_description,"."
 
-quest_CarrierChallenge05,"Gather AH-64 Parts 3/5 "
-quest_CarrierChallenge05_subtitle,"Build Apache Accessories"
-quest_CarrierChallenge05_description,"Gather parts and craft two Apache accessories in a workbench."
+quest_CarrierChallenge05,"Assist support ship!"
+quest_CarrierChallenge05_subtitle,"Get this hunk of junk in the air"
+quest_CarrierChallenge05_offer,"Clear and restore power on our support ship"
+quest_CarrierChallenge05_description,"Go find and land on the support ship [FF0000] BEFORE [-] logging out."
 
-quest_CarrierChallenge06,"Gather AH-64 Parts 4/5 "
-quest_CarrierChallenge06_subtitle,"Build Apache Chassis"
-quest_CarrierChallenge06_description,"Gather parts and craft an Apache Chassis in a workbench."
-
-quest_CarrierChallenge07,"Gather AH-64 Parts 5/5 "
-quest_CarrierChallenge07_subtitle,"How to build a helicopter"
-quest_CarrierChallenge07_description,"Gather parts and craft a Starting helicopter"
-
-quest_CarrierChallenge08,"Apache Impact Driver "
-quest_CarrierChallenge08_subtitle," Craft Apache Impact Driver"
-quest_CarrierChallenge08_description,"Craft an Apache Impact Driver in a workbench."
-
-quest_CarrierChallenge09,"USE Apache Impact Driver"
-quest_CarrierChallenge09_subtitle,"Place, Starting helicopter "
-quest_CarrierChallenge09_description,"Place Starting helicopter, with the parts crafted USE the Apache Impact Driver to upgrade to your new AH-64 helicopter!"
-
-quest_CarrierChallengeDestroyer,"Support ship needs assist!"
-quest_CarrierChallengeDestroyer_subtitle,"Night OPS: Destroyer"
-quest_CarrierChallengeDestroyer_description,"Our support ship has lost main power and has come under assault. Clear the zombies, restore main power and wait for further orders. You may want to stock up and grab some missiles for that war bird!"
-
-quest_CarrierChallengeDestroyer2,"Head over to the Trader"
-quest_CarrierChallengeDestroyer2_subtitle,"Night OPS: Trader"
-quest_CarrierChallengeDestroyer2_description,"Our Trader has come under assault! Clear the zombies, and then talk to the Trader. And Hey, try not to blow up to much with those Apache missiles."
+quest_CarrierChallenge06,"Support ship needs assist!"
+quest_CarrierChallenge06_subtitle,"Support ship aid"
+quest_CarrierChallenge06_offer,"Support ship needs assistance"
+quest_CarrierChallenge06_description,"Our support ship has lost main power and has come under assault.  Clear the zeds, restore main power and then talk to a trader. Also, hope your ready for a 'long' haul quest...."
 
 Challenge_Completion,"Challenge Complete"
 Challenge_Completion_subtitle,"Congrats!"
@@ -358,3 +338,7 @@ Challenge_Completion_description,"Congrats."
 Congrats,"Carrier Challenge Complete"
 Congrats_message,"Congrats!  You have completed the Aircraft Carrier Challenge. GG!!"
 
+Infested Army Depot x2,"Infested Army Depot (x2)"
+quest_Infested_ArmyDepot_x2_subtitle,"Time to clear and infestation at the Army Depot"
+quest_Infested_ArmyDepot_x2_offer,"Looks like additional zeds have taken hold of the Army Depot"
+quest_Infested_ArmyDepot_x2_desc,"Some how zombie reforcements have take over the Army Depot.  Let's clear them out!  (Note: x2 multipier in effect)"

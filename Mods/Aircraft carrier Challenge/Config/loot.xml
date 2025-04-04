@@ -13,7 +13,7 @@
 	<!-- <remove xpath="//lootgroup[@name='groupTreasureMaps']"/> -->
     <remove xpath="//lootgroup[@name='groupFootlocker02']//item[@group='groupTreasureMaps']"/>
 	<remove xpath="//lootgroup[@name='groupMilitaryFootlocker01']//item[@group='groupTreasureMaps']"/>
-    <!-- <remove xpath="//lootgroup[@name='groupZpackReg03']//item[@group='groupTreasureMaps']"/>
+	<!-- <remove xpath="//lootgroup[@name='groupZpackReg03']//item[@group='groupTreasureMaps']"/>
 	<remove xpath="//lootgroup[@name='groupZpackStrong03']//item[@group='groupTreasureMaps']"/>
 	<remove xpath="//lootgroup[@name='groupZpackBoss03']//item[@group='groupTreasureMaps']"/> -->
 	<remove xpath="//lootgroup[@name='groupReinforcedChestT3_05']//item[@group='groupTreasureMaps']"/>
@@ -26,10 +26,10 @@
 	<removeattribute xpath="//lootcontainer/@destroy_on_close" />
 	<setattribute xpath="//lootcontainer[@name='junk']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='laundryBasket']" name="destroy_on_close">empty</setattribute>
-	<!-- <setattribute xpath="//lootcontainer[@name='birdNest']" name="destroy_on_close">empty</setattribute>
-    <setattribute xpath="//lootcontainer[@name='pants']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='birdNest']" name="destroy_on_close">empty</setattribute>
+	<!-- <setattribute xpath="//lootcontainer[@name='pants']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='shirts']" name="destroy_on_close">empty</setattribute> -->
-	<setattribute xpath="//lootcontainer[@name='ammoPileSmall']" name="destroy_on_close">empty</setattribute>
+	<!-- <setattribute xpath="//lootcontainer[@name='ammoPileSmall']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='ammoPileMed']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='ammoPileLarge']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='foodPileSmall']" name="destroy_on_close">empty</setattribute>
@@ -39,7 +39,7 @@
 	<setattribute xpath="//lootcontainer[@name='medicalPileMedium']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='medicalPileLarge']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='liquorPileSmall']" name="destroy_on_close">empty</setattribute>
-	<setattribute xpath="//lootcontainer[@name='liquorPileMed']" name="destroy_on_close">empty</setattribute>	
+	<setattribute xpath="//lootcontainer[@name='liquorPileMed']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='liquorPileLarge']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='closet']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='shoes']" name="destroy_on_close">empty</setattribute>
@@ -48,7 +48,7 @@
 	<setattribute xpath="//lootcontainer[@name='chemPileSmall']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='chemPileMed']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='chemPileLarge']" name="destroy_on_close">empty</setattribute>
-	<setattribute xpath="//lootcontainer[@name='collapsedDewCollector']" name="destroy_on_close">empty</setattribute> 
+	<setattribute xpath="//lootcontainer[@name='collapsedDewCollector']" name="destroy_on_close">empty</setattribute> -->
 	
 	<!-- removes paper from bookshelf loot -->
 	<remove xpath="//lootgroup[@name='groupBookcase01']//item[@name='resourcePaper']" />
@@ -76,8 +76,7 @@
 	<insertbefore xpath="//lootgroup[@name='groupDewCollector']//item[1]">
 		<item name="resourceWaterFilter" loot_prob_template="guaranteed"/>
 	</insertbefore> -->
-	
-	
+
 	<!-- zombie specific loot -->
 	<insertafter xpath="//lootcontainers//lootgroup[@name='groupSchematicsAll']">
 		<lootgroup name="groupRifleBooks">	
@@ -364,6 +363,7 @@
 			<item name="bladesSkillMagazineDT" prob=".1" force_prob="true" tags="BlLoot"/>
 			<item name="shotgunsSkillMagazineDT" prob=".1" force_prob="true" tags="SGLoot"/>
 			<item name="knucklesSkillMagazineDT" prob=".1" force_prob="true" tags="KnLoot"/>
+			<item name="resourceHeadlight" count="1" prob=".13" force_prob="true"/>
 			<item group="groupShotgunBooks" loot_prob_template="veryLow" force_prob="true" tags="SGLoot"/>
 			<item group="groupKnucklesBooks" loot_prob_template="veryLow" force_prob="true" tags="KnLoot"/>			
 			<item group="groupNightStalkerBooks" loot_prob_template="veryLow" force_prob="true" tags="BlLoot"/>
@@ -420,8 +420,8 @@
 		
 		<lootgroup name="groupBikerLoot" count="all">
 			<item name="vehiclesSkillMagazineDT" prob="1" force_prob="true" tags="GMLoot"/>
+			<item name="resourceHeadlight" count="1" />
 			<item name="resourceOil" count="4" />
-		    <item name="resourceHeadlight" count="1" />
 		</lootgroup>
 		
 		<lootgroup name="groupLabWorkerLoot" count="all">
@@ -491,11 +491,7 @@
 		
 		<lootgroup name="groupMutatedLoot" count="all">
 			<item name="resourceAcid" count="1" prob=".1" force_prob="true"/>
-		</lootgroup>
-		
-	    <lootgroup name="groupScreamerLoot" count="all">
-			<item name="questRewardT1SkillMagazineBundle" prob=".1" force_prob="true" />			
-		</lootgroup>
+		</lootgroup>	
 	</insertafter>
 	
 	<!-- zombie specific loot containers -->
@@ -627,9 +623,6 @@
 
 		<lootcontainer name="RadZombieFemaleLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
 			<item group="groupRadZombieFemaleLoot"/>
-		</lootcontainer>
-	   <lootcontainer name="ZombieScreamerLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
-			<item group="groupScreamerLoot"/>
-		</lootcontainer>
+		</lootcontainer>		
 	</insertafter>	
 </configs>

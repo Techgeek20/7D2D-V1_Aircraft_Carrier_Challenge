@@ -21,7 +21,6 @@ public class MinEventActionAddFireDamage : MinEventActionRemoveBuff
         if (FireManager.Instance == null) return;
         if (FireManager.Instance.Enabled == false) return;
 
-        var entityId = @params.Self.entityId;
         var position = @params.Position;
         if (targetType != TargetTypes.positionAOE)
         {
@@ -52,10 +51,10 @@ public class MinEventActionAddFireDamage : MinEventActionRemoveBuff
 
         AdvLogging.DisplayLog(AdvFeatureClass, $"Executing AddFireDamage() at {position}  Self: {@params.Self.position} Range: {maxRange}  Delay: {_delayTime}");
         Task.Delay((int) _delayTime)
-            .ContinueWith(_ => AddFire(position, entityId));
+            .ContinueWith(_ => AddFire(position));
     }
 
-    private void AddFire(Vector3 position, int entityId)
+    private void AddFire(Vector3 position)
     {
         var range = (int) maxRange;
         for (var x = -range; x <= range; x++)
@@ -65,7 +64,7 @@ public class MinEventActionAddFireDamage : MinEventActionRemoveBuff
                 for (var y = -range; y <= range; y++)
                 {
                     var vector = new Vector3i(position.x + x, position.y + y, position.z + z);
-                    FireManager.Instance.Add(vector, entityId);
+                    FireManager.Instance.Add(vector);
                 }
             }
         }

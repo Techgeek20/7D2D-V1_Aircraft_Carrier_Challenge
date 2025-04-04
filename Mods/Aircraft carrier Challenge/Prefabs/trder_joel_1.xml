@@ -14,11 +14,11 @@
   <property name="DistantPOIYOffset" value="0" />
   <property name="EditorGroups" value="any" />
   <property name="DifficultyTier" value="5" />
-  <property name="QuestTags" value="trader, clear, restore_power, infested, nexttrader, traderJoel" />
+  <property name="QuestTags" value="trader, nexttrader, traderJoel" />
   <property name="ExcludePOICulling" value="True" />
   <property name="ShowQuestClearCount" value="1" />
-  <property name="Tags" value="wilderness, trader" />
-  <property name="ThemeTags" value="wildernesspoi, trader, traderJoel" />
+  <property name="Tags" value="trader" />
+  <property name="ThemeTags" value="trader, wildernesspoi" />
   <property name="ThemeRepeatDistance" value="1000" />
   <property name="PrefabSize" value="60, 34, 60" />
   <property name="WallVolumeSize" value="4, 2, 5#1, 1, 5#1, 1, 1#2, 1, 1#2, 2, 5#1, 2, 2" />
@@ -31,20 +31,20 @@
   <property name="POIMarkerPartToSpawn" value="part_driveway_rural_12,part_driveway_gateway_02" />
   <property name="POIMarkerPartRotations" value="2,2" />
   <property name="POIMarkerPartSpawnChance" value="1,1" />
-  <property name="SleeperVolumeSize" value="7, 4, 1#26, 42, 15#17, 42, 20#17, 42, 23#17, 42, 17#18, 42, 17#26, 42, 20#18, 42, 20#18, 42, 23#26, 42, 11" />
-  <property name="SleeperVolumeStart" value="34, 6, 1#34, 1, 20#-1, 1, 0#-1, 1, 20#-1, 1, 43#16, 1, 43#34, 1, 0#16, 1, 0#16, 1, 20#34, 1, 49" />
-  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0" />
-  <property name="SleeperVolumeGroup" value="GroupGenericZombie,5,6,GroupAbandonedHouse,2,3,GroupNightClub,5,6,GroupZomBadass,7,8,zombieUtilityWorkerRadiated,3,4,zombieWightRadiated,1,2,GroupSpecialInfected,6,7,GroupAbandonedHouse,9,14,GroupZomBadassOnly,15,21,GroupZomPoliceCarHorde,7,8" />
-  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False" />
-  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0" />
-  <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # " />
+  <property name="SleeperVolumeSize" value="7, 4, 1#36, 10, 32" />
+  <property name="SleeperVolumeStart" value="34, 6, 1#20, 1, 24" />
+  <property name="SleeperVolumeGroupId" value="0,0" />
+  <property name="SleeperVolumeGroup" value="GroupGenericZombie,5,6,GroupGenericZombie,5,6" />
+  <property name="SleeperIsLootVolume" value="False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False" />
+  <property name="SleeperVolumeFlags" value="0,0" />
+  <property name="SleeperVolumeTriggeredBy" value=" # " />
   <property class="Stats">
-    <property name="TotalVertices" value="1766991" />
-    <property name="TotalTriangles" value="723823" />
+    <property name="TotalVertices" value="1767690" />
+    <property name="TotalTriangles" value="723726" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1659224" />
-      <property name="Triangles" value="655069" />
+      <property name="Vertices" value="1659923" />
+      <property name="Triangles" value="654972" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="98711" />
