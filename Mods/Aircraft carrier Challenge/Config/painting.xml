@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+<!-- ID: can only be 0-255, name = localization key, ID 0 is the "delete" entry. Do not re-use 0. -->
+<!-- TextureId: this matches <property name="Texture"/> -->
+<!-- Group: to organize textures on the paint tool menu, this is also the localization key of the group -->
+<!-- PaintCost: default=1
+
+Used Groups:
+	Decorations
+	Faux
+	Masonry
+	Metal
+	Painted
+	Wall Coverings
+	Wood and Roofing
+
+1 txGroupDecoration
+2 txGroupFaux
+2 txGroupMasonry
+3 txGroupMetal
+1 txGroupPainted
+2 txGroupWallCovering
+1 txGroupWood
+
+-->
+
+<!-- 79 FREE -->
+	<append xpath="/paints"> 
+		
+		<paint id="79" name="txName_Wood_fence">
+		<property name="TextureId" value="272"/>
+		<property name="Group" value="txGroupWood"/>
+		<property name="PaintCost" value="1"/>
+	</paint>
+
+<!-- 83 FREE -->
+
+<paint id="83" name="txName_Brick_decayed">
+	<property name="TextureId" value="299"/>
+	<property name="Group" value="txGroupFaux"/>
+	<property name="PaintCost" value="1"/>
+</paint>
+
+
+<!-- 101 - 105 FREE -->
+
+<paint id="105" name="txName_Drop_ceiling01">
+	<property name="TextureId" value="342"/>
+	<property name="Group" value="txGroupWallCovering"/>
+	<property name="PaintCost" value="1"/>
+</paint>
+
+
+
+<!-- 122 FREE -->
+
+<paint id="122" name="txName_Green_rusty_metal">
+	<property name="TextureId" value="385"/>
+	<property name="Group" value="txGroupMetal"/>
+	<property name="PaintCost" value="1"/>
+</paint>
+	
+	<!-- 128 - 132 FREE -->
+	
+<paint id="130" name="txName_Drop_ceiling02">
+	<property name="TextureId" value="391"/>
+	<property name="Group" value="txGroupWallCovering"/>
+	<property name="PaintCost" value="1"/>
+</paint>
+
+<paint id="131" name="txName_Wood_barricade">
+	<property name="TextureId" value="407"/>
+	<property name="Group" value="txGroupWood"/>
+	<property name="PaintCost" value="1"/>
+</paint>
+
+<paint id="132" name="txName_Wood_barricade02">
+	<property name="TextureId" value="408"/>
+	<property name="Group" value="txGroupWood"/>
+	<property name="PaintCost" value="1"/>
+</paint>
+
+
+<!-- 138 FREE -->
+
+<paint id="138" name="txName_Concrete_mustard">
+	<property name="TextureId" value="592"/>
+	<property name="Group" value="txGroupPainted"/>
+	<property name="PaintCost" value="1"/>
+</paint>
+
+
+
+<!-- 149 FREE -->
+
+<paint id="149" name="txName_Tanbrick02">
+	<property name="TextureId" value="534"/>
+	<property name="Group" value="txGroupFaux"/>
+	<property name="PaintCost" value="1"/>
+</paint>
+
+	</append>
+
+</xml>

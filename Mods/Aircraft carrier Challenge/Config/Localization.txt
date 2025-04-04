@@ -1,0 +1,360 @@
+Key,English
+
+goGameWorld,[FF4F00]Select 'Aircraft  (biome)'[-]
+goLootRespawnDays,Loot Respawn-[FF4F00]Select 7 Days '[-]
+
+adminQuestTicketDesc,"Read, accept, and complete to receive next quest.\n\nUsed for quest progression."
+
+resourcePaper,"Classified Document" 
+resourcePaperDesc,"EAM\n FROM: USLANTFLT\n TO: USS SAN PAULO\n MESSAGE AS FOLLOWS:\n Movement to G.S. ATL-001 to acquire TP for bunghole (and other ""supplies"")"
+
+resourceCoalDesc,"A great fuel source and a core ingredient for gunpowder.\n\nCan be made from wood in a campfire"
+resourceAcidDesc,A resource used in crafting recipes.\n\nCan be crafted in beaker at a campfire or at the chemistry station.
+
+resourceBatteryAcid,Bottle of Acid
+resourceBatteryAcidDesc,A resource used in crafting recipes.\n\nCan be extracted from a car battery at the chemistry station.
+
+resourceAnimalFat,"Fat"
+resourceAnimalFatDesc,"Fat can be eaten raw or used in cooking or other crafting recipes."
+
+drugAntibioticsDT,Antibiotics
+drugAntibioticsDTDesc,Antibiotics can cure infections.\n\nCan be crafted in a beaker at a campfire or at the chemistry station.
+
+perkGreaseMonkeyRank1Desc,Wheely good
+perkGreaseMonkeyRank1LongDesc,Congratulations - you are now as smart as a primitive human!\n\nCraft wheels 33% cheaper.\n\nRepair kits are 10 percent more effective on vehicles.
+
+perkGreaseMonkeyRank2Desc,Oil be back
+perkGreaseMonkeyRank2LongDesc,"Not quite a fully-fledged grease monkey, but at least it's a start.\n\nRepair kits are 20 percent more effective on vehicles."
+
+perkGreaseMonkeyRank3Desc,Life's a gas
+perkGreaseMonkeyRank3LongDesc,Now you're starting to know your way around a toolbox!\n\nRepair kits are 30 percent more effective on vehicles.
+
+perkGreaseMonkeyRank4Desc,Not very basic
+perkGreaseMonkeyRank4LongDesc,"Your mechanical prowess is that of a professional pit crew!\n\nRepair kits are 40 percent more effective on vehicles."
+
+perkGreaseMonkeyRank5Desc,At last!!
+perkGreaseMonkeyRank5LongDesc,"You're a full-on aeronautical MacGyver.\nCraft AH-64 parts 33% cheaper.\n\nRepair kits are 50 percent more effective on vehicles."
+
+vehiclesT1,Tier 1: Wheels
+vehiclesT2,Tier 2: Oil
+vehiclesT3,Tier 3: Gas Cans
+vehiclesT4,Tier 4: Acid
+vehiclesT5,Tier 5: Flight
+
+ApacheS4,Starter Helicopter
+ApacheS3,Canopy
+ApacheS2,Cockpit
+ApacheS1,Accessories
+Apache,Chassis
+
+AH-64ApacheHelicopterDesc,Used to create your own AH-64 Apache.
+AH-64ApacheHelicopter2Desc,Do not place this item until all parts are crafted for the challenge.
+
+meleeToolSalvageT3ImpactDriverAC,Apache Impact Driver
+
+DishongLootContainerUtilityWorkerLoot,Duffle Bag
+DishongLootContainerBusinessManLoot,Duffle Bag
+DishongLootContainerPartyGirlLoot,Duffle Bag
+DishongLootContainerWightFeralLoot,Duffle Bag
+DishongLootContainerFatCopLoot,Duffle Bag
+DishongLootContainerZombieMutatedLoot,Duffle Bag
+DishongLootContainerJanitorLoot,Duffle Bag
+DishongLootContainerSkateboarderLoot,Duffle Bag
+DishongLootContainerSoldierLoot,Duffle Bag
+DishongLootContainerZombieFemaleLoot,Duffle Bag
+DishongLootContainerSteveAndTomLoot,Duffle Bag
+DishongLootContainerZombieMaleLoot,Duffle Bag
+DishongLootContainerFatZombieLoot,Duffle Bag
+DishongLootContainerNurseLoot,Duffle Bag
+DishongLootContainerLabWorkerLoot,Duffle Bag
+DishongLootContainerMaleHazmatLoot,Duffle Bag
+DishongLootContainerLumberjackLoot,Duffle Bag
+DishongLootContainerBikerLoot,Duffle Bag
+DishongLootContainerRadUtilityWorkerLoot,Duffle Bag
+DishongLootContainerRadBusinessManLoot,Duffle Bag
+DishongLootContainerRadPartyGirlLoot,Duffle Bag
+DishongLootContainerRadWightFeralLoot,Duffle Bag
+DishongLootContainerRadFatCopLoot,Duffle Bag
+DishongLootContainerRadZombieMutatedLoot,Duffle Bag
+DishongLootContainerRadJanitorLoot,Duffle Bag
+DishongLootContainerRadSkateboarderLoot,Duffle Bag
+DishongLootContainerRadSoldierLoot,Duffle Bag
+DishongLootContainerRadZombieFemaleLoot,Duffle Bag
+DishongLootContainerRadSteveAndTomLoot,Duffle Bag
+DishongLootContainerRadZombieMaleLoot,Duffle Bag
+DishongLootContainerRadFatZombieLoot,Duffle Bag
+DishongLootContainerRadNurseLoot,Duffle Bag
+DishongLootContainerRadLabWorkerLoot,Duffle Bag
+
+harvestingToolsSkillMagazineDT,Tools Digest
+repairToolsSkillMagazineDT,Handy Land
+salvageToolsSkillMagazineDT,Scrapping 4 Fun
+vehiclesSkillMagazineDT,Vehicle Adventures
+workstationSkillMagazineDT,Forge Ahead
+armorSkillMagazineDT,Armored Up
+electricianSkillMagazineDT,Wiring 101
+trapsSkillMagazineDT,Electrical Traps
+foodSkillMagazineDT,Home Cooking Weekly
+bowsSkillMagazineDT,Bow Hunters
+handgunsSkillMagazineDT,Handgun Magazine
+machineGunsSkillMagazineDT,Tactical Warfare
+riflesSkillMagazineDT,Rifle World
+shotgunsSkillMagazineDT,Shotgun Weekly
+medicalSkillMagazineDT,Medical Journal
+bladesSkillMagazineDT,Knife Guy
+clubsSkillMagazineDT,Big Hitters
+knucklesSkillMagazineDT,Furious Fists
+sledgehammersSkillMagazineDT,Get Hammered
+spearsSkillMagazineDT,Sharp Sticks
+roboticsSkillMagazineDT,Tech Planet
+explosivesSkillMagazineDT,Explosive Magazine
+
+npcTraderJen, Dawnrox
+npcTraderJoel, Shadow_Floodlight
+
+zombieBiker,Raziel_MacCloud
+zombieBikerFeral,Feral Raziel_MacCloud
+zombieBikerRadiated,Radiated Raziel_MacCloud
+
+zombieBoe,w00kie n00kie
+zombieBoeFeral,Feral w00kie n00kie
+zombieBoeRadiated,Radiated w00kie n00kie
+
+zombieBurnt,FlameWizo
+zombieBurntFeral,Feral FlameWizo
+zombieBurntRadiated,Radiated Smokey_Prime
+
+zombieDarlene,Loveshack65
+zombieDarleneFeral,Feral Loveshack65
+zombieDarleneRadiated,Radiated Loveshack65
+
+zombieJanitor,HellsJanitor
+zombieJanitorFeral,Feral HellsJanitor
+zombieJanitorRadiated,Radiated HellsJanitor
+
+zombieLab,CharmCuddler
+zombieLabFeral,Feral CharmCuddler
+zombieLabRadiated,Radiated CharmCuddler
+
+zombieLumberjack,Zenn5150
+zombieLumberjackFeral,Feral Zenn5150
+zombieLumberjackRadiated,Radiated Zenn5150
+
+zombieMaleHazmat,Riven
+zombieMaleHazmatFeral,Feral Riven
+zombieMaleHazmatRadiated,Radiated Riven
+
+zombieMarlene,TechnoBeatz
+zombieMarleneFeral,Feral TechnoBeatz
+zombieMarleneRadiated,Radiated TechnoBeatz
+
+zombieMoe,Angelacus
+zombieMoeFeral,Feral Angelacus
+zombieMoeRadiated,Radiated Angelacus
+
+zombieNurse,KatsPurr
+zombieNurseFeral,Feral Katspurr
+zombieNurseRadiated,Radiated KatsPurr
+
+zombieYo,Sarcoth
+zombieYoFeral,Feral Sarcoth
+zombieYoRadiated,Radiated Sarcoth
+
+zombieTomClark,Devilskut
+zombieTomClarkRadiated,Radiated Devilskut
+zombieTomClarkFeral,Feral Devilskut
+
+zombiePartyGirl,ElainethePaine
+zombiePartyGirlFeral,Feral ElainethePaine
+zombiePartyGirlRadiated,Radiated Elainethepaine
+
+zombieBusinessMan,LobitoGamingTV
+zombieBusinessManFeral,Feral LobitoGamingTV
+zombieBusinessManRadiated,Radiated LobitoGamingTV
+
+zombieSoldier,Techie
+zombieSoldierFeral,Feral Techie
+zombieSoldierRadiated,Radiated Techie
+
+zombieJoe,Cran5000
+zombieJoeFeral,Feral Cran5000
+zombieJoeRadiated,Radiated Cran5000
+
+zombieSteve,Frantic_Dan
+zombieSteveFeral,Feral Frantic_Dan
+zombieSteveRadiated,Radiated Frantic_Dan
+
+zombieSteveCrawler,PitchieB
+zombieSteveCrawlerFeral,Feral PitchieB
+
+animalBossGrace,SpeedyPig69
+
+animalhostilechicken,RoadRunner
+
+animalWolf,Korbulas
+animalDireWolf,Raging Korbulas
+
+animalRabbit,Killer Bunny
+animalZombieBear,Reclining Gamer
+
+animalZombieVulture,Phancy
+animalZombieVultureRadiated,Spicy Dragonfly
+
+zombieWightFeral,Feral DeathAngel
+zombieWightRadiated,Radiated DeathAngel
+
+animalSnake,Viper 7
+animalSnakeRadiated,Spicy Viper 7
+
+animalMountainLion,KatPop
+
+animalBear,angeleyes_1971
+
+animalBearSmall,Baby angeleyes_1971
+
+zombieUtilityWorker,Seamen
+zombieUtilityWorkerFeral,Private Willie
+zombieUtilityWorkerRadiated,Major Johnson
+
+zombieArlene,JynxdGinger79
+zombieArleneFeral,Feral JynxdGinger79
+zombieArleneRadiated,Radiated JynxdGinger79
+
+zombieSpider,NuttyMonkey15
+zombieSpiderFeral,Feral NuttyMonkey15
+zombieSpiderRadiation,Radiated NuttyMonkey15
+
+zombieScreamer,MoonLuna
+zombieScreamerFeral,Feral MoonLuna
+zombieScreamerRadiated,Radiated MoonLuna
+
+zombieSkateboarder,TylerGMS
+zombieSkateboarderFeral,Feral TylerGMS
+zombieSkateboarderRadiated,Radiated TylerGMS
+
+zombieFatHawaiian,Shrader
+zombieFatHawaiianFeral,Feral Shrader
+zombieFatHawaiianRadiated,Radiated Shrader
+
+zombieFemaleFat,GizmosGifts
+zombieFemaleFatFeral,Feral GizmosGifts
+zombieFemaleFatRadiated,Radiated GizmosGifts
+
+zombieMutated,HamandLiz
+zombieMutatedFeral,HamandLiz Feral
+zombieMutatedRadiated,HamandLiz Radiated
+
+
+loadingTipAircraft1_title,Seeds asshole
+loadingTipAircraft1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are NO useable farm plots in the ship ..."
+
+loadingTipAircraft2_title,Zombie Loot
+loadingTipAircraft2,"Almost every zombie will drop a loot bag once dead, and specific zombies will have a chance to drop specific loot."
+
+loadingTipAircraft3_title,Questing for Skill Magazines
+loadingTipAircraft3,"Skill magazines can be found in their usual places, and certain zombies also have a chance to give certain magazines in their loot bag."
+
+loadingTipAircraft4_title,Looting
+loadingTipAircraft4,"Loot is an integral part to completing this challenge. Loot will NOT restock."
+
+loadingTipAircraft5_title,Zombie respawns
+loadingTipAircraft5,"Zombies can now be set to respawn after a time you decide. Check the 'Aircraft' tab on the main menu, and set the number of days (7) recommended, you want between zombies respawning on the ship."
+
+loadingTipAircraft6_title,Resources
+loadingTipAircraft6,"Resources are scarce in the ship, but you will be able to find or craft everything you need to complete the challenge. Some resources, like old cash, can be used in recipes - so make sure you check the recipes for EVERYTHING. Also, some of the rarer resources, like acid, can now be crafted. It can also be looted from zombies - along with antibiotics and beakers."
+
+loadingTipAircraft7_title,Crafting
+loadingTipAircraft7,"Crafting workstations, and tools like the crucible, and vehicles themselves, take fewer magazines to read before they unlock."
+
+loadingTipAircraft8_title,Cheating
+loadingTipAircraft8,"Trying to leave the ship other than by an AH-64 Apache helicopter (Zilox mod) is not advised . The ground is SPICY and will end your challenge ...."
+
+loadingTipAircraft9_title,Lost Are We?
+loadingTipAircraft9,"If you are lost on where to travel to next, there may have been a kind soul who left directions in the quest instructions. Let's be real though, men neither ask for directions nor read instructions!"
+
+loadingTipAircraft10_title,Special Thanks
+loadingTipAircraft10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original mod and concept."
+
+loadingTipAircraft11_title,Horde Night
+loadingTipAircraft11,"Horde nights, better suck it up, buttercup."
+
+loadingTipAircraft12_title,Aircraft Resources
+loadingTipAircraft12,"There are many changes from vanilla for resource gathering. Clay soil, for example, can be found by harvesting potted plants, farm plots, and destroyed stone."
+
+loadingTipAircraft13_title,Search Everywhere - Check Everything
+loadingTipAircraft13,"For a military vessel, there are considerable nooks, crannies, hidey holes and hidden stashes all over the place. Some say there are hidden shortcuts within the walls too! Navy brass would be rolling in their grave if they weren't ambling around in hordes of the reanimated dead..."
+
+loadingTipAircraft14_title,Wrench
+loadingTipAircraft14,"Keep it repaired. Look after your wrench, and your wrench will look after you."
+
+loadingTipAircraft15_title,Archer
+loadingTipAircraft15,"Fear not, little Robin Hood. Wield a bow without arrows but plentiful crossbow bolts? You may convert your arrows to bolts and your bolts to arrows for free. William Tell those apples, my friend."
+
+dishongTowerBundle,Aircraft Carrier Challenge Starter Items,,
+dishongTowerBundleDesc,Starter items for the Aircraft carrier challenge.,,
+
+
+Welcome,"Started The Aircraft Carrier Challenge"
+
+tutorialTipQuest01,"Don't know how I got in this U-boat but I'm glad I did, the ground outside messed me up real quick! Someone had to have helped me but where are they? Looks like I'm here to stay, If I can find them, maybe we can help each other find a safe haven. No matter what, I need supplies, I have barely enough food and water for the rest of the day, glad I found this backpack with some basic tools and weapons to give me a fighting chance.\n\nYou must survive, by doing missions ,looting and crafting everything you need to build an AH-64 APACHE to make your escape from the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]" 
+
+challenge_StartingCarrier,"Welcome aboard Petty officer 2nd class!"
+challenge_StartingCarrier_subtitle,"Prove your worth."
+challenge_StartingCarrier_description,"If you are to survive you will need to eliminate zombies for their red bags."
+
+quest_CarrierChallenge,"Find a survivor"
+quest_CarrierChallenge_subtitle,"Head to medical"
+quest_CarrierChallenge_description,"Head to medical on Deck 10 just below the Mess Hall. Also, get yourself healed, you look pretty messed up after all those zombies."
+
+quest_CarrierChallenge01,"Mission Bob's Blueprint"
+quest_CarrierChallenge01_subtitle,"Find Bob's Blueprint"
+quest_CarrierChallenge01_description,"Bob told me he found plans for a chopper in the Army Depot, maybe you can head down there, he may have left it."
+
+quest_CarrierChallenge02,"Gather AH-64 Parts 1/5 "
+quest_CarrierChallenge02_subtitle,"Build Apache Canopy"
+quest_CarrierChallenge02_description,"Gather parts and craft an Apache Canopy."
+
+quest_CarrierChallenge03,"Restore Power to the bridge"
+quest_CarrierChallenge03_subtitle,"Restore Bridge Operation Systems"
+quest_CarrierChallenge03_description,"Just had a thought, we're going to need radar support, can you restore the power to the Bridge Operation Systems?"
+quest_CarrierChallenge03_offer,"Just had a thought, we're going to need radar support, can you restore the power to the Bridge Operation Systems?"
+
+quest_CarrierChallenge04,"Gather AH-64 Parts 2/5 "
+quest_CarrierChallenge04_subtitle,"Build Apache Cockpit"
+quest_CarrierChallenge04_description,"Gather parts and craft an Apache Cockpit in a workbench."
+
+quest_CarrierChallenge05,"Gather AH-64 Parts 3/5 "
+quest_CarrierChallenge05_subtitle,"Build Apache Accessories"
+quest_CarrierChallenge05_description,"Gather parts and craft two Apache accessories in a workbench."
+
+quest_CarrierChallenge06,"Gather AH-64 Parts 4/5 "
+quest_CarrierChallenge06_subtitle,"Build Apache Chassis"
+quest_CarrierChallenge06_description,"Gather parts and craft an Apache Chassis in a workbench."
+
+quest_CarrierChallenge07,"Gather AH-64 Parts 5/5 "
+quest_CarrierChallenge07_subtitle,"How to build a helicopter"
+quest_CarrierChallenge07_description,"Gather parts and craft a Starting helicopter"
+
+quest_CarrierChallenge08,"Apache Impact Driver "
+quest_CarrierChallenge08_subtitle," Craft Apache Impact Driver"
+quest_CarrierChallenge08_description,"Craft an Apache Impact Driver in a workbench."
+
+quest_CarrierChallenge09,"USE Apache Impact Driver"
+quest_CarrierChallenge09_subtitle,"Place, Starting helicopter "
+quest_CarrierChallenge09_description,"Place Starting helicopter, with the parts crafted USE the Apache Impact Driver to upgrade to your new AH-64 helicopter!"
+
+quest_CarrierChallengeDestroyer,"Support ship needs assist!"
+quest_CarrierChallengeDestroyer_subtitle,"Night OPS: Destroyer"
+quest_CarrierChallengeDestroyer_description,"Our support ship has lost main power and has come under assault. Clear the zombies, restore main power and wait for further orders. You may want to stock up and grab some missiles for that war bird!"
+
+quest_CarrierChallengeDestroyer2,"Head over to the Trader"
+quest_CarrierChallengeDestroyer2_subtitle,"Night OPS: Trader"
+quest_CarrierChallengeDestroyer2_description,"Our Trader has come under assault! Clear the zombies, and then talk to the Trader. And Hey, try not to blow up to much with those Apache missiles."
+
+Challenge_Completion,"Challenge Complete"
+Challenge_Completion_subtitle,"Congrats!"
+Challenge_Completion_description,"Congrats."
+
+Congrats,"Carrier Challenge Complete"
+Congrats_message,"Congrats!  You have completed the Aircraft Carrier Challenge. GG!!"
+

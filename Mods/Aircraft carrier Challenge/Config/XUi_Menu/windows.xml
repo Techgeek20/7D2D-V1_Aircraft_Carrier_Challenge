@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<configs>
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='XPMultiplier']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='DayNightLength']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BlockDamagePlayer']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LootAbundance']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BlockDamageAI']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BlockDamageAIBM']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='EnemySpawnMode']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='MaxChunkAge']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BuildCreate']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='AirDropMarker']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimSize']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimDeadZone']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimExpiryTime']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimDecayMode']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimOnlineDurabilityModifier']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimOfflineDurabilityModifier']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='LandClaimOfflineDelay']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BedrollDeadZoneSize']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='BedrollExpiryTime']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='DeathPenalty']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='DropOnDeath']" />
+		<remove xpath="//windows/window[@name='newContinueGame']/rect/rect/rect/grid//gameoption[@name='DropOnQuit']" />
+
+		<remove xpath="/windows/window[@name='newsWindow']"/>
+
+	</configs>

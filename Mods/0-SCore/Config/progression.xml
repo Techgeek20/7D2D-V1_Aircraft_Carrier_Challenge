@@ -1,0 +1,12 @@
+<Configs>
+	<!-- *** ELECTRICIAN_SKILLS -->
+<!-- <append xpath="//crafting_skill[@name='craftingElectrician']">
+		<display_entry icon="CampPortal" name_key="Tier 5: Portals" has_quality="false" unlock_level="60" >
+			<unlock_entry item="Portal02,CampPortal,ReturnPortal,Portal05,Portal06" unlock_tier="1" />
+		</display_entry>
+	</append>	
+	<append xpath="//crafting_skill[@name='craftingElectrician']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="Portal02,CampPortal,ReturnPortal,Portal05,Portal06"/>
+	</append> -->
+
+</Configs>

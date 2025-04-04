@@ -1,0 +1,46 @@
+<configs>
+
+<!--	<append xpath="/recipes">
+
+		<recipe name="Portal02" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="15"/>
+			<ingredient name="pressureplate" count="1"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="carBattery" count="1"/>
+			<ingredient name="resourceScopeLens" count="1"/>
+		</recipe>
+		<recipe name="ReturnPortal" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="15"/>
+			<ingredient name="pressureplate" count="1"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="carBattery" count="1"/>
+			<ingredient name="resourceScopeLens" count="1"/>
+		</recipe>
+
+		<recipe name="CampPortal" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="15"/>
+			<ingredient name="pressureplate" count="1"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="carBattery" count="1"/>
+			<ingredient name="resourceScopeLens" count="1"/>
+		</recipe>
+
+		<recipe name="Portal05" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="15"/>
+			<ingredient name="pressureplate" count="1"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="carBattery" count="1"/>
+			<ingredient name="resourceScopeLens" count="1"/>
+		</recipe>
+
+		<recipe name="Portal06" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="15"/>
+			<ingredient name="pressureplate" count="1"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="carBattery" count="1"/>
+			<ingredient name="resourceScopeLens" count="1"/>
+		</recipe>
+
+	</append> -->
+	
+</configs>
