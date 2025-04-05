@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using HarmonyLib;
 using Challenges;
+using SCore.Features.PlayerMetrics;
 using UnityEngine;
 
 namespace Challenges {
@@ -26,9 +27,16 @@ namespace Challenges {
         public override ChallengeObjectiveType ObjectiveType =>
             (ChallengeObjectiveType)ChallengeObjectiveTypeSCore.ChallengeObjectiveCompleteQuestStealth;
 
-        public override string DescriptionText =>
-            Localization.Get("ChallengeObjectiveCompleteQuestStealth");
+        public string LocalizationKey = "ChallengeObjectiveCompleteQuestStealth";
+        private string _descriptionOverride;
 
+        public override string DescriptionText {
+            get {
+                if (string.IsNullOrEmpty(_descriptionOverride))
+                    Localization.Get(LocalizationKey);
+                return Localization.Get(_descriptionOverride);
+            }
+        }
         public override void Init() {
         }
 
@@ -86,9 +94,15 @@ namespace Challenges {
             return true;
         }
 
+        public override void ParseElement(XElement e) {
+            base.ParseElement(e);
+            if (e.HasAttribute("description_override"))
+                _descriptionOverride = e.GetAttribute("description_override");
+        }
+
         public override BaseChallengeObjective Clone() {
             return new ChallengeObjectiveCompleteQuestStealth {
-
+                _descriptionOverride = _descriptionOverride
             };
         }
 

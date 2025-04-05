@@ -42,16 +42,39 @@
     <Deterministic>false</Deterministic>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Features\Caves\Harmony\PathPatcher.cs" />
+    <Compile Include="Features\Caves\Scripts\SCoreCavesSplat3.cs" />
+    <Compile Include="Features\Caves\Scripts\SCoreCavesTexture.cs" />
+    <Compile Include="Features\Caves\Scripts\SCoreCavesUtils.cs" />
     <Compile Include="Features\Challenges\ChallengeTypeSCoreEnums.cs" />
     <Compile Include="Features\Challenges\Harmony\ChallengeReadObjective.cs" />
+    <Compile Include="Features\Challenges\Harmony\DebugChallenges.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveBigFire.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveBlockDestroyed.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveBlockDestroyedByFire.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveBlockUpgrade.cs" />
     <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveCompleteQuestStealth.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveCraftWithIngredient.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveCraftWithTags.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveCVar.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveDecapitation.cs" />
     <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveEnterPOI.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveExtinguishFire.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveGatherTags.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveHarvest.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveHireNPC.cs" />
     <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveKillWithItem.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveSCoreBase.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveStartFire.cs" />
     <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveStealthKillStreak.cs" />
+    <Compile Include="Features\Challenges\Scripts\ChallengeObjectiveWearTags.cs" />
+    <Compile Include="Features\Challenges\Scripts\IChallengeObjective.cs" />
     <Compile Include="Features\Challenges\Scripts\SCoreChallengeUtils.cs" />
     <Compile Include="Features\Drones\Harmony\EntityDronePatches.cs" />
     <Compile Include="Features\EntityPooling\Harmony\EntityFactoryPatch.cs" />
     <Compile Include="Features\EntityPooling\Scripts\EntityFactoryPool.cs" />
+    <Compile Include="Features\ErrorChecks\Harmony\TileEntityCopyFrom.cs" />
+    <Compile Include="Features\ErrorChecks\Harmony\TraderDataReadInventoryData.cs" />
     <Compile Include="Features\Farming\Scripts\Blocks\BlockCropControlPanel.cs" />
     <Compile Include="Features\Farming\Scripts\Blocks\BlockFarmPlotSDX.cs" />
     <Compile Include="Features\Farming\Scripts\Blocks\BlockPlantGrowingSDX.cs" />
@@ -79,7 +102,9 @@
     <Compile Include="Features\Fire\Scripts\MinEvent\MinEventActionRemoveFire.cs" />
     <Compile Include="Features\Fire\Scripts\NetPackage\NetPackageAddExtinguishPosition.cs" />
     <Compile Include="Features\Fire\Scripts\NetPackage\NetPackageAddFirePosition.cs" />
+    <Compile Include="Features\Fire\Scripts\NetPackage\NetPackageAddFirePositions.cs" />
     <Compile Include="Features\Fire\Scripts\NetPackage\NetPackageRemoveFirePosition.cs" />
+    <Compile Include="Features\Fire\Scripts\NetPackage\NetPackageRemoveFirePositions.cs" />
     <Compile Include="Features\Fire\Scripts\NetPackage\NetPackageRemoveParticleEffect.cs" />
     <Compile Include="Features\FlickeringLights\Harmony\DisableFlickeringLights.cs" />
     <Compile Include="Features\FoodSpoilage\Harmony\FoodSpoilage.cs" />
@@ -110,6 +135,7 @@
     <Compile Include="Features\ParticleAttractor\Scripts\Particles\particleAttractorLinear.cs" />
     <Compile Include="Features\ParticlesOnBlocks\Harmony\Blocks.cs" />
     <Compile Include="Features\PlayerMetrics\KillTracking\Scripts\SCoreKillTracker.cs" />
+    <Compile Include="Features\PlayerMetrics\SCoreMetrics.cs" />
     <Compile Include="Features\RemoteCrafting\Harmony\DropBoxToContainers.cs" />
     <Compile Include="Features\RemoteCrafting\Harmony\IngredientsFromContainers.cs" />
     <Compile Include="Features\RemoteCrafting\Harmony\ItemActionRepairPatches.cs" />
@@ -133,9 +159,12 @@
     <Compile Include="Harmony\Animation\ModelBaseInitCommon.cs" />
     <Compile Include="Harmony\Atmosphere\Spook.cs" />
     <Compile Include="Harmony\Blocks\BlockWorkarounds.cs" />
+    <Compile Include="Harmony\Blocks\ChunkPoolBlockEntityTransform.cs" />
     <Compile Include="Harmony\Blocks\ElectricityMultiDimFix.cs" />
+    <Compile Include="Harmony\Blocks\GroundAlignPatch.cs" />
     <Compile Include="Harmony\Blocks\OnEntityCollidedWithBlock.cs" />
     <Compile Include="Harmony\Blocks\Particles.cs" />
+    <Compile Include="Harmony\Blocks\TerrainAlignmentUtilsPatch.cs" />
     <Compile Include="Harmony\Dialog\DialogClose.cs" />
     <Compile Include="Harmony\Dialog\DialogFromXML.cs" />
     <Compile Include="Harmony\DMS\DynamicMusicPlayerTracker.cs" />
@@ -144,6 +173,7 @@
     <Compile Include="Harmony\EntityAlive\AddScriptToTransform.cs" />
     <Compile Include="Harmony\EntityAlive\EntityAliveJiggleAdjustment.cs" />
     <Compile Include="Harmony\EntityAlive\EntityAlivePatches.cs" />
+    <Compile Include="Harmony\EntityAlive\EntityAliveUpdateBlockStatusEffect.cs" />
     <Compile Include="Harmony\EntityAlive\EntityTraderRektMute.cs" />
     <Compile Include="Harmony\EntityAlive\ReplicateSpeed.cs" />
     <Compile Include="Harmony\EntityDrone\EntityDronePatches.cs" />
@@ -161,6 +191,7 @@
     <Compile Include="Harmony\ItemActions\DurabilityAffectsDamage.cs" />
     <Compile Include="Harmony\ItemActions\ItemActionHandleBreakItem.cs" />
     <Compile Include="Harmony\ItemActions\ItemActionMelee.cs" />
+    <Compile Include="Harmony\ItemActions\ItemActionRepairLimiter.cs" />
     <Compile Include="Harmony\ItemActions\ItemClass.cs" />
     <Compile Include="Harmony\Menu_ClearCache.cs" />
     <Compile Include="Harmony\MiniTurret\shouldIgnoreTarget.cs" />
@@ -267,6 +298,7 @@
     <Compile Include="Scripts\Cache\SphereCache.cs" />
     <Compile Include="Scripts\ConsoleCmd\ConsoleCmdActionFireClear.cs" />
     <Compile Include="Scripts\ConsoleCmd\ConsoleCmdAdjustCVar.cs" />
+    <Compile Include="Scripts\ConsoleCmd\ConsoleCmdAdjustMarkup.cs" />
     <Compile Include="Scripts\ConsoleCmd\ConsoleCmdReloadDialog.cs" />
     <Compile Include="Scripts\ConsoleCmd\ConsoleCmdReloadSCore.cs" />
     <Compile Include="Scripts\ConsoleCmd\ConsoleCmdUnitTestSCore.cs" />
@@ -341,6 +373,7 @@
     <Compile Include="Scripts\Entities\LegacyEntityClasses.cs" />
     <Compile Include="Scripts\Entities\ModGeneralUtilities.cs" />
     <Compile Include="Scripts\Events\EventOnClientKill.cs" />
+    <Compile Include="Scripts\Events\EventOnCVarAdded.cs" />
     <Compile Include="Scripts\Events\OnRallyPointActivated.cs" />
     <Compile Include="Scripts\Events\OnBloodMoonEnd.cs" />
     <Compile Include="Scripts\Events\OnBloodMoonStart.cs" />
@@ -360,6 +393,7 @@
     <Compile Include="Scripts\Managers\PortalManager.cs" />
     <Compile Include="Scripts\Managers\SCoreQuestEventManager.cs" />
     <Compile Include="Scripts\MinEvents\MinEventActionAddBuffByFactionSDX.cs" />
+    <Compile Include="Scripts\MinEvents\MinEventActionAddBuffToPrimaryPlayer.cs" />
     <Compile Include="Scripts\MinEvents\MinEventActionAddScriptToTransform.cs" />
     <Compile Include="Scripts\MinEvents\MinEventActionAdjustTransformValues.cs" />
     <Compile Include="Scripts\MinEvents\MinEventActionAnimatorFireTriggerSDX.cs" />
@@ -407,6 +441,7 @@
     <Compile Include="Scripts\MinEvents\MinEventActionShowToolTipSDX.cs" />
     <Compile Include="Scripts\MinEvents\MinEventActionSkillPointSDX.cs" />
     <Compile Include="Scripts\MinEvents\MinEventActionSpawnBabySDX.cs" />
+    <Compile Include="Scripts\MinEvents\MinEventActionTeleportToQuest.cs" />
     <Compile Include="Scripts\MinEvents\MinEventActionToggleCamera.cs" />
     <Compile Include="Scripts\MonoBehaviour\LeaderCollision.cs" />
     <Compile Include="Scripts\MusicBoxes\MusicBox.cs" />
@@ -530,7 +565,6 @@
     <Compile Include="Scripts\WorldGen\Utilities\FastNoise.cs" />
     <Compile Include="Scripts\WorldGen\Utilities\MapGenerator.cs" />
     <Compile Include="Scripts\WorldGen\Utilities\PathingWormTunneler.cs" />
-    <Compile Include="Scripts\WorldGen\WinterProjectPrefab.cs" />
     <Compile Include="Scripts\XUiC\Companions\XUiC_SCoreCompanion.cs" />
     <Compile Include="Scripts\XUiC\Companions\XUiC_SCoreCompanionList.cs" />
     <Compile Include="Scripts\XUiC\Companions\XUiC_SCoreInGameMenu.cs" />
@@ -566,6 +600,17 @@
     <Content Include="Config\XUi\xui.xml" />
     <Content Include="Config\XUi_Common\styles.xml" />
     <Content Include="Config\XUi_Menu\windows-Template.xml" />
+    <Content Include="Documentation\Challenges\BlocksChallenges.md" />
+    <Content Include="Documentation\Challenges\Challenges.md" />
+    <Content Include="Documentation\Challenges\FireChallenges.md" />
+    <Content Include="Documentation\Challenges\KillChallenges.md" />
+    <Content Include="Documentation\Challenges\PlayerChallenges.md" />
+    <Content Include="Documentation\Factions.md" />
+    <Content Include="Documentation\FireManager.md" />
+    <Content Include="Documentation\MinEvents\MinEvents.md" />
+    <Content Include="Documentation\MinEvents\MinEvents_01.md" />
+    <Content Include="Documentation\Readme.md" />
+    <Content Include="Documentation\Utils\ChatGPT.txt" />
     <Content Include="Features\Challenges\ReadMe.md" />
     <Content Include="Features\LockPicking\Scripts\README.txt.txt" />
     <Content Include="ModInfo.xml" />
@@ -754,6 +799,41 @@
       <HintPath>..\..\7DaysToDie_Data\Managed\LogLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.RemoteControl, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.RemoteControl.16.3.52\lib\net45\Microsoft.VisualStudio.RemoteControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Telemetry, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.Telemetry.17.11.20\lib\net45\Microsoft.VisualStudio.Telemetry.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TextTemplating, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.TextTemplating.17.5.33428.366\lib\net472\Microsoft.VisualStudio.TextTemplating.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TextTemplating.Interfaces, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.TextTemplating.Interfaces.17.10.40152\lib\net472\Microsoft.VisualStudio.TextTemplating.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TextTemplating.Interfaces.10.0, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.17.0.32112.339\lib\net472\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TextTemplating.Interfaces.11.0, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.17.0.32112.339\lib\net472\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Utilities.Internal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.VisualStudio.Utilities.Internal.16.3.73\lib\net45\Microsoft.VisualStudio.Utilities.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.9.0.0-rc.2.24473.5\lib\net462\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
 	<!--
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.RemoteControl, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
