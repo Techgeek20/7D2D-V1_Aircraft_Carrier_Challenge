@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	
-		<Name value="Shrader971-57-Pack" />
-	    <DisplayName value="Shrader971 57 pack" />
-	    <Version value="0.0.1" />
-		<Description value="57 Pack" />
-		<Author value="Shrader971" />
-	    <website value="" />
+
+	<Name value="Cannon_Fodder_pois"/>
+	<Author value="Cannon_Fodder83"/>
+	<Description value="Adds Blocks made by Cannon_Fodder83, Special CPB Blocks permission by StallionsDen CP Team, SarahAndJeff, TFP. Specter(to Sarahandjeff)"/>
+	<DisplayName value="Cannon Fodder Blocks"/>
+	<Version value="1.0"/>
+	<Website value=""/>
 	
 </xml>
