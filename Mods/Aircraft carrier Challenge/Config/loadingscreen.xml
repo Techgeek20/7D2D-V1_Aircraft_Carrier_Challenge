@@ -21,6 +21,7 @@
 <set xpath="/doc/tips//tip[12]/@key">loadingTipAircraft12</set>
 <set xpath="/doc/tips//tip[13]/@key">loadingTipAircraft13</set>
 <set xpath="/doc/tips//tip[14]/@key">loadingTipAircraft14</set>
+<set xpath="/doc/tips//tip[15]/@key">loadingTipAircraft15</set>
 
 
 <!-- <remove xpath="/doc/tips//tip[@key='loadingTipMagazines']"/> -->

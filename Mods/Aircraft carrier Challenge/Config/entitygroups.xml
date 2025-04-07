@@ -23,7 +23,6 @@
 		I Ripper, 1
 	</csv>
 
-
 	<csv xpath="/entitygroups/entitygroup[@name='VultureGroup']/text()" delim="\n" op="add" >
 		I Ripper, 1
 	</csv>

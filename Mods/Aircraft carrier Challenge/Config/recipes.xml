@@ -9,35 +9,43 @@
       <ingredient name="oldCash" count="1"/>
     </recipe>
 
-	<recipe name="Mission_3_Bridge supplies" count="1"  >
-	  <ingredient name="resourceElectricParts" count="40"/>
-	  <ingredient name="resourceHeadlight" count="10"/>
-	  <ingredient name="resourceSpring" count="15"/>
-	  <ingredient name="resourceLeather" count="50"/>
-	  <ingredient name="resourceMetalPipe" count="40"/>
+	<recipe name="Mission_3_Bridge supplies" count="1" craft_time="10" >
+	  <ingredient name="casinoCoin" count="1200" />
+	</recipe>
+	  
+    <recipe name="ApacheS4" count="1" craft_area="workbench" craft_time="60" tags="workbenchCrafting">
+	  <ingredient name="resourceElectricParts" count="100"/>
+	  <ingredient name="resourceForgedIron" count="50"/>
+	  <ingredient name="carBattery" count="2"/>
+	  <ingredient name="smallEngine" count="2"/>
+	  <ingredient name="vehicleWheels" count="3"/>
 	</recipe>
 
-<!-- START disable of feathers from arrows and bolts
+	  <recipe name="ApacheHelicopterCanopy" count="1" craft_time="60" tags="forgeCrafting">
+		  <ingredient name="resourceBrokenGlass" count="110"/>
+		  <ingredient name="resourceScrapBrass" count="180"/>
+		  <ingredient name="resourceScrapLead" count="140"/>
+		  <ingredient name="resourceScrapIron" count="250"/>
+		  <ingredient name="resourceClayLump" count="80"/>
+	  </recipe>
 
-    <recipe name="resourceFeather" count="1"  >
-      <ingredient name="ammoArrowStone" count="1"/>
-    </recipe>
-
-	<recipe name="resourceFeather" count="1"  >
-      <ingredient name="ammoCrossbowBoltStone" count="1"/>
-    </recipe>
-	
-	<recipe name="resourceFeather" count="1"  >
-      <ingredient name="ammoCrossbowBoltIron" count="1"/>
-    </recipe>
-	
-	<recipe name="resourceFeather" count="1"  >
-      <ingredient name="ammoArrowIron" count="1"/>
-    </recipe>
-
-END disable of feathers from arrows and bolts --> 
-
-  <recipe name="ammoArrowStone" count="1">
+	  <recipe name="ApacheHelicopterCockpit" count="1" craft_area="workbench" craft_time="60" tags="workbenchCrafting">
+		  <ingredient name="resourceElectricParts" count="40"/>
+		  <ingredient name="resourceHeadlight" count="8"/>
+		  <ingredient name="resourceLeather" count="50"/>
+		  <ingredient name="resourceDuctTape" count="20"/>
+		  <ingredient name="resourceMetalPipe" count="25"/>
+	  </recipe>
+	  
+	<recipe name="meleeToolSalvageT3ImpactDriverAC" count="1" craft_area="workbench" craft_time="10" tags="workbenchCrafting">
+	  <ingredient name="resourceForgedSteel" count="16"/>
+	  <ingredient name="resourceMechanicalParts" count="6"/>
+	  <ingredient name="resourceSpring" count="3"/>
+	  <ingredient name="resourceDuctTape" count="2"/>
+	  <ingredient name="resourceLegendaryParts" count="1"/>
+	</recipe>
+	  
+	  <recipe name="ammoArrowStone" count="1">
     <ingredient name="ammoCrossbowBoltStone" count="1"/>
   </recipe>
 
