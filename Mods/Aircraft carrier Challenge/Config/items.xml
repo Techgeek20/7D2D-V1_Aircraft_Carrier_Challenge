@@ -21,7 +21,7 @@
 			<property name="Use_time" value="0"/>
 			<property name="Sound_start" value="UseActions/open_backpack"/>
 			<property name="Create_item" value="meleeToolRepairT0StoneAxe,drinkJarBoiledWater,gunExplosivesT2M79Launcher,meleeWpnBladeT1HuntingKnife,foodCanChili,medicalFirstAidBandage,ammoGrenade40mmFrag,meleeToolSalvageT1Wrench"/>
-			<property name="Create_item_count" value="6,2,1,2,2,2,2,1"/>
+			<property name="Create_item_count" value="6,2,1,2,2,2,3,1"/>
 		</property>
 	</item>	
 	</insertAfter>
@@ -501,7 +501,7 @@
 				</triggered_effect>
 			</effect_group>
 		</item>
-
+		
 		<!--Red Loot bags-->
 		
 		<item name="harvestingToolsSkillMagazineDT">
@@ -835,16 +835,8 @@
 	</insertafter>
 
 	<append xpath="/items">
-	
-		<item name="Mission_Start_Carrier">
-			<property name="Extends" value="adminQuestTicketMaster"/>
-			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="fff900"/>
-			<property class="Action0">
-			<property name="QuestGiven" value="quest_whiteRiverCitizen1"/>
-		</property>
-		</item>
-		<item name="Mission_1_Retrieve information">
+			
+		<item name="Mission_1_Retrieve Apache information">
 			<property name="Extends" value="adminQuestTicketMaster"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIconTint" value="00ff00"/>
@@ -857,25 +849,102 @@
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIconTint" value="ff00bf"/>
 			<property class="Action0">
-				<property name="QuestGiven" value="quest_CarrierChallenge03"/>
+			<property name="QuestGiven" value="quest_CarrierChallenge03"/>
 			</property>
 		</item>
-		<item name="Mission_5_Help Support Ship">
-			<property name="Extends" value="adminQuestTicketMaster"/>
-			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="ff3155"/>
+
+		<item name="ApacheHelicopterCanopy">
+		    <property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="CustomIcon" value="ApacheHelicopterCanopy"/>
+			<property name="DescriptionKey" value="AH-64ApacheHelicopterDesc"/>
+			<property name="Tags" value="parts,harvestingSkill,repairingSkill,salvagingSkill"/>
+			<property name="Material" value="MmeleeToolAllSteel"/>
+			<property name="EconomicValue" value="200"/>
+		</item>
+		
+		<item name="ApacheHelicopterCockpit">
+			<property name="Extends" value="gunMGT1AK47Parts"/>
+			<property name="CustomIcon" value="ApacheHelicopterCockpit"/>
+			<property name="DescriptionKey" value="AH-64ApacheHelicopterDesc"/>
+			<property name="Tags" value="parts,harvestingSkill,repairingSkill,salvagingSkill"/>
+			<property name="Material" value="MmeleeToolAllSteel"/>
+			<property name="EconomicValue" value="200"/>
+		</item>
+		<item name="meleeToolSalvageT3ImpactDriverAC">
+			<property name="Tags" value="blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic,salvagingSkill"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="HoldType" value="74"/>
+			<property name="Meshfile" value="@:Other/Items/Tools/impactDriverPrefab.prefab"/>
+			<property name="TintColor" value="46, 105, 43"/>
+			<property name="RepairTools" value="meleeToolAxeT3ChainsawParts"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="ItemNeedsRepair"/>
+			<property name="SoundDestroy" value="metaldestroy"/>
+			<property name="EconomicValue" value="425"/>
+			<property name="TraderStageTemplate" value="baseTier0"/>
+			<property name="Material" value="MMotorToolParts"/>
+			<property name="Weight" value="1"/>
+			<property name="ShowQuality" value="true"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+			<property name="SoundUnholster" value="weapon_unholster"/>
+			<property name="SoundHolster" value="weapon_holster"/>
+			<property name="SoundPickup" value="impactdriver_grab"/>
+			<property name="SoundPlace" value="impactdriver_place"/>
 			<property class="Action0">
-				<property name="QuestGiven" value="quest_CarrierChallenge05"/>
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sound_start" value="impact_driver_swinglight"/>
+				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+				<property name="ToolCategory.Disassemble" value="1" param1="1"/>
+				<property name="Particle_harvesting" value="true" param1="metal"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".25"/>
+				<property name="GrazeEnd" value=".3"/>
+				<property name="SwingDegrees" value="50"/>
+				<property name="SwingAngle" value="180"/>
+				<property name="HarvestHitEffectOn" value="false"/>
 			</property>
-		</item>
-		<item name="Mission_6_Assist Trader Joel">
-			<property name="Extends" value="adminQuestTicketMaster"/>
-			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIconTint" value="2daefd"/>
-			<property class="Action0">
-				<property name="QuestGiven" value="quest_CarrierChallenge06"/>
+			<property class="Action1">
+				<property name="Class" value="Repair"/>
+				<property name="Delay" value="1"/>
+				<property name="Repair_amount" value="75"/>
+				<property name="ToolCategory.Disassemble" value="1" param1="1"/>
+				<property name="Upgrade_hit_offset" value="-1"/>
+				<property name="Sound_start" value="repair_block"/>
+				<property name="Allowed_upgrade_items" value="ApacheHelicopterCanopy,ApacheHelicopterCockpit,vehicleApacheHelicopterAccessories,vehicleApacheHelicopterChassis"/>
+				<property name="UsePowerAttackAnimation" value="false"/>
 			</property>
+			<effect_group name="meleeToolSalvageT3ImpactDriverAC">
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="50" tags="perkSalvageOperations"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="24.7" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="200,700" tier="1,6" tags="perkSalvageOperations"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSalvageOperations"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkSalvageOperations"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSalvageOperations"/>
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,1,2,2,3" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".05" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="100" tags="EconomicValue"/>
+				<passive_effect name="EntityDamage" operation="base_set" value="16.5" tags="perkSalvageOperations"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkSalvageOperations"/>
+				<!-- random EntityDmg -->
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSalvageOperations"/>
+				<!-- tier bonus -->
+				<passive_effect name="BlockDamage" operation="base_set" value="35" tags="perkSalvageOperations"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkSalvageOperations"/>
+				<!-- random BlockDmg -->
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSalvageOperations"/>
+				<!-- tier bonus -->
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
+				<passive_effect name="HarvestCount" operation="base_set" value="1" tags="salvageHarvest"/>
+			</effect_group>
+			<effect_group name="Power Attack">
+				<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="41.9" tags="secondary"/>
+			</effect_group>
 		</item>
-	</append>
-	
+	</append>	
 </configs>
