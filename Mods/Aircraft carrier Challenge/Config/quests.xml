@@ -492,7 +492,7 @@
 			<property name="phase" value="4"/>
 		</action>
 		
-	     <objective type="Goto" id="trader" value="1" phase="5">
+	     <objective type="Goto" id="trader" value="1" phase="8">
 			<property name="biome_filter_type" value="any"/>
 			<property name="Zoning" value="any"/>
 			<property name="nav_object" value="go_to_trader"/>
