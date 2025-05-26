@@ -55,7 +55,7 @@
 			</action>
     </action_sequence>
 	</insertBefore>
-	<!-- <remove xpath="/gameevents/action_sequence[@name='game_on_respawn_injured']"/>
+    <remove xpath="/gameevents/action_sequence[@name='game_on_respawn_injured']"/>
 	
 		<insertBefore xpath="/gameevents/action_sequence[@name='game_on_respawn_permanent']">
 		<action_sequence name="game_on_respawn_injured">
@@ -77,7 +77,7 @@
 			</action>
 			
 			<action class="Teleport">
-				<property name="target_position" value="359,40,153" />
+				<property name="target_position" value="305,28,221" />
 			</action> 
 			
 			<action class="AddBuff">
@@ -90,5 +90,5 @@
 			</action>
 			
          </action_sequence>
-	</insertBefore> -->
+	</insertBefore> 
 </configs>

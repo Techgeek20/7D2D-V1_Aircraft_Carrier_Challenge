@@ -163,6 +163,12 @@
 			<property name="shareable" value="false"/>
 
 			<action type="TrackQuest"/>
+			
+			<action type="ShowMessageWindow">
+				<property name="title" value="MultiPlayer"/>
+				<property name="message" value="tutorialChallenge02"/>
+				<property name="delay" value="2"/>
+			</action>
 
 			<objective type="Fetch" id="resourceBrokenGlass" value="110" phase="1"/>
 			<objective type="Fetch" id="resourceScrapBrass" value="180" phase="1"/>
@@ -233,6 +239,12 @@
 			<property name="offer_key" value="quest_CarrierChallenge04_offer"/>
 			<property name="difficulty" value="medium"/>
 			<property name="shareable" value="true"/>
+
+			<action type="ShowMessageWindow">
+				<property name="title" value="MultiPlayer1"/>
+				<property name="message" value="tutorialChallenge04"/>
+				<property name="delay" value="2"/>
+			</action>
 
 			<action type="TrackQuest"/>
 
@@ -362,6 +374,12 @@
 
 			<action type="TrackQuest"/>
 
+			<action type="ShowMessageWindow">
+				<property name="title" value="Building Apache"/>
+				<property name="message" value="tutorialChallenge09"/>
+				<property name="delay" value="2"/>
+			</action>
+
 			<objective type="BlockPlace" id="ApacheS4" value="1" phase="1"/>
 
 			<objective type="FetchKeep" id="ApacheHelicopterCanopy" count="1" phase="2"/>
@@ -415,8 +433,8 @@
 					<property name="radius" value="25"/>
 				</objective>
 				<action type="UnlockPOI" >
-					<property name="phase" value="4"/>
-				</action>
+					<property name="phase" value="4"/>	
+				</action>	
 
 				<reward type="Exp" value="500"/>
 				<reward type="Quest" id="quest_CarrierChallengeDestroyer2">
@@ -424,9 +442,9 @@
 			</quest>
 		
 	<quest id="quest_CarrierChallengeDestroyer2">
-		<property name="name_key" value="quest_ChallengeDestroyer2"/>
-		<property name="subtitle_key" value="quest_ChallengeDestroyer2"/>
-		<property name="description_key" value="quest_ChallengeDestroyer2_description"/>
+		<property name="name_key" value="quest_CarrierChallengeDestroyer2"/>
+		<property name="subtitle_key" value="quest_CarrierChallengeDestroyer2"/>
+		<property name="description_key" value="quest_CarrierChallengeDestroyer2_description"/>
 		<property name="icon" value="ui_game_symbol_gyrocopter"/>
 		<property name="repeatable" value="false"/>
 		<property name="category_key" value="quest"/>
@@ -447,14 +465,19 @@
 			<property name="PrefabName" value="ACCENDINGJOEL" />
 			<property name="nav_object" value="quest" />
 		</objective>
-
+		
 		<objective type="RallyPoint">
 			<property name="phase" value="2"/>
 			<property name="nav_object" value="rally"/>
-			<property name="allowed_start_hour" value="7"/>
-			<property name="allowed_end_hour" value="22"/>
 		</objective>
-
+		
+		<action type="ShowMessageWindow">
+			<property name="phase" value="3"/>
+			<property name="title" value="Finale"/>
+			<property name="message" value="tutorialChallengeDestroyer2"/>
+			<property name="delay" value="2"/>
+		</action>
+		
 		<objective type="ClearSleepers">
 			<property name="phase" value="3"/>
 			<property name="nav_object" value="sleeper_volume"/>
@@ -462,14 +485,14 @@
 
 		<objective type="POIStayWithin">
 			<property name="phase" value="3"/>
-			<property name="radius" value="25"/>
+			<property name="radius" value="75"/>
 		</objective>
 
 		<action type="UnlockPOI" >
 			<property name="phase" value="4"/>
 		</action>
 		
-	     <objective type="Goto" id="trader" value="1" phase="4">
+	     <objective type="Goto" id="trader" value="1" phase="5">
 			<property name="biome_filter_type" value="any"/>
 			<property name="Zoning" value="any"/>
 			<property name="nav_object" value="go_to_trader"/>

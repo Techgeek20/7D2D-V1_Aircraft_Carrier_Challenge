@@ -298,6 +298,19 @@ Welcome,"Started The Aircraft Carrier Challenge"
 
 tutorialTipQuest01,"Don't know how I got in this U-boat but I'm glad I did, the ground outside messed me up real quick! Someone had to have helped me but where are they? Looks like I'm here to stay, If I can find them, maybe we can help each other find a safe haven. No matter what, I need supplies, I have barely enough food and water for the rest of the day, glad I found this backpack with some basic tools and weapons to give me a fighting chance.\n\nYou must survive, by doing missions ,looting and crafting everything you need to build an AH-64 APACHE to make your escape from the carrier to complete your [ff7f27]FINAL MISSION[-].\n\nIf  [ff7f27]ANYONE[-] dies, the mission is over. [cd5c5c]PERMADEATH CHALLENGE[-]" 
 
+Multiplayer,"Apache, Aircraft build"
+tutorialChallenge02," [ff7f27]Everyone[-] except the player crafting the AH-64 needs to  [ff7f27]abandon[-] this quest and [ff7f27] ALL Crafting Quests[-]."
+
+Multiplayer1,"Apache, Aircraft build"
+tutorialChallenge04," [ff7f27]Everyone[-] except the player crafting the AH-64 needs to  [ff7f27]abandon[-] this quest and  [ff7f27] ALL Crafting Quests[-]."
+
+Building Apache,"Apache, Aircraft build instructions"
+tutorialChallenge09,"Place starting helicopter, then using the [ff7f27] Apache Impact Driver[-] with items created in your inventory,  [ff7f27]Right click[-] to upgrade to useable AH-64"
+
+Finale,"What have you done!"
+tutorialChallengeDestroyer2,"You led them right to us you crazy MFERS"
+
+
 challenge_StartingCarrier,"Welcome aboard Petty officer 2nd class!"
 challenge_StartingCarrier_subtitle,"Prove your worth."
 challenge_StartingCarrier_description,"If you are to survive you will need to eliminate zombies for their red bags."

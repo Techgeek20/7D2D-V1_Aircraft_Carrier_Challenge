@@ -25,7 +25,7 @@
 
 
 <!-- <remove xpath="/doc/tips//tip[@key='loadingTipMagazines']"/> -->
-<remove xpath="/doc/tips//tip[@key='loadingTipPerkLootBoost']"/>
+<!-- <remove xpath="/doc/tips//tip[@key='loadingTipPerkLootBoost']"/> -->
 <remove xpath="/doc/tips//tip[@key='loadingTipBaseUpgrading']"/>
 <remove xpath="/doc/tips//tip[@key='loadingTipRadials']"/>
 <remove xpath="/doc/tips//tip[@key='loadingTipHarvestingCorpses']"/>
