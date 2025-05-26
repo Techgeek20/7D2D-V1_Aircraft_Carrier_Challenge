@@ -124,9 +124,9 @@ zombieBurnt,FlameWizo
 zombieBurntFeral,Feral FlameWizo
 zombieBurntRadiated,Radiated Smokey_Prime
 
-zombieDarlene,Loveshack65
-zombieDarleneFeral,Feral Loveshack65
-zombieDarleneRadiated,Radiated Loveshack65
+zombieDarlene,AnneikaTheJammyBrit
+zombieDarleneFeral,Feral AnneikaTheJammyBrit
+zombieDarleneRadiated,Radiated AnneikaTheJammyBrit
 
 zombieJanitor,HellsJanitor
 zombieJanitorFeral,Feral HellsJanitor
@@ -144,9 +144,9 @@ zombieMaleHazmat,Riven
 zombieMaleHazmatFeral,Feral Riven
 zombieMaleHazmatRadiated,Radiated Riven
 
-zombieMarlene,TechnoBeatz
-zombieMarleneFeral,Feral TechnoBeatz
-zombieMarleneRadiated,Radiated TechnoBeatz
+zombieMarlene,Joutre_
+zombieMarleneFeral,Feral Joutre_
+zombieMarleneRadiated,Radiated Joutre_
 
 zombieMoe,Angelacus
 zombieMoeFeral,Feral Angelacus
@@ -164,9 +164,9 @@ zombieTomClark,Devilskut
 zombieTomClarkRadiated,Radiated Devilskut
 zombieTomClarkFeral,Feral Devilskut
 
-zombiePartyGirl,ElainethePaine
-zombiePartyGirlFeral,Feral ElainethePaine
-zombiePartyGirlRadiated,Radiated Elainethepaine
+zombiePartyGirl,Kimmytot1313
+zombiePartyGirlFeral,Feral Kimmytot1313
+zombiePartyGirlRadiated,Radiated Kimmytot1313
 
 zombieBusinessMan,LobitoGamingTV
 zombieBusinessManFeral,Feral LobitoGamingTV
